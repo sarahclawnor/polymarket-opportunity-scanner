@@ -4,6 +4,7 @@ Fetches active markets for analysis.
 """
 import asyncio
 import aiohttp
+import json
 from datetime import datetime, timedelta
 from typing import List, Optional, Dict, Any
 from dataclasses import dataclass
@@ -41,7 +42,9 @@ class Market:
         """Returns days until market closes."""
         if not self.end_date:
             return None
-        delta = self.end_date - datetime.now()
+        # Handle timezone-aware vs naive datetime comparison
+        now = datetime.now(self.end_date.tzinfo) if self.end_date.tzinfo else datetime.now()
+        delta = self.end_date - now
         return delta.total_seconds() / 86400
 
 
@@ -88,25 +91,36 @@ class GammaClient:
             "closed": "false",
             "limit": limit,
             "sort": "volume",
-            "order": "desc",
         }
         
         if category:
             params["category"] = category
         
         # Calculate min end date if filtering by close time
-        if max_days_to_close:
-            min_end_date = datetime.now() + timedelta(days=max_days_to_close)
-            params["end_date_min"] = min_end_date.isoformat()
+        # Note: Gamma API uses end_date_lt (less than) or end_date_gt (greater than)
+        # We'll filter markets by end date after fetching
+        # if max_days_to_close:
+        #     min_end_date = datetime.now() + timedelta(days=max_days_to_close)
+        #     params["end_date_min"] = min_end_date.strftime("%Y-%m-%dT%H:%M:%SZ")
         
         data = await self._get("/markets", params)
         markets = []
         
-        for market_data in data.get("markets", []):
+        # Handle both list response and dict with 'markets' key
+        market_list = data if isinstance(data, list) else data.get("markets", [])
+        
+        for market_data in market_list:
             try:
                 market = self._parse_market(market_data)
-                if market.volume >= min_volume:
-                    markets.append(market)
+                # Filter by volume
+                if market.volume < min_volume:
+                    continue
+                # Filter by days to close if specified
+                if max_days_to_close is not None:
+                    days = market.days_until_close
+                    if days is None or days > max_days_to_close:
+                        continue
+                markets.append(market)
             except Exception as e:
                 logger.warning(f"Failed to parse market: {e}")
                 continue
@@ -125,18 +139,28 @@ class GammaClient:
             except ValueError:
                 pass
         
-        # Get prices from outcomes
-        outcomes = data.get("outcomes", [])
+        # Parse outcomes and prices (they come as JSON strings)
         yes_price = 0.5
         no_price = 0.5
         
-        for outcome in outcomes:
-            name = outcome.get("name", "").lower()
-            price = outcome.get("price", 0)
-            if name == "yes":
-                yes_price = price
-            elif name == "no":
-                no_price = price
+        try:
+            outcomes_str = data.get("outcomes", "[]")
+            outcome_prices_str = data.get("outcomePrices", "[]")
+            
+            outcomes = json.loads(outcomes_str) if isinstance(outcomes_str, str) else outcomes_str
+            outcome_prices = json.loads(outcome_prices_str) if isinstance(outcome_prices_str, str) else outcome_prices_str
+            
+            for i, outcome in enumerate(outcomes):
+                name = outcome.lower() if isinstance(outcome, str) else str(outcome).lower()
+                price = float(outcome_prices[i]) if i < len(outcome_prices) else 0
+                if name == "yes":
+                    yes_price = price
+                elif name == "no":
+                    no_price = price
+        except (json.JSONDecodeError, IndexError, ValueError) as e:
+            logger.warning(f"Failed to parse outcomes/prices: {e}")
+            yes_price = 0.5
+            no_price = 0.5
         
         return Market(
             id=str(data.get("id", "")),

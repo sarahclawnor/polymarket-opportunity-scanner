@@ -30,12 +30,12 @@ class PerplexityResearcher(ResearchProvider):
     """
     
     # Available Perplexity models via OpenRouter
+    # Note: llama-sonar models are not available on OpenRouter
     OPENROUTER_MODELS = {
         "sonar": "perplexity/sonar",
-        "sonar-pro": "perplexity/sonar-pro", 
+        "sonar-pro": "perplexity/sonar-pro",
         "sonar-reasoning": "perplexity/sonar-reasoning",
-        "llama-sonar-large": "perplexity/llama-3.1-sonar-large-128k-online",
-        "llama-sonar-small": "perplexity/llama-3.1-sonar-small-128k-online",
+        "sonar-deep-research": "perplexity/sonar-deep-research",
     }
     
     # Direct Perplexity API models
@@ -43,11 +43,26 @@ class PerplexityResearcher(ResearchProvider):
         "sonar": "sonar",
         "sonar-pro": "sonar-pro",
         "sonar-reasoning": "sonar-reasoning",
+        "sonar-deep-research": "sonar-deep-research",
+        "llama-sonar-large": "llama-3.1-sonar-large-128k-online",
+        "llama-sonar-small": "llama-3.1-sonar-small-128k-online",
+    }
+    
+    DEFAULT_MODEL = "sonar-pro"
+    OPENROUTER_DEFAULT = "perplexity/sonar-pro"
+    
+    # Direct Perplexity API models
+    DIRECT_MODELS = {
+        "sonar": "sonar",
+        "sonar-pro": "sonar-pro",
+        "sonar-reasoning": "sonar-reasoning",
+        "sonar-deep-research": "sonar-deep-research",
         "llama-sonar-large": "llama-3.1-sonar-large-128k-online",
         "llama-sonar-small": "llama-3.1-sonar-small-128k-online",
     }
     
     DEFAULT_MODEL = "llama-sonar-large"
+    OPENROUTER_DEFAULT = "perplexity/llama-3.1-sonar-large-128k-online"
     
     def __init__(
         self,
