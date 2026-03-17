@@ -272,46 +272,63 @@ class DiscordAlerts(AlertHandler):
         # Split into lines and clean
         lines = [l.strip() for l in reasoning.split('\n') if l.strip()]
         
-        # First priority: Look for section (e) - the conclusion
+        # PRIORITY 1: Look for the "Rationale" section which explains the synthesis
+        rationale_section = []
+        in_rationale = False
+        
+        for line in lines:
+            # Check if this starts the Rationale section
+            if re.match(r'^[\*]*Rationale[\*]*[:\s]', line, re.IGNORECASE):
+                in_rationale = True
+                # Get content after "Rationale:"
+                content = re.sub(r'^[\*]*Rationale[\*]*[:\s]*', '', line, flags=re.IGNORECASE)
+                if content and len(content) > 20:
+                    rationale_section.append(content)
+                continue
+            
+            # Collect rationale lines until we hit a new section or probability
+            if in_rationale:
+                # Stop if we hit probability line or new major section
+                if 'probability:' in line.lower() or line.startswith('**'):
+                    break
+                # Stop if line looks like a new section header
+                if re.match(r'^[\s]*(?:\(?)[a-d][\).]\s*', line, re.IGNORECASE):
+                    break
+                rationale_section.append(line)
+        
+        # Join and clean rationale
+        if rationale_section:
+            full_rationale = ' '.join(rationale_section)
+            full_rationale = re.sub(r'\s+', ' ', full_rationale).strip()
+            if len(full_rationale) > 40:
+                return f"**Why {forecast_probability:.0%}?** {full_rationale[:500]}"
+        
+        # PRIORITY 2: Look for section (e) - explicit conclusion
         conclusion_section = []
         in_conclusion = False
         
         for line in lines:
-            # Check if this is the start of section (e)
             if re.match(r'^[\s]*(?:\(?)[e][\).]\s*', line, re.IGNORECASE):
                 in_conclusion = True
-                # Get the content after (e)
                 content = re.sub(r'^[\s]*(?:\(?)[e][\).]\s*', '', line, flags=re.IGNORECASE)
                 if content and len(content) > 20:
                     conclusion_section.append(content)
                 continue
             
-            # If we're in the conclusion section, keep collecting until we hit another section
             if in_conclusion:
-                # Check if this is a new section (a), (b), etc. or numbered list
                 if re.match(r'^[\s]*(?:\(?)[a-d][\).]\s*', line, re.IGNORECASE):
                     break
-                if re.match(r'^[\s]*\d+[\).]\s*', line):
+                if 'probability:' in line.lower():
                     break
-                # Otherwise add to conclusion
                 conclusion_section.append(line)
         
-        # Join conclusion lines
         if conclusion_section:
             full_conclusion = ' '.join(conclusion_section)
             full_conclusion = re.sub(r'\s+', ' ', full_conclusion).strip()
-            if len(full_conclusion) > 30:
-                return f"**Why {forecast_probability:.0%}?** {full_conclusion[:400]}"
+            if len(full_conclusion) > 40:
+                return f"**Why {forecast_probability:.0%}?** {full_conclusion[:500]}"
         
-        # Fallback: Look for any conclusion keywords
-        for line in lines:
-            lower = line.lower()
-            if any(x in lower for x in ['conclusion:', 'summary:', 'overall:', 'in summary', 'rationale:']):
-                content = line.split(':', 1)[-1].strip()
-                if len(content) > 30:
-                    return f"**Why {forecast_probability:.0%}?** {content[:400]}"
-        
-        # Last resort: Get section (c) and (d) - the scenarios
+        # PRIORITY 3: Show both scenarios (c) and (d) so user can see the comparison
         scenarios = []
         seen = set()
         for line in lines:
@@ -323,7 +340,9 @@ class DiscordAlerts(AlertHandler):
                 if content_lower not in seen and len(content) > 20:
                     seen.add(content_lower)
                     content = re.sub(r'\s+', ' ', content)
-                    scenarios.append(f"• Scenario {letter}: {content[:150]}")
+                    # Remove the "A brief description..." prefix
+                    content = re.sub(r'^A brief description of a scenario that results in [aA]\s*', '', content)
+                    scenarios.append(f"**{letter}:** {content[:200]}")
         
         if scenarios:
             return '\n'.join(scenarios[:2])
