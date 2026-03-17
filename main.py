@@ -22,6 +22,7 @@ from alerts import (
     ConsoleAlerts,
     JSONAlerts,
     TelegramAlerts,
+    DiscordAlerts,
     CompositeAlerts,
 )
 
@@ -149,10 +150,15 @@ def create_alerter(args) -> AlertHandler:
     telegram_chat = os.getenv("TELEGRAM_CHAT_ID")
     if telegram_token and telegram_chat:
         handlers.append(TelegramAlerts(telegram_token, telegram_chat))
-    
+
+    # Add Discord if configured
+    discord_webhook = os.getenv("DISCORD_WEBHOOK_URL")
+    if discord_webhook:
+        handlers.append(DiscordAlerts(discord_webhook))
+
     if len(handlers) == 1:
         return handlers[0]
-    
+
     return CompositeAlerts(handlers)
 
 

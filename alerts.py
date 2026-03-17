@@ -4,6 +4,7 @@ Alert handlers for notifying about opportunities.
 import json
 import logging
 from typing import List
+from datetime import datetime
 from opportunity_detector import Opportunity
 
 logger = logging.getLogger(__name__)
@@ -111,6 +112,82 @@ class TelegramAlerts(AlertHandler):
 
 [View on Polymarket]({opp.market_url})
 """
+
+
+class DiscordAlerts(AlertHandler):
+    """Send alerts via Discord webhook."""
+    
+    def __init__(self, webhook_url: str):
+        self.webhook_url = webhook_url
+    
+    async def send(self, opportunities: List[Opportunity]) -> None:
+        import aiohttp
+        
+        if not opportunities:
+            return
+        
+        for opp in opportunities[:5]:  # Limit to top 5
+            embed = self._format_embed(opp)
+            
+            payload = {
+                "embeds": [embed],
+            }
+            
+            async with aiohttp.ClientSession() as session:
+                async with session.post(self.webhook_url, json=payload) as resp:
+                    if resp.status not in (200, 204):
+                        logger.error(f"Failed to send Discord alert: {await resp.text()}")
+    
+    def _format_embed(self, opp: Opportunity) -> dict:
+        """Format opportunity as Discord embed."""
+        color_map = {"high": 0xFF0000, "medium": 0xFFA500, "low": 0x00FF00}
+        emoji_map = {"high": "🔥", "medium": "⚡", "low": "💡"}
+        
+        color = color_map.get(opp.conviction, 0x808080)
+        emoji = emoji_map.get(opp.conviction, "📊")
+        
+        return {
+            "title": f"{emoji} {opp.conviction.upper()} CONVICTION OPPORTUNITY",
+            "description": opp.market.title,
+            "color": color,
+            "fields": [
+                {
+                    "name": "📈 Market Probability",
+                    "value": f"{opp.market_probability:.1%}",
+                    "inline": True,
+                },
+                {
+                    "name": "🤖 AI Forecast",
+                    "value": f"{opp.forecast_probability:.1%}",
+                    "inline": True,
+                },
+                {
+                    "name": "💰 Edge",
+                    "value": f"{opp.edge:.1%} → Bet **{opp.edge_direction.upper()}**",
+                    "inline": True,
+                },
+                {
+                    "name": "📊 Volume",
+                    "value": f"${opp.market.volume:,.0f}",
+                    "inline": True,
+                },
+                {
+                    "name": "🎯 Confidence",
+                    "value": f"{opp.forecast.confidence:.0%}",
+                    "inline": True,
+                },
+                {
+                    "name": "⏰ Days to Close",
+                    "value": f"{opp.market.days_until_close:.0f}" if opp.market.days_until_close else "N/A",
+                    "inline": True,
+                },
+            ],
+            "url": opp.market_url,
+            "footer": {
+                "text": f"Category: {opp.market.category} | ID: {opp.market.id}",
+            },
+            "timestamp": datetime.now().isoformat(),
+        }
 
 
 class CompositeAlerts(AlertHandler):
