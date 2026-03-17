@@ -1,0 +1,59 @@
+# Scanner Configuration
+
+# Market Discovery Settings
+markets:
+  min_volume_usd: 100000        # Minimum 24h volume
+  max_days_to_close: 30         # Only markets closing within N days
+  max_markets_per_scan: 20      # Limit for API rate management
+  categories:                   # Leave empty to scan all
+    # - Politics
+    # - Crypto
+    # - Sports
+    # - Tech
+
+# Research Providers
+research:
+  providers:
+    - perplexity
+    - asknews
+  
+  perplexity:
+    model: "llama-3.1-sonar-large-128k-online"
+    temperature: 0.2
+  
+  asknews:
+    hot_articles: 5
+    historical_articles: 8
+
+# Forecasting Engine
+forecasting:
+  model: "gpt-4o"
+  temperature: 0.3
+  num_runs: 3                   # Multiple runs for aggregation
+  concurrency: 3                # Parallel forecasts
+
+# Opportunity Detection
+detection:
+  min_edge: 0.10                # 10% minimum edge
+  min_confidence: 0.5           # Forecast confidence threshold
+  max_market_probability: 0.95  # Skip near-certain markets
+  min_market_probability: 0.05
+
+# Alert Settings
+alerts:
+  console: true
+  json_output: "opportunities.json"
+  
+  telegram:
+    enabled: false
+    # bot_token: from env TELEGRAM_BOT_TOKEN
+    # chat_id: from env TELEGRAM_CHAT_ID
+  
+  discord:
+    enabled: false
+    # webhook_url: from env DISCORD_WEBHOOK_URL
+
+# Scheduling (for future cron integration)
+schedule:
+  interval_minutes: 60          # How often to run scans
+  markets_per_batch: 10         # Markets per scan (rate limiting)
