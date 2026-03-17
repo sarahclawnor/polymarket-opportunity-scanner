@@ -329,40 +329,6 @@ class DiscordAlerts(AlertHandler):
             return '\n'.join(scenarios[:2])
         
         return "See detailed analysis in logs"
-                    content = re.sub(r'\s+', ' ', content)
-                    key_points.append(f"• {content[:200]}")
-        
-        # Look for conclusion/summary line
-        conclusion = None
-        for line in lines:
-            lower = line.lower()
-            if any(x in lower for x in ['conclusion:', 'summary:', 'overall:', 'in summary', 'final answer']):
-                conclusion = line.split(':', 1)[-1].strip()
-                if len(conclusion) > 30:
-                    break
-        
-        # Build final summary
-        result = []
-        
-        # Add key points (max 3)
-        if key_points:
-            result.extend(key_points[:3])
-        
-        # Add conclusion if found and not duplicate
-        if conclusion:
-            conclusion_lower = conclusion.lower()[:50]
-            if conclusion_lower not in seen and len(conclusion) > 20:
-                result.append(f"\n**Conclusion:** {conclusion[:250]}")
-        
-        # If nothing extracted, fall back to first substantial sentence
-        if not result:
-            for line in lines:
-                clean = re.sub(r'\s+', ' ', line).strip()
-                if len(clean) > 40 and len(clean) < 200:
-                    result.append(f"• {clean}")
-                    break
-        
-        return '\n'.join(result) if result else "See detailed analysis in logs"
 
 
 class CompositeAlerts(AlertHandler):
