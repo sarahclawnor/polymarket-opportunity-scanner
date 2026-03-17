@@ -28,7 +28,7 @@ class Opportunity:
     
     def to_dict(self) -> dict:
         return {
-            "market": {
+            "market_info": {
                 "id": self.market.id,
                 "title": self.market.title,
                 "slug": self.market.slug,
@@ -36,14 +36,12 @@ class Opportunity:
                 "category": self.market.category,
                 "volume": self.market.volume,
                 "days_until_close": self.market.days_until_close,
+                "probability": round(self.market_probability, 3),
             },
             "forecast": {
                 "probability": round(self.forecast_probability, 3),
                 "confidence": round(self.forecast.confidence, 2),
                 "reasoning": self.forecast.reasoning,
-            },
-            "market": {
-                "probability": round(self.market_probability, 3),
             },
             "opportunity": {
                 "edge": round(self.edge, 3),

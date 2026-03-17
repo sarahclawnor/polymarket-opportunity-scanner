@@ -162,10 +162,20 @@ class GammaClient:
             yes_price = 0.5
             no_price = 0.5
         
+        # Get title from available fields (Gamma API uses 'question' not 'title')
+        title = data.get("question", "")
+        if not title and data.get("groupItemTitle"):
+            title = data.get("groupItemTitle")
+        if not title and data.get("events"):
+            # Try to get title from first event
+            events = data.get("events", [])
+            if events and isinstance(events, list):
+                title = events[0].get("title", "")
+        
         return Market(
             id=str(data.get("id", "")),
             slug=data.get("slug", ""),
-            title=data.get("title", ""),
+            title=title,
             description=data.get("description", ""),
             category=data.get("category", ""),
             outcome_yes_price=yes_price,
@@ -173,7 +183,7 @@ class GammaClient:
             volume=float(data.get("volume", 0)),
             liquidity=float(data.get("liquidity", 0)),
             end_date=end_date,
-            question=data.get("question", data.get("title", "")),
+            question=data.get("question", title),
             resolution_source=data.get("resolutionSource"),
             icon=data.get("icon"),
         )
