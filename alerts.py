@@ -60,46 +60,32 @@ class ConsoleAlerts(AlertHandler):
         """Extract key reasoning points from forecast text."""
         import re
         
+        lines = [l.strip() for l in reasoning.split('\n') if l.strip()]
         points = []
+        seen = set()
         
-        # Look for bullet points and numbered lists
-        bullet_pattern = r'^[\s]*[-•\*][\s]+(.+)$'
-        number_pattern = r'^[\s]*\(?([a-d][\).]|[0-9]+[\).])\s*(.+)$'
+        # Extract structured items (a, b, c, d...)
+        for line in lines:
+            match = re.match(r'^[\s]*(?:\(?)([a-d][\).]\s*)(.+)$', line, re.IGNORECASE)
+            if match:
+                content = match.group(2).strip()
+                content_lower = content.lower()[:50]
+                if content_lower not in seen and len(content) > 20:
+                    seen.add(content_lower)
+                    content = re.sub(r'\s+', ' ', content)
+                    points.append(content[:180])
         
-        for line in reasoning.split('\n'):
-            line = line.strip()
-            if not line or len(line) < 20:
-                continue
-            
-            # Match bullet points
-            bullet_match = re.match(bullet_pattern, line, re.MULTILINE)
-            if bullet_match:
-                points.append(bullet_match.group(1)[:150])
-                continue
-            
-            # Match numbered items (a), b), 1), 2), etc.)
-            number_match = re.match(number_pattern, line)
-            if number_match:
-                points.append(number_match.group(2)[:150])
-                continue
-            
-            # Look for key sentences with forecasting keywords
-            keywords = ['status quo', 'baseline', 'scenario', 'outcome', 
-                       'likely', 'probability', 'chance', 'expected']
-            if any(kw in line.lower() for kw in keywords) and len(line) > 40:
-                if line not in points:
-                    points.append(line[:150])
-        
-        # If no structured points found, take first substantial paragraph
+        # If nothing found, look for conclusion
         if not points:
-            paragraphs = reasoning.split('\n\n')
-            for para in paragraphs:
-                clean = para.strip().replace('\n', ' ')
-                if len(clean) > 50 and len(clean) < 300:
-                    points.append(clean)
-                    break
+            for line in lines:
+                lower = line.lower()
+                if any(x in lower for x in ['conclusion:', 'summary:', 'overall:', 'in summary']):
+                    content = line.split(':', 1)[-1].strip()
+                    if len(content) > 30:
+                        points.append(content[:200])
+                        break
         
-        return points[:10]  # Limit to 10 points
+        return points[:5]  # Limit to 5 points
 
 
 class JSONAlerts(AlertHandler):
@@ -283,35 +269,68 @@ class DiscordAlerts(AlertHandler):
         """Extract key reasoning points from forecast text."""
         import re
         
-        # Remove markdown headers
-        text = re.sub(r'#+ ', '', reasoning)
+        # Split into lines and clean
+        lines = [l.strip() for l in reasoning.split('\n') if l.strip()]
         
-        # Look for key sections
-        patterns = [
-            r'(?:rationale|reasoning|analysis|key factors)[\s\S]{0,500}?(?=\n\n|\Z)',
-            r'(?:a\)|b\)|c\)|d\))[^\n]{50,300}',
-            r'status quo.*?\.(?:\s|$)',
-            r'scenario.*?\.(?:\s|$)',
-        ]
+        key_points = []
+        seen = set()
         
-        summaries = []
-        for pattern in patterns:
-            matches = re.findall(pattern, text, re.IGNORECASE | re.DOTALL)
-            for match in matches[:2]:  # Take first 2 matches per pattern
-                clean = match.strip().replace('\n', ' ')
-                if len(clean) > 30 and clean not in summaries:
-                    summaries.append(clean[:300])
+        # Extract structured items (a, b, c, d... or 1, 2, 3...)
+        for line in lines:
+            # Match lettered items: a), b), (a), (b), etc.
+            match = re.match(r'^[\s]*(?:\(?)([a-d][\).]\s*)(.+)$', line, re.IGNORECASE)
+            if match:
+                content = match.group(2).strip()
+                # Skip duplicates
+                content_lower = content.lower()[:50]
+                if content_lower not in seen and len(content) > 20:
+                    seen.add(content_lower)
+                    # Clean up the content
+                    content = re.sub(r'\s+', ' ', content)
+                    key_points.append(f"• {content[:200]}")
+                continue
+            
+            # Match numbered items
+            match = re.match(r'^[\s]*\d+[\).]\s*(.+)$', line)
+            if match:
+                content = match.group(1).strip()
+                content_lower = content.lower()[:50]
+                if content_lower not in seen and len(content) > 20:
+                    seen.add(content_lower)
+                    content = re.sub(r'\s+', ' ', content)
+                    key_points.append(f"• {content[:200]}")
         
-        # If no good summaries found, take first substantial paragraph
-        if not summaries:
-            paragraphs = text.split('\n\n')
-            for para in paragraphs:
-                clean = para.strip().replace('\n', ' ')
-                if len(clean) > 50 and 'probability' not in clean.lower():
-                    summaries.append(clean[:400])
+        # Look for conclusion/summary line
+        conclusion = None
+        for line in lines:
+            lower = line.lower()
+            if any(x in lower for x in ['conclusion:', 'summary:', 'overall:', 'in summary', 'final answer']):
+                conclusion = line.split(':', 1)[-1].strip()
+                if len(conclusion) > 30:
                     break
         
-        return '\n\n'.join(summaries) if summaries else reasoning[:500]
+        # Build final summary
+        result = []
+        
+        # Add key points (max 3)
+        if key_points:
+            result.extend(key_points[:3])
+        
+        # Add conclusion if found and not duplicate
+        if conclusion:
+            conclusion_lower = conclusion.lower()[:50]
+            if conclusion_lower not in seen and len(conclusion) > 20:
+                result.append(f"\n**Conclusion:** {conclusion[:250]}")
+        
+        # If nothing extracted, fall back to first substantial sentence
+        if not result:
+            for line in lines:
+                clean = re.sub(r'\s+', ' ', line).strip()
+                if len(clean) > 40 and len(clean) < 200:
+                    result.append(f"• {clean}")
+                    break
+        
+        return '\n'.join(result) if result else "See detailed analysis in logs"
 
 
 class CompositeAlerts(AlertHandler):
