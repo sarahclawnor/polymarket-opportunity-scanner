@@ -114,6 +114,11 @@ The last thing you write is your final answer as: "Probability: ZZ%", where ZZ i
         # Combine reasoning
         combined_reasoning = self._combine_reasonings(reasonings, probabilities, median_prob)
         
+        # Validate consistency between probability and reasoning
+        is_consistent = self._validate_consistency(median_prob, combined_reasoning)
+        if not is_consistent:
+            logger.warning(f"Forecast inconsistency detected: {median_prob:.1%} YES but reasoning suggests opposite")
+        
         logger.info(f"Forecast complete: {median_prob:.1%} (confidence: {confidence:.2f})")
         
         return ForecastResult(
@@ -122,6 +127,44 @@ The last thing you write is your final answer as: "Probability: ZZ%", where ZZ i
             confidence=confidence,
             num_runs=self.num_runs,
         )
+    
+    def _validate_consistency(self, probability: float, reasoning: str) -> bool:
+        """Check if probability matches reasoning direction."""
+        import re
+        
+        # Look for explicit statements about which outcome is more likely
+        reasoning_lower = reasoning.lower()
+        
+        # Check for "no is more likely" type statements
+        no_indicators = [
+            r'"no"\s+(?:outcome\s+)?is\s+more\s+likely',
+            r'outcome\s+is\s+"no"',
+            r'no\s+outcome\s+is\s+(?:more\s+)?likely',
+            r'favors\s+"?no"?',
+            r'"no"\s+is\s+favored',
+        ]
+        
+        # Check for "yes is more likely" type statements
+        yes_indicators = [
+            r'"yes"\s+(?:outcome\s+)?is\s+more\s+likely',
+            r'outcome\s+is\s+"yes"',
+            r'yes\s+outcome\s+is\s+(?:more\s+)?likely',
+            r'favors\s+"?yes"?',
+            r'"yes"\s+is\s+favored',
+        ]
+        
+        no_matches = sum(1 for pattern in no_indicators if re.search(pattern, reasoning_lower))
+        yes_matches = sum(1 for pattern in yes_indicators if re.search(pattern, reasoning_lower))
+        
+        # If probability > 50% (YES) but reasoning says NO is more likely
+        if probability > 0.5 and no_matches > yes_matches:
+            return False
+        
+        # If probability < 50% (NO) but reasoning says YES is more likely
+        if probability < 0.5 and yes_matches > no_matches:
+            return False
+        
+        return True
     
     async def _single_forecast(self, prompt: str) -> Tuple[float, str]:
         """Run a single forecast inference."""
