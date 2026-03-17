@@ -16,9 +16,9 @@ source venv/bin/activate
 # --max-days: Only markets closing within N days
 python main.py \
     --max-markets 10 \
-    --min-volume 100000 \
+    --min-volume 10000 \
     --min-edge 0.10 \
-    --max-days 10 \
+    --max-days 30 \
     --output "${SCRIPT_DIR}/opportunities.json" \
     >> "${SCRIPT_DIR}/scanner.log" 2>&1
 
