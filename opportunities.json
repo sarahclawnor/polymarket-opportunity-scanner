@@ -1,0 +1,53 @@
+{
+  "count": 3,
+  "opportunities": [
+    {
+      "market": {
+        "probability": 0.21
+      },
+      "forecast": {
+        "probability": 0.75,
+        "confidence": 1.0,
+        "reasoning": "## Forecast Summary\n\n**Median Probability:** 75.0%\n**Run Range:** 75.0% - 75.0%\n**Individual Runs:** 75.0%, 75.0%, 75.0%\n\n## Selected Rationale (closest to median):\n\n(a) **The time left until the outcome is known**: The market resolves by July 31, 2026, which is approximately 4.5 months from today, March 17, 2026.\n\n(b) **The status quo outcome if nothing changed**: As of now, Harvey Weinstein has been convicted of a criminal sexual act in the first degree, which carries a statutory maximum of 25 years. Given the precedent of his previous 23-year sentence for similar charges and the current conviction, the status quo outcome would likely result in a sentence within the 20-30 year range.\n\n(c) **A brief description of a scenario that results in a No outcome**: A \"No\" outcome could occur if the retrial for the Jessica Mann charge results in an acquittal or another mistrial, and the judge decides to impose a sentence significantly below 20 years for the existing conviction, possibly due to Weinstein's deteriorating health or other mitigating factors. Alternatively, if the legal proceedings are delayed past July 31, 2026, with no sentencing occurring by that date, the market would resolve to \"No Prison Time.\"\n\n(d) **A brief description of a scenario that results in a Yes outcome**: A \"Yes\" outcome would occur if Weinstein is sentenced to a term between 20 and 30 years for the current conviction of a criminal sexual act in the first degree. This is the most likely scenario given the statutory maximum of 25 years for this conviction and the precedent of his previous 23-year sentence. Additionally, if the retrial for the Jessica Mann charge results in a conviction and the sentences are imposed consecutively, the total sentence could still fall within the 20-30 year range.\n\n**Rationale**: The status quo strongly suggests a sentence within the 20-30 year range due to the statutory maximum of 25 years for the criminal sexual act conviction and the precedent of Weinstein's previous sentencing. The judge's previous sentencing decisions and the nature of the conviction support this range. While Weinstein's health and age could be considered mitigating factors, they are unlikely to significantly alter the sentencing range given the severity of the charges and the precedent set by the 2020 conviction. The primary uncertainty lies in the outcome of the retrial for the Jessica Mann charge, but even if it results in a conviction, the additional sentence is likely to be structured to fit within or exceed the specified range.\n\n**Probability: 75%**"
+      },
+      "opportunity": {
+        "edge": 0.54,
+        "edge_direction": "yes",
+        "expected_value": 0.54,
+        "conviction": "high"
+      }
+    },
+    {
+      "market": {
+        "probability": 0.157
+      },
+      "forecast": {
+        "probability": 0.6,
+        "confidence": 1.0,
+        "reasoning": "## Forecast Summary\n\n**Median Probability:** 60.0%\n**Run Range:** 60.0% - 65.0%\n**Individual Runs:** 60.0%, 60.0%, 65.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known is approximately 4 months, as the third trial is scheduled to begin on April 14, 2026, and the market resolves by July 31, 2026.\n\n(b) The status quo outcome if nothing changed would be based on the conviction for the criminal sexual act in the first degree against Miriam Haley, which carries a maximum sentence of 25 years. Given Weinstein's age, health, and the six years already served, a sentence within the 10-20 year range is plausible.\n\n(c) A scenario that results in a No outcome could involve Weinstein being acquitted or the jury deadlocking again on the Jessica Mann rape charge, leading to a sentence solely on the Haley conviction. If the judge imposes a sentence below 10 years due to Weinstein's age, health, and time served, or if a plea agreement results in a sentence below 10 years, the outcome would be No.\n\n(d) A scenario that results in a Yes outcome would involve Weinstein being sentenced solely on the Haley conviction, with the judge imposing a sentence between 10 and 20 years. This could occur if the judge considers the severity of the crime but also takes into account mitigating factors such as Weinstein's age, health, and time already served.\n\nGiven the current legal landscape, the status quo outcome suggests a moderate likelihood of a 10-20 year sentence, especially if the third trial does not result in a new conviction or plea agreement that significantly alters the sentencing range. The probability of a 10-20 year sentence is thus moderately high, but contingent on the outcome of the upcoming trial.\n\nProbability: 60%"
+      },
+      "opportunity": {
+        "edge": 0.443,
+        "edge_direction": "yes",
+        "expected_value": 0.443,
+        "conviction": "high"
+      }
+    },
+    {
+      "market": {
+        "probability": 0.271
+      },
+      "forecast": {
+        "probability": 0.05,
+        "confidence": 1.0,
+        "reasoning": "## Forecast Summary\n\n**Median Probability:** 5.0%\n**Run Range:** 5.0% - 5.0%\n**Individual Runs:** 5.0%, 5.0%, 5.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known is approximately 4 months and 14 days, as the deadline for resolution is July 31, 2026.\n\n(b) The status quo outcome if nothing changed is that Harvey Weinstein will receive additional prison time. He is already serving a 16-year sentence from his California conviction and has been convicted in New York for a criminal sexual act, which carries a potential sentence of up to 25 years.\n\n(c) A brief description of a scenario that results in a No outcome: Harvey Weinstein's existing conviction in New York leads to a sentencing that includes prison time, regardless of the outcome of his pending trial for the rape charge related to Jessica Mann. Given his conviction for a serious charge, it is highly likely that he will receive additional prison time.\n\n(d) A brief description of a scenario that results in a Yes outcome: For Weinstein to receive no prison time, he would need to be acquitted in the pending trial, and his existing conviction would need to be overturned on appeal or result in a sentence that does not include prison time. Additionally, no sentencing would need to occur by the deadline of July 31, 2026.\n\nRationale: Given the current legal situation, Weinstein is already serving a significant prison sentence from his California conviction. His recent conviction in New York for a criminal sexual act further compounds his legal troubles, making it highly unlikely that he will avoid additional prison time. The pending trial for the rape charge related to Jessica Mann adds another layer of potential sentencing. While his health issues and potential for legal appeals exist, these factors are unlikely to result in a complete reversal of his convictions or a scenario where he receives no prison time. The status quo strongly suggests that he will receive additional prison time, as the legal system tends to move slowly, and significant changes in his favor would require extraordinary legal reversals.\n\nFinal Answer: Probability: 5%"
+      },
+      "opportunity": {
+        "edge": 0.221,
+        "edge_direction": "no",
+        "expected_value": 0.221,
+        "conviction": "high"
+      }
+    }
+  ]
+}

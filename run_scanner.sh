@@ -15,8 +15,8 @@ source venv/bin/activate
 # --min-edge: Minimum edge % to flag opportunity (0.10 = 10%)
 # --max-days: Only markets closing within N days
 python main.py \
-    --max-markets 15 \
-    --min-volume 50000 \
+    --max-markets 10 \
+    --min-volume 100000 \
     --min-edge 0.10 \
     --max-days 30 \
     --output "${SCRIPT_DIR}/opportunities.json" \
