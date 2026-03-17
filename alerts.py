@@ -215,7 +215,7 @@ class DiscordAlerts(AlertHandler):
         emoji = emoji_map.get(opp.conviction, "📊")
         
         # Extract key reasoning points (first substantial paragraph)
-        reasoning = self._extract_reasoning_summary(opp.forecast.reasoning)
+        reasoning = self._extract_reasoning_summary(opp.forecast.reasoning, opp.forecast_probability)
         
         return {
             "title": f"{emoji} {opp.market.title[:250]}",
@@ -265,38 +265,70 @@ class DiscordAlerts(AlertHandler):
             "timestamp": datetime.now().isoformat(),
         }
     
-    def _extract_reasoning_summary(self, reasoning: str) -> str:
+    def _extract_reasoning_summary(self, reasoning: str, forecast_probability: float = 0.5) -> str:
         """Extract key reasoning points from forecast text."""
         import re
         
         # Split into lines and clean
         lines = [l.strip() for l in reasoning.split('\n') if l.strip()]
         
-        key_points = []
-        seen = set()
+        # First priority: Look for section (e) - the conclusion
+        conclusion_section = []
+        in_conclusion = False
         
-        # Extract structured items (a, b, c, d... or 1, 2, 3...)
         for line in lines:
-            # Match lettered items: a), b), (a), (b), etc.
-            match = re.match(r'^[\s]*(?:\(?)([a-d][\).]\s*)(.+)$', line, re.IGNORECASE)
-            if match:
-                content = match.group(2).strip()
-                # Skip duplicates
-                content_lower = content.lower()[:50]
-                if content_lower not in seen and len(content) > 20:
-                    seen.add(content_lower)
-                    # Clean up the content
-                    content = re.sub(r'\s+', ' ', content)
-                    key_points.append(f"• {content[:200]}")
+            # Check if this is the start of section (e)
+            if re.match(r'^[\s]*(?:\(?)[e][\).]\s*', line, re.IGNORECASE):
+                in_conclusion = True
+                # Get the content after (e)
+                content = re.sub(r'^[\s]*(?:\(?)[e][\).]\s*', '', line, flags=re.IGNORECASE)
+                if content and len(content) > 20:
+                    conclusion_section.append(content)
                 continue
             
-            # Match numbered items
-            match = re.match(r'^[\s]*\d+[\).]\s*(.+)$', line)
+            # If we're in the conclusion section, keep collecting until we hit another section
+            if in_conclusion:
+                # Check if this is a new section (a), (b), etc. or numbered list
+                if re.match(r'^[\s]*(?:\(?)[a-d][\).]\s*', line, re.IGNORECASE):
+                    break
+                if re.match(r'^[\s]*\d+[\).]\s*', line):
+                    break
+                # Otherwise add to conclusion
+                conclusion_section.append(line)
+        
+        # Join conclusion lines
+        if conclusion_section:
+            full_conclusion = ' '.join(conclusion_section)
+            full_conclusion = re.sub(r'\s+', ' ', full_conclusion).strip()
+            if len(full_conclusion) > 30:
+                return f"**Why {forecast_probability:.0%}?** {full_conclusion[:400]}"
+        
+        # Fallback: Look for any conclusion keywords
+        for line in lines:
+            lower = line.lower()
+            if any(x in lower for x in ['conclusion:', 'summary:', 'overall:', 'in summary', 'rationale:']):
+                content = line.split(':', 1)[-1].strip()
+                if len(content) > 30:
+                    return f"**Why {forecast_probability:.0%}?** {content[:400]}"
+        
+        # Last resort: Get section (c) and (d) - the scenarios
+        scenarios = []
+        seen = set()
+        for line in lines:
+            match = re.match(r'^[\s]*(?:\(?)([c-d])[\).]\s*(.+)$', line, re.IGNORECASE)
             if match:
-                content = match.group(1).strip()
+                letter = match.group(1).upper()
+                content = match.group(2).strip()
                 content_lower = content.lower()[:50]
                 if content_lower not in seen and len(content) > 20:
                     seen.add(content_lower)
+                    content = re.sub(r'\s+', ' ', content)
+                    scenarios.append(f"• Scenario {letter}: {content[:150]}")
+        
+        if scenarios:
+            return '\n'.join(scenarios[:2])
+        
+        return "See detailed analysis in logs"
                     content = re.sub(r'\s+', ' ', content)
                     key_points.append(f"• {content[:200]}")
         

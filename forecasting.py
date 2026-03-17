@@ -48,6 +48,8 @@ Before answering you write:
 (b) The status quo outcome if nothing changed.
 (c) A brief description of a scenario that results in a No outcome.
 (d) A brief description of a scenario that results in a Yes outcome.
+(e) Your conclusion: Based on the above, explain which outcome is more likely and why. 
+    Consider: Does the evidence favor Yes or No? How strong is the case? What's the baseline probability?
 
 You write your rationale remembering that good forecasters put extra weight on the status quo 
 outcome since the world changes slowly most of the time. Be specific and cite relevant facts.
