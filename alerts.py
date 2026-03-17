@@ -38,8 +38,8 @@ class ConsoleAlerts(AlertHandler):
             print(f"\n{'─' * 70}")
             print(f"{emoji} #{i} [{opp.conviction.upper()}] {opp.market.title}")
             print(f"{'─' * 70}")
-            print(f"   📈 Market:     {opp.market_probability:>6.1%} (Polymarket)")
-            print(f"   🤖 Forecast:   {opp.forecast_probability:>6.1%} (AI model)")
+            print(f"   📈 Market:     YES {opp.market_probability:>6.1%} | NO {1-opp.market_probability:>6.1%}")
+            print(f"   🤖 Forecast:   YES {opp.forecast_probability:>6.1%} | NO {1-opp.forecast_probability:>6.1%}")
             print(f"   💰 Edge:       {opp.edge:>6.1%} → Bet on {opp.edge_direction.upper()}")
             print(f"   📊 Volume:     ${opp.market.volume:>10,.0f}")
             print(f"   🎯 Confidence: {opp.forecast.confidence:>6.0%}")
@@ -224,12 +224,12 @@ class DiscordAlerts(AlertHandler):
             "fields": [
                 {
                     "name": "📈 Market (Polymarket)",
-                    "value": f"{opp.market_probability:.1%}",
+                    "value": f"YES: {opp.market_probability:.1%}\nNO: {1-opp.market_probability:.1%}",
                     "inline": True,
                 },
                 {
                     "name": "🤖 AI Forecast",
-                    "value": f"{opp.forecast_probability:.1%}",
+                    "value": f"YES: {opp.forecast_probability:.1%}\nNO: {1-opp.forecast_probability:.1%}",
                     "inline": True,
                 },
                 {
