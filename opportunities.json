@@ -1,27 +1,142 @@
 {
-  "count": 1,
+  "count": 6,
   "opportunities": [
     {
       "market_info": {
-        "id": "544092",
-        "title": "Will Harvey Weinstein be sentenced to no prison time?",
-        "slug": "will-harvey-weinstein-be-sentenced-to-no-prison-time",
-        "url": "https://polymarket.com/market/will-harvey-weinstein-be-sentenced-to-no-prison-time",
+        "id": "540819",
+        "title": "Will Jesus Christ return before GTA VI?",
+        "slug": "will-jesus-christ-return-before-gta-vi-665",
+        "url": "https://polymarket.com/market/will-jesus-christ-return-before-gta-vi-665",
         "category": "",
-        "volume": 110456.64237499994,
-        "days_until_close": -76.83365299054398,
-        "probability": 0.294
+        "volume": 10076435.929430157,
+        "days_until_close": 134.9763497670949,
+        "probability": 0.485
       },
       "forecast": {
-        "probability": 0.1,
+        "probability": 0.01,
         "confidence": 1.0,
-        "reasoning": "## Forecast Summary\n\n**Median Probability:** 10.0%\n**Run Range:** 10.0% - 15.0%\n**Individual Runs:** 10.0%, 15.0%, 10.0%\n\n## Selected Rationale (closest to median):\n\n(a) **The time left until the outcome is known:** The market will resolve by July 31, 2026, which is approximately four and a half months from now.\n\n(b) **The status quo outcome if nothing changed:** Harvey Weinstein remains incarcerated due to his 16-year California conviction and the ongoing New York proceedings. The status quo suggests he will continue to serve prison time, especially given the upheld conviction for the criminal sexual act against Mimi Haley.\n\n(c) **A brief description of a scenario that results in a No outcome:** Weinstein is sentenced to additional prison time in New York for the upheld conviction related to Mimi Haley, or he is convicted or pleads guilty in the upcoming re-trial for the Jessica Mann charge, both of which would result in additional prison time.\n\n(d) **A brief description of a scenario that results in a Yes outcome:** The New York re-trial for the Jessica Mann charge results in an acquittal or another mistrial, and no additional sentencing occurs before July 31, 2026. Alternatively, if the court decides not to impose any additional prison time for the upheld conviction or if there are significant legal developments that prevent further sentencing.\n\n(e) **Your conclusion:** Based on the above, the outcome of \"No Prison Time\" is unlikely. The evidence heavily favors a \"No\" outcome, as Weinstein is already serving a significant sentence in California, and the New York proceedings are likely to result in additional prison time given the upheld conviction and the potential for a guilty plea or conviction in the re-trial. The baseline probability for \"No Prison Time\" is low because the status quo involves ongoing incarceration and active legal proceedings that are likely to result in further sentencing. The legal system's momentum and the severity of the charges suggest that additional prison time is the more probable outcome.\n\n**Probability: 10%**"
+        "reasoning": "## Forecast Summary\n\n**Median Probability:** 99.0%\n**Run Range:** 95.0% - 99.0%\n**Individual Runs:** 99.0%, 95.0%, 99.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known is approximately 4.5 months, as the deadline for the market resolution is July 31, 2026.\n\n(b) The status quo outcome if nothing changed is \"No.\" As of March 18, 2026, neither the Second Coming of Jesus Christ nor the release of GTA VI has occurred. However, GTA VI is scheduled for release in Fall 2025, which precedes the market's deadline.\n\n(c) A scenario that results in a \"No\" outcome is if GTA VI is released as scheduled in Fall 2025, and there is no verified occurrence of the Second Coming of Jesus Christ before this release date.\n\n(d) A scenario that results in a \"Yes\" outcome is if the Second Coming of Jesus Christ occurs and is globally verified by credible sources before the official release of GTA VI.\n\n(e) Based on the above, the outcome \"No\" is more likely. The evidence strongly favors this conclusion due to several factors:\n   - Historical patterns show that predictions of the Second Coming have consistently failed, and there is no credible evidence suggesting it will occur imminently.\n   - GTA VI's release is scheduled for Fall 2025, and there are no indications of further delays that would push it past the market's deadline.\n   - The status quo heavily favors a \"No\" resolution, as the release of a highly anticipated video game like GTA VI is a more predictable and verifiable event compared to the Second Coming, which remains a matter of faith and speculation.\n\nThe baseline probability for a \"No\" outcome is very high, given the scheduled release date of GTA VI and the lack of any credible evidence for the Second Coming occurring before this date.\n\nProbability: 99%"
       },
       "opportunity": {
-        "edge": 0.194,
+        "edge": 0.475,
         "edge_direction": "no",
-        "expected_value": 0.194,
+        "expected_value": 0.475,
         "conviction": "high"
+      }
+    },
+    {
+      "market_info": {
+        "id": "553857",
+        "title": "Will the Cleveland Cavaliers win the 2026 NBA Finals?",
+        "slug": "will-the-cleveland-cavaliers-win-the-2026-nba-finals",
+        "url": "https://polymarket.com/market/will-the-cleveland-cavaliers-win-the-2026-nba-finals",
+        "category": "",
+        "volume": 4238352.567793967,
+        "days_until_close": 104.47634976688659,
+        "probability": 0.051
+      },
+      "forecast": {
+        "probability": 0.3,
+        "confidence": 1.0,
+        "reasoning": "## Forecast Summary\n\n**Median Probability:** 30.0%\n**Run Range:** 25.0% - 30.0%\n**Individual Runs:** 30.0%, 25.0%, 30.0%\n\n## Selected Rationale (closest to median):\n\n(a) **The time left until the outcome is known:** There are approximately three and a half months left until the NBA Finals in June 2026, with the regular season nearing its end and the playoffs yet to begin.\n\n(b) **The status quo outcome if nothing changed:** The status quo suggests that the Cleveland Cavaliers are strong contenders in the Eastern Conference, with a projected win total of 55+ and a top-5 defensive efficiency. However, they are not the outright favorites to win the NBA Finals, given the competitive landscape and the presence of other strong teams.\n\n(c) **A brief description of a scenario that results in a No outcome:** The Cavaliers could face significant challenges due to their wing depth issues and injury risks. If key players like Lonzo Ball, Dean Wade, or Max Strus miss significant time during the playoffs, or if they fail to address their shooting and clutch execution weaknesses, they may be eliminated in the Eastern Conference playoffs or the NBA Finals, resulting in a \"No\" outcome.\n\n(d) **A brief description of a scenario that results in a Yes outcome:** The Cavaliers could win the 2026 NBA Finals if they maintain their defensive prowess and key players remain healthy throughout the playoffs. If they make a successful trade for a superstar like Giannis Antetokounmpo, or if their current roster performs exceptionally well, they could overcome other top teams and secure the championship.\n\n(e) **Your conclusion:** Based on the current information, the evidence leans slightly towards a \"No\" outcome. While the Cavaliers are strong contenders, the presence of significant challenges such as injury risks, wing depth issues, and the need for potential roster upgrades makes it difficult to confidently predict a championship win. The baseline probability of any single team winning the NBA Finals is low, given the competitive nature of the league. The Cavaliers' chances are further complicated by uncertainties around potential trades and the performance of other strong teams.\n\n**Probability: 30%**"
+      },
+      "opportunity": {
+        "edge": 0.249,
+        "edge_direction": "yes",
+        "expected_value": 0.249,
+        "conviction": "high"
+      }
+    },
+    {
+      "market_info": {
+        "id": "558938",
+        "title": "Will Argentina win the 2026 FIFA World Cup?",
+        "slug": "will-argentina-win-the-2026-fifa-world-cup-245",
+        "url": "https://polymarket.com/market/will-argentina-win-the-2026-fifa-world-cup-245",
+        "category": "",
+        "volume": 3965339.4098550486,
+        "days_until_close": 123.47634976679399,
+        "probability": 0.113
+      },
+      "forecast": {
+        "probability": 0.3,
+        "confidence": 0.98,
+        "reasoning": "## Forecast Summary\n\n**Median Probability:** 30.0%\n**Run Range:** 20.0% - 35.0%\n**Individual Runs:** 20.0%, 30.0%, 35.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known is approximately 4 months until the group stage begins in June 2026, and about 4 months and a few weeks until the World Cup concludes in July 2026.\n\n(b) The status quo outcome if nothing changed is that Argentina is among the favorites to win the World Cup, but historical trends suggest they are unlikely to win back-to-back titles. No team has successfully defended the World Cup title since Brazil in 1962, which presents a significant historical challenge.\n\n(c) A scenario that results in a No outcome could involve Argentina being eliminated in the knockout stages, possibly due to injuries to key players like Lionel Messi or Lautaro Mart\u00ednez, or due to tactical shortcomings against stronger teams in the later stages of the tournament.\n\n(d) A scenario that results in a Yes outcome would involve Argentina maintaining their strong form from the 2022 World Cup and recent Copa Am\u00e9rica victories, with key players performing at their peak. They would need to navigate the knockout stages successfully, potentially overcoming other strong contenders like Spain, Brazil, or France in the final.\n\n(e) Based on the above, the outcome of Argentina winning the 2026 FIFA World Cup is possible but faces significant challenges. The evidence suggests that while Argentina has a strong team and favorable group stage draw, the historical difficulty of winning consecutive World Cups is a substantial barrier. The mixed expert assessments reflect this uncertainty, with some analysts predicting a final appearance but not necessarily a victory. The baseline probability for any team to win the World Cup is low due to the competitive nature of the tournament, and the historical precedent further reduces Argentina's chances. Therefore, while Argentina is a strong contender, the likelihood of them winning is less than 50%.\n\nProbability: 30%"
+      },
+      "opportunity": {
+        "edge": 0.188,
+        "edge_direction": "yes",
+        "expected_value": 0.188,
+        "conviction": "high"
+      }
+    },
+    {
+      "market_info": {
+        "id": "553856",
+        "title": "Will the Oklahoma City Thunder win the 2026 NBA Finals?",
+        "slug": "will-the-oklahoma-city-thunder-win-the-2026-nba-finals",
+        "url": "https://polymarket.com/market/will-the-oklahoma-city-thunder-win-the-2026-nba-finals",
+        "category": "",
+        "volume": 5178360.843596027,
+        "days_until_close": 104.47634976671297,
+        "probability": 0.375
+      },
+      "forecast": {
+        "probability": 0.2,
+        "confidence": 0.99,
+        "reasoning": "## Forecast Summary\n\n**Median Probability:** 20.0%\n**Run Range:** 10.0% - 20.0%\n**Individual Runs:** 20.0%, 10.0%, 20.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known is approximately 3.5 months, as the NBA Finals typically conclude in early June, and today is March 18, 2026.\n\n(b) The status quo outcome, if nothing changed, is that the Oklahoma City Thunder will not win the 2026 NBA Finals. This is based on the fact that the Finals have not yet occurred, and there is no current evidence or standings indicating that the Thunder are favorites or even likely contenders for the championship.\n\n(c) A scenario that results in a No outcome is that the Oklahoma City Thunder do not make it to the playoffs or are eliminated in an early playoff round. This could happen if they have a poor regular season performance, suffer significant injuries to key players, or face stronger competition in the Western Conference.\n\n(d) A scenario that results in a Yes outcome is that the Oklahoma City Thunder perform exceptionally well in the remaining regular season games, secure a strong playoff position, and successfully navigate through the playoff rounds to win the NBA Finals. This would likely require standout performances from their core players, such as Shai Gilgeous-Alexander and Chet Holmgren, and effective contributions from their supporting cast.\n\n(e) Based on the above, the outcome of the Thunder winning the 2026 NBA Finals is less likely than not. The evidence currently available does not suggest that the Thunder are leading contenders for the championship. While they have a promising young roster with potential, there is no indication that they are outperforming other teams in the league. The baseline probability of any single team winning the NBA Finals is low, given the competitive nature of the league and the number of strong teams. The status quo outcome, which is that the Thunder do not win, is more likely given the lack of specific evidence pointing to their imminent success.\n\nProbability: 20%"
+      },
+      "opportunity": {
+        "edge": 0.175,
+        "edge_direction": "no",
+        "expected_value": 0.175,
+        "conviction": "high"
+      }
+    },
+    {
+      "market_info": {
+        "id": "553828",
+        "title": "Will the Colorado Avalanche win the 2026 NHL Stanley Cup?",
+        "slug": "will-the-colorado-avalanche-win-the-2026-nhl-stanley-cup",
+        "url": "https://polymarket.com/market/will-the-colorado-avalanche-win-the-2026-nhl-stanley-cup",
+        "category": "",
+        "volume": 12827688.437863056,
+        "days_until_close": 103.47634976664351,
+        "probability": 0.216
+      },
+      "forecast": {
+        "probability": 0.35,
+        "confidence": 1.0,
+        "reasoning": "## Forecast Summary\n\n**Median Probability:** 35.0%\n**Run Range:** 30.0% - 35.0%\n**Individual Runs:** 35.0%, 30.0%, 35.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known is approximately 3.5 months, as the Stanley Cup playoffs typically conclude in mid-to-late June.\n\n(b) The status quo outcome if nothing changed is that the Colorado Avalanche are strong contenders for the Stanley Cup. They currently lead the NHL with 93 points and have the best goal differential, making them the top seed in the Western Conference. They are also favorites according to betting odds and expert predictions.\n\n(c) A scenario that results in a No outcome could involve the Avalanche experiencing significant injuries to key players like Nathan MacKinnon or Cale Makar, which would weaken their performance in the playoffs. Additionally, they could face unexpectedly strong competition from other teams, such as the Tampa Bay Lightning or Carolina Hurricanes, leading to their elimination before winning the Stanley Cup.\n\n(d) A scenario that results in a Yes outcome would involve the Avalanche maintaining their current form and successfully integrating Nazem Kadri into their lineup, which would address their power play issues. Their depth and talent would allow them to navigate through the playoffs, overcoming any challenges from other strong teams, and ultimately winning the Stanley Cup.\n\n(e) Based on the above, the outcome of the Colorado Avalanche winning the 2026 NHL Stanley Cup appears more likely. The evidence favors a Yes outcome, as they are currently the top team in the league, have made strategic moves to strengthen their lineup, and are favored by both odds and expert predictions. The case for them winning is strong, given their current performance and depth. The baseline probability, as indicated by the betting odds, is approximately 27.8%, but considering their current status and expert opinions, this probability may be slightly higher.\n\nProbability: 35%"
+      },
+      "opportunity": {
+        "edge": 0.133,
+        "edge_direction": "yes",
+        "expected_value": 0.133,
+        "conviction": "medium"
+      }
+    },
+    {
+      "market_info": {
+        "id": "553866",
+        "title": "Will the San Antonio Spurs win the 2026 NBA Finals?",
+        "slug": "will-the-san-antonio-spurs-win-the-2026-nba-finals",
+        "url": "https://polymarket.com/market/will-the-san-antonio-spurs-win-the-2026-nba-finals",
+        "category": "",
+        "volume": 5415786.336924819,
+        "days_until_close": 104.47634976657407,
+        "probability": 0.134
+      },
+      "forecast": {
+        "probability": 0.25,
+        "confidence": 0.98,
+        "reasoning": "## Forecast Summary\n\n**Median Probability:** 25.0%\n**Run Range:** 15.0% - 30.0%\n**Individual Runs:** 25.0%, 30.0%, 15.0%\n\n## Selected Rationale (closest to median):\n\n(a) **The time left until the outcome is known:** The NBA Finals are scheduled for June 2026, and today is March 18, 2026. Therefore, there are approximately 3.5 months left until the outcome is known.\n\n(b) **The status quo outcome if nothing changed:** As of now, the San Antonio Spurs have not won the 2026 NBA Finals, as the playoffs have not yet begun. The status quo outcome, based on historical probabilities and the fact that only one team can win the Finals, would be that the Spurs do not win the championship.\n\n(c) **A brief description of a scenario that results in a No outcome:** The Spurs could fail to win the 2026 NBA Finals if they are eliminated in any round of the playoffs. This could happen due to injuries to key players like Victor Wembanyama or De'Aaron Fox, underperformance in critical games, or facing stronger opponents such as the Oklahoma City Thunder or other top contenders in the Western Conference or NBA Finals.\n\n(d) **A brief description of a scenario that results in a Yes outcome:** The Spurs could win the 2026 NBA Finals if they continue their strong performance from the regular season into the playoffs. Key factors would include maintaining their defensive prowess, effective integration of rookies, and consistent performances from star players like Wembanyama and Fox. Overcoming potential playoff adversaries and capitalizing on any weaknesses in opposing teams would also be crucial.\n\n(e) **Your conclusion:** Based on the above, the outcome of the Spurs winning the 2026 NBA Finals is uncertain but promising given their current trajectory. They are performing well in the regular season, with a strong record and high defensive rating. However, the status quo and historical context suggest that the probability of any single team winning the Finals is relatively low, given the competitive nature of the NBA playoffs. While the Spurs have a solid chance, especially if they secure a high seed and maintain their form, the baseline probability favors a \"No\" outcome due to the inherent difficulty of winning an NBA championship.\n\nFinal Answer: \"Probability: 25%\""
+      },
+      "opportunity": {
+        "edge": 0.116,
+        "edge_direction": "yes",
+        "expected_value": 0.116,
+        "conviction": "medium"
       }
     }
   ]

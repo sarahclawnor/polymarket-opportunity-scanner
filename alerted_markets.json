@@ -1,0 +1,62 @@
+{
+  "553828": {
+    "market_id": "553828",
+    "market_title": "Will the Colorado Avalanche win the 2026 NHL Stanley Cup?",
+    "market_probability": 0.2165,
+    "forecast_probability": 0.35,
+    "edge": 0.13349999999999998,
+    "edge_direction": "yes",
+    "alerted_at": "2026-03-18T12:03:12.464227",
+    "alert_count": 1
+  },
+  "540819": {
+    "market_id": "540819",
+    "market_title": "Will Jesus Christ return before GTA VI?",
+    "market_probability": 0.485,
+    "forecast_probability": 0.010000000000000009,
+    "edge": 0.475,
+    "edge_direction": "no",
+    "alerted_at": "2026-03-18T12:17:56.617367",
+    "alert_count": 1
+  },
+  "553866": {
+    "market_id": "553866",
+    "market_title": "Will the San Antonio Spurs win the 2026 NBA Finals?",
+    "market_probability": 0.1335,
+    "forecast_probability": 0.25,
+    "edge": 0.11649999999999999,
+    "edge_direction": "yes",
+    "alerted_at": "2026-03-18T12:24:24.124839",
+    "alert_count": 1
+  },
+  "553856": {
+    "market_id": "553856",
+    "market_title": "Will the Oklahoma City Thunder win the 2026 NBA Finals?",
+    "market_probability": 0.375,
+    "forecast_probability": 0.2,
+    "edge": 0.175,
+    "edge_direction": "no",
+    "alerted_at": "2026-03-18T12:25:21.049159",
+    "alert_count": 1
+  },
+  "553857": {
+    "market_id": "553857",
+    "market_title": "Will the Cleveland Cavaliers win the 2026 NBA Finals?",
+    "market_probability": 0.051,
+    "forecast_probability": 0.3,
+    "edge": 0.249,
+    "edge_direction": "yes",
+    "alerted_at": "2026-03-18T12:29:28.352103",
+    "alert_count": 1
+  },
+  "558938": {
+    "market_id": "558938",
+    "market_title": "Will Argentina win the 2026 FIFA World Cup?",
+    "market_probability": 0.1125,
+    "forecast_probability": 0.3,
+    "edge": 0.1875,
+    "edge_direction": "yes",
+    "alerted_at": "2026-03-18T12:33:05.649421",
+    "alert_count": 1
+  }
+}
