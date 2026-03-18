@@ -17,6 +17,7 @@ from gamma_client import GammaClient, Market
 from research import get_default_researcher, ResearchProvider
 from forecasting import BinaryForecaster, ForecastResult
 from opportunity_detector import OpportunityDetector, Opportunity
+from alert_history import AlertHistory
 from alerts import (
     AlertHandler,
     ConsoleAlerts,
@@ -46,12 +47,16 @@ class OpportunityScanner:
         detector: Optional[OpportunityDetector] = None,
         alerter: Optional[AlertHandler] = None,
         max_markets: int = 20,
+        alert_history: Optional[AlertHistory] = None,
+        skip_alerted: bool = True,
     ):
         self.researcher = researcher or get_default_researcher()
         self.forecaster = forecaster or BinaryForecaster()
         self.detector = detector or OpportunityDetector()
         self.alerter = alerter or ConsoleAlerts()
         self.max_markets = max_markets
+        self.alert_history = alert_history or AlertHistory()
+        self.skip_alerted = skip_alerted
     
     async def scan(
         self,
@@ -71,6 +76,8 @@ class OpportunityScanner:
             List of detected opportunities
         """
         opportunities = []
+        skipped_already_alerted = 0
+        skipped_past_close = 0
         
         async with GammaClient() as client:
             # 1. Discover markets
@@ -86,17 +93,38 @@ class OpportunityScanner:
                 logger.warning("No markets found matching criteria")
                 return []
             
-            logger.info(f"Analyzing {len(markets)} markets...")
+            logger.info(f"Found {len(markets)} markets, starting analysis...")
             
             # 2. Analyze each market
             for i, market in enumerate(markets, 1):
+                # Skip markets that are past their close date
+                if market.days_until_close is not None and market.days_until_close < 0:
+                    logger.debug(f"Skipping {market.slug}: Past close date ({market.days_until_close:.0f} days)")
+                    skipped_past_close += 1
+                    continue
+                
                 logger.info(f"[{i}/{len(markets)}] Analyzing: {market.title[:60]}...")
                 
                 try:
                     opportunity = await self._analyze_market(market)
                     if opportunity:
+                        # Check if we should alert on this opportunity
+                        if self.skip_alerted:
+                            should_alert = self.alert_history.should_alert(
+                                market_id=market.id,
+                                market_probability=opportunity.market_probability,
+                                forecast_probability=opportunity.forecast_probability,
+                            )
+                            if not should_alert:
+                                logger.info(f"  ⊘ Already alerted (skipped)")
+                                skipped_already_alerted += 1
+                                continue
+                        
                         opportunities.append(opportunity)
                         logger.info(f"  ✓ Opportunity detected: {opportunity.edge:.1%} edge")
+                        
+                        # Record that we're alerting on this
+                        self.alert_history.record_alert(opportunity)
                     else:
                         logger.info(f"  ✗ No opportunity detected")
                 except Exception as e:
@@ -106,9 +134,20 @@ class OpportunityScanner:
         # 3. Rank and alert
         ranked = self.detector.rank_opportunities(opportunities)
         
-        logger.info(f"\nScan complete. Found {len(ranked)} opportunities.")
+        logger.info(f"\n{'='*70}")
+        logger.info(f"Scan complete: {len(ranked)} new opportunities")
+        logger.info(f"  - Skipped (already alerted): {skipped_already_alerted}")
+        logger.info(f"  - Skipped (past close date): {skipped_past_close}")
         
-        await self.alerter.send(ranked)
+        stats = self.alert_history.get_stats()
+        logger.info(f"  - Total markets in history: {stats['total_markets_alerted']}")
+        logger.info(f"{'='*70}")
+        
+        # Only send alerts if we have new opportunities
+        if ranked:
+            await self.alerter.send(ranked)
+        else:
+            logger.info("No new opportunities to alert - skipping notifications")
         
         return ranked
     
@@ -171,14 +210,14 @@ def main():
     parser.add_argument(
         "--min-volume",
         type=float,
-        default=100000,
-        help="Minimum market volume in USD (default: 100000)",
+        default=10000,
+        help="Minimum market volume in USD (default: 10000)",
     )
     parser.add_argument(
         "--max-days",
         type=int,
-        default=30,
-        help="Only scan markets closing within N days (default: 30)",
+        default=None,
+        help="Only scan markets closing within N days (default: no limit)",
     )
     parser.add_argument(
         "--category",
@@ -188,8 +227,8 @@ def main():
     parser.add_argument(
         "--max-markets",
         type=int,
-        default=20,
-        help="Maximum markets to analyze (default: 20)",
+        default=100,
+        help="Maximum markets to analyze (default: 100)",
     )
     
     # Forecasting settings
@@ -220,6 +259,20 @@ def main():
         help="Minimum forecast confidence (default: 0.5)",
     )
     
+    # Deduplication
+    parser.add_argument(
+        "--skip-alerted",
+        action="store_true",
+        default=True,
+        help="Skip markets already alerted (default: True)",
+    )
+    parser.add_argument(
+        "--no-skip-alerted",
+        dest="skip_alerted",
+        action="store_false",
+        help="Re-alert on all opportunities regardless of history",
+    )
+
     # Output
     parser.add_argument(
         "--output",
@@ -240,6 +293,7 @@ def main():
     
     # Build components
     alerter = create_alerter(args)
+    alert_history = AlertHistory()
     
     scanner = OpportunityScanner(
         forecaster=BinaryForecaster(
@@ -252,6 +306,8 @@ def main():
         ),
         alerter=alerter,
         max_markets=args.max_markets,
+        alert_history=alert_history,
+        skip_alerted=args.skip_alerted,
     )
     
     # Run scan

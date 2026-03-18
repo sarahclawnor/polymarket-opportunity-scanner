@@ -8,17 +8,17 @@ cd "$SCRIPT_DIR"
 # Load virtual environment
 source venv/bin/activate
 
-# Run scanner with configured parameters
-# Adjust these parameters as needed:
-# --max-markets: How many markets to analyze per run
-# --min-volume: Minimum market volume in USD
-# --min-edge: Minimum edge % to flag opportunity (0.10 = 10%)
-# --max-days: Only markets closing within N days
+# Run scanner with optimized parameters:
+# --max-markets: 100 markets per scan (increased coverage)
+# --min-volume: $10k to balance quality vs quantity
+# --min-edge: 10% edge threshold
+# --max-days: No limit (scans all active markets, prioritizes closing-soon)
+# --skip-alerted: Prevents duplicate alerts and wasted API credits
 python main.py \
-    --max-markets 10 \
+    --max-markets 100 \
     --min-volume 10000 \
     --min-edge 0.10 \
-    --max-days 30 \
+    --skip-alerted \
     --output "${SCRIPT_DIR}/opportunities.json" \
     >> "${SCRIPT_DIR}/scanner.log" 2>&1
 

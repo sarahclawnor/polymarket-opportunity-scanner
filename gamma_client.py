@@ -73,35 +73,33 @@ class GammaClient:
     async def get_active_markets(
         self,
         min_volume: float = 100000,
-        max_days_to_close: Optional[int] = 30,
+        max_days_to_close: Optional[int] = None,
         limit: int = 100,
         category: Optional[str] = None,
+        prioritize_recent: bool = True,
     ) -> List[Market]:
         """
         Fetch active markets matching criteria.
         
         Args:
             min_volume: Minimum 24h volume in USD
-            max_days_to_close: Only markets closing within N days
+            max_days_to_close: Only markets closing within N days (None = no limit)
             limit: Maximum markets to fetch
             category: Filter by category (optional)
+            prioritize_recent: If True, prioritize markets closing sooner
         """
+        # Fetch more than needed to allow for filtering
+        fetch_limit = min(limit * 3, 500)
+        
         params = {
             "active": "true",
             "closed": "false",
-            "limit": limit,
+            "limit": fetch_limit,
             "sort": "volume",
         }
         
         if category:
             params["category"] = category
-        
-        # Calculate min end date if filtering by close time
-        # Note: Gamma API uses end_date_lt (less than) or end_date_gt (greater than)
-        # We'll filter markets by end date after fetching
-        # if max_days_to_close:
-        #     min_end_date = datetime.now() + timedelta(days=max_days_to_close)
-        #     params["end_date_min"] = min_end_date.strftime("%Y-%m-%dT%H:%M:%SZ")
         
         data = await self._get("/markets", params)
         markets = []
@@ -125,8 +123,39 @@ class GammaClient:
                 logger.warning(f"Failed to parse market: {e}")
                 continue
         
-        logger.info(f"Found {len(markets)} markets matching criteria")
-        return markets
+        # Prioritize: markets closing sooner get higher priority
+        if prioritize_recent:
+            # Score = volume / (days_until_close + 1)
+            # This prioritizes high-volume markets that close soon
+            def priority_score(m: Market) -> float:
+                if m.days_until_close is None:
+                    days = 365  # Treat no date as far future
+                elif m.days_until_close < 0:
+                    days = 0.1  # Past close but still active
+                else:
+                    days = m.days_until_close
+                # High volume + closing soon = high priority
+                return m.volume / (days + 1)
+            
+            markets.sort(key=priority_score, reverse=True)
+        
+        # Return only requested limit
+        result = markets[:limit]
+        
+        # Log breakdown
+        closing_soon = sum(1 for m in result if m.days_until_close is not None and 0 <= m.days_until_close <= 30)
+        closing_mid = sum(1 for m in result if m.days_until_close is not None and 30 < m.days_until_close <= 90)
+        closing_late = sum(1 for m in result if m.days_until_close is None or m.days_until_close > 90)
+        past_close = sum(1 for m in result if m.days_until_close is not None and m.days_until_close < 0)
+        
+        logger.info(f"Found {len(result)} markets matching criteria:")
+        logger.info(f"  - Closing ≤30 days: {closing_soon}")
+        logger.info(f"  - Closing 31-90 days: {closing_mid}")
+        logger.info(f"  - Closing >90 days: {closing_late}")
+        if past_close:
+            logger.info(f"  - Past close date: {past_close}")
+        
+        return result
     
     def _parse_market(self, data: Dict[str, Any]) -> Market:
         """Parse API response into Market object."""
