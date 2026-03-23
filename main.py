@@ -18,6 +18,7 @@ from research import get_default_researcher, ResearchProvider
 from forecasting import BinaryForecaster, ForecastResult
 from opportunity_detector import OpportunityDetector, Opportunity
 from alert_history import AlertHistory
+from history import HistoryLogger
 from alerts import (
     AlertHandler,
     ConsoleAlerts,
@@ -48,6 +49,7 @@ class OpportunityScanner:
         alerter: Optional[AlertHandler] = None,
         max_markets: int = 20,
         alert_history: Optional[AlertHistory] = None,
+        history_logger: Optional[HistoryLogger] = None,
         skip_alerted: bool = True,
     ):
         self.researcher = researcher or get_default_researcher()
@@ -56,6 +58,7 @@ class OpportunityScanner:
         self.alerter = alerter or ConsoleAlerts()
         self.max_markets = max_markets
         self.alert_history = alert_history or AlertHistory()
+        self.history_logger = history_logger or HistoryLogger()
         self.skip_alerted = skip_alerted
     
     async def scan(
@@ -148,7 +151,10 @@ class OpportunityScanner:
             await self.alerter.send(ranked)
         else:
             logger.info("No new opportunities to alert - skipping notifications")
-        
+
+        # Always log scan results to daily history file
+        self.history_logger.log_scan(ranked)
+
         return ranked
     
     async def _analyze_market(self, market: Market) -> Optional[Opportunity]:
