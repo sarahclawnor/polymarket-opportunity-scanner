@@ -58,5 +58,185 @@
     "edge_direction": "yes",
     "alerted_at": "2026-03-18T12:33:05.649421",
     "alert_count": 1
+  },
+  "562186": {
+    "market_id": "562186",
+    "market_title": "Will Ken Paxton win the 2026 Texas Republican Primary?",
+    "market_probability": 0.38,
+    "forecast_probability": 0.55,
+    "edge": 0.17000000000000004,
+    "edge_direction": "yes",
+    "alerted_at": "2026-03-18T16:17:04.456313",
+    "alert_count": 1
+  },
+  "553862": {
+    "market_id": "553862",
+    "market_title": "Will the Boston Celtics win the 2026 NBA Finals?",
+    "market_probability": 0.1095,
+    "forecast_probability": 0.35,
+    "edge": 0.2405,
+    "edge_direction": "yes",
+    "alerted_at": "2026-03-18T16:21:51.489133",
+    "alert_count": 1
+  },
+  "558937": {
+    "market_id": "558937",
+    "market_title": "Will Brazil win the 2026 FIFA World Cup?",
+    "market_probability": 0.086,
+    "forecast_probability": 0.2,
+    "edge": 0.11400000000000002,
+    "edge_direction": "yes",
+    "alerted_at": "2026-03-18T16:28:06.205458",
+    "alert_count": 1
+  },
+  "553871": {
+    "market_id": "553871",
+    "market_title": "Will the Detroit Pistons win the 2026 NBA Finals?",
+    "market_probability": 0.053,
+    "forecast_probability": 0.2,
+    "edge": 0.14700000000000002,
+    "edge_direction": "yes",
+    "alerted_at": "2026-03-18T20:15:02.157768",
+    "alert_count": 1
+  },
+  "566737": {
+    "market_id": "566737",
+    "market_title": "Will Lens win the 2025\u201326 French Ligue 1?",
+    "market_probability": 0.0525,
+    "forecast_probability": 0.3,
+    "edge": 0.2475,
+    "edge_direction": "yes",
+    "alerted_at": "2026-03-19T20:04:14.499282",
+    "alert_count": 1
+  },
+  "566140": {
+    "market_id": "566140",
+    "market_title": "Will Arsenal win the 2025\u201326 Champions League?",
+    "market_probability": 0.275,
+    "forecast_probability": 0.4,
+    "edge": 0.125,
+    "edge_direction": "yes",
+    "alerted_at": "2026-03-19T20:25:57.780348",
+    "alert_count": 1
+  },
+  "566137": {
+    "market_id": "566137",
+    "market_title": "Will Liverpool win the 2025\u201326 Champions League?",
+    "market_probability": 0.075,
+    "forecast_probability": 0.2,
+    "edge": 0.125,
+    "edge_direction": "yes",
+    "alerted_at": "2026-03-19T20:26:11.659224",
+    "alert_count": 1
+  },
+  "566228": {
+    "market_id": "566228",
+    "market_title": "Will Barcelona win the 2025\u201326 La Liga?",
+    "market_probability": 0.815,
+    "forecast_probability": 0.65,
+    "edge": 0.16499999999999992,
+    "edge_direction": "no",
+    "alerted_at": "2026-03-19T20:36:34.631612",
+    "alert_count": 1
+  },
+  "540844": {
+    "market_id": "540844",
+    "market_title": "Will bitcoin hit $1m before GTA VI?",
+    "market_probability": 0.488,
+    "forecast_probability": 0.05,
+    "edge": 0.438,
+    "edge_direction": "no",
+    "alerted_at": "2026-03-19T20:36:51.318562",
+    "alert_count": 1
+  },
+  "559651": {
+    "market_id": "559651",
+    "market_title": "Xi Jinping out before 2027?",
+    "market_probability": 0.0885,
+    "forecast_probability": 0.2,
+    "edge": 0.11150000000000002,
+    "edge_direction": "yes",
+    "alerted_at": "2026-03-19T20:38:49.788388",
+    "alert_count": 1
+  },
+  "566227": {
+    "market_id": "566227",
+    "market_title": "Will Real Madrid win the 2025\u201326 La Liga?",
+    "market_probability": 0.185,
+    "forecast_probability": 0.35,
+    "edge": 0.16499999999999998,
+    "edge_direction": "yes",
+    "alerted_at": "2026-03-19T20:39:44.074816",
+    "alert_count": 1
+  },
+  "564162": {
+    "market_id": "564162",
+    "market_title": "Will Shai Gilgeous-Alexander win the 2025\u20132026 NBA MVP?",
+    "market_probability": 0.88,
+    "forecast_probability": 0.75,
+    "edge": 0.13,
+    "edge_direction": "no",
+    "alerted_at": "2026-03-19T20:39:58.305169",
+    "alert_count": 1
+  },
+  "550706": {
+    "market_id": "550706",
+    "market_title": "Will Poland qualify for the 2026 FIFA World Cup?",
+    "market_probability": 0.35,
+    "forecast_probability": 0.65,
+    "edge": 0.30000000000000004,
+    "edge_direction": "yes",
+    "alerted_at": "2026-03-19T20:43:58.422905",
+    "alert_count": 1
+  },
+  "567560": {
+    "market_id": "567560",
+    "market_title": "Will the next Prime Minister of Hungary be Viktor Orb\u00e1n?",
+    "market_probability": 0.355,
+    "forecast_probability": 0.6,
+    "edge": 0.245,
+    "edge_direction": "yes",
+    "alerted_at": "2026-03-20T00:09:29.302040",
+    "alert_count": 1
+  },
+  "566188": {
+    "market_id": "566188",
+    "market_title": "Will Manchester City win the 2025\u201326 English Premier League?",
+    "market_probability": 0.085,
+    "forecast_probability": 0.2,
+    "edge": 0.115,
+    "edge_direction": "yes",
+    "alerted_at": "2026-03-20T00:11:11.596981",
+    "alert_count": 1
+  },
+  "567687": {
+    "market_id": "567687",
+    "market_title": "Russia x Ukraine ceasefire by end of 2026?",
+    "market_probability": 0.335,
+    "forecast_probability": 0.05,
+    "edge": 0.28500000000000003,
+    "edge_direction": "no",
+    "alerted_at": "2026-03-23T12:27:06.801158",
+    "alert_count": 1
+  },
+  "553851": {
+    "market_id": "553851",
+    "market_title": "Will the Buffalo Sabres win the 2026 NHL Stanley Cup?",
+    "market_probability": 0.059,
+    "forecast_probability": 0.25,
+    "edge": 0.191,
+    "edge_direction": "yes",
+    "alerted_at": "2026-03-23T12:39:04.823844",
+    "alert_count": 1
+  },
+  "531202": {
+    "market_id": "531202",
+    "market_title": "BitBoy convicted?",
+    "market_probability": 0.117,
+    "forecast_probability": 0.9,
+    "edge": 0.783,
+    "edge_direction": "yes",
+    "alerted_at": "2026-03-23T12:42:04.216068",
+    "alert_count": 1
   }
 }
