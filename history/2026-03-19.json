@@ -1,0 +1,243 @@
+{
+  "date": "2026-03-19",
+  "scans": [
+    {
+      "scanned_at": "2026-03-19 00:23:24Z",
+      "opportunities_found": 0,
+      "opportunities": []
+    },
+    {
+      "scanned_at": "2026-03-19 04:06:17Z",
+      "opportunities_found": 0,
+      "opportunities": []
+    },
+    {
+      "scanned_at": "2026-03-19 08:00:09Z",
+      "opportunities_found": 0,
+      "opportunities": []
+    },
+    {
+      "scanned_at": "2026-03-19 12:00:10Z",
+      "opportunities_found": 0,
+      "opportunities": []
+    },
+    {
+      "scanned_at": "2026-03-19 16:57:26Z",
+      "opportunities_found": 0,
+      "opportunities": []
+    },
+    {
+      "scanned_at": "2026-03-19 20:45:05Z",
+      "opportunities_found": 9,
+      "opportunities": [
+        {
+          "market_info": {
+            "id": "will-bitcoin-hit-1m-before-gta-vi-872",
+            "title": "Will bitcoin hit $1m before GTA VI?",
+            "slug": "will-bitcoin-hit-1m-before-gta-vi-872",
+            "url": "https://polymarket.com/market/will-bitcoin-hit-1m-before-gta-vi-872",
+            "category": null,
+            "volume": 3689443.0,
+            "days_until_close": 134,
+            "probability": 0.488
+          },
+          "forecast": {
+            "probability": 0.05,
+            "confidence": 1.0,
+            "reasoning": "AI predicts 5% YES (market: 49%) \u2022 Based on the above analysis, the outcome where Bitcoin does not reach $1 million before the release of GTA VI is far more likely. \u2022 The evidence strongly favors a \"No\" outcome, as all credible forecasts and current market conditions indicate that Bitcoin will not experience the necessary 13x surge in price within the next two mont \u2022 The status quo outcome is supported by the lack of any foreseeable catalysts that could drive such a dramatic increase in Bitcoin's value."
+          },
+          "opportunity": {
+            "edge": 0.438,
+            "edge_direction": "no",
+            "expected_value": 0.438,
+            "conviction": "high"
+          }
+        },
+        {
+          "market_info": {
+            "id": "will-poland-qualify-for-the-2026-fifa-world-cup",
+            "title": "Will Poland qualify for the 2026 FIFA World Cup?",
+            "slug": "will-poland-qualify-for-the-2026-fifa-world-cup",
+            "url": "https://polymarket.com/market/will-poland-qualify-for-the-2026-fifa-world-cup",
+            "category": null,
+            "volume": 463307.0,
+            "days_until_close": 23,
+            "probability": 0.35
+          },
+          "forecast": {
+            "probability": 0.65,
+            "confidence": 0.99,
+            "reasoning": "AI predicts 65% YES (market: 35%) \u2022 Based on the above, the outcome of Poland qualifying for the 2026 FIFA World Cup seems more likely. \u2022 Poland has demonstrated strong performance in the qualifiers, finishing second in their group with 17 points. \u2022 They have the advantage of playing the semi-final at home, which can be a significant factor."
+          },
+          "opportunity": {
+            "edge": 0.3,
+            "edge_direction": "yes",
+            "expected_value": 0.3,
+            "conviction": "high"
+          }
+        },
+        {
+          "market_info": {
+            "id": "will-lens-win-the-202526-french-ligue-1",
+            "title": "Will Lens win the 2025\u201326 French Ligue 1?",
+            "slug": "will-lens-win-the-202526-french-ligue-1",
+            "url": "https://polymarket.com/market/will-lens-win-the-202526-french-ligue-1",
+            "category": null,
+            "volume": 13482254.0,
+            "days_until_close": 71,
+            "probability": 0.052
+          },
+          "forecast": {
+            "probability": 0.3,
+            "confidence": 1.0,
+            "reasoning": "AI predicts 30% YES (market: 5%) \u2022 Based on the above, the outcome of Lens not winning the 2025\u201326 French Ligue 1 is more likely. \u2022 The evidence favors a No outcome due to PSG's current lead, their game in hand, and their historical dominance in Ligue 1. \u2022 PSG has a better goal difference and fewer losses, which are indicators of their strong performance."
+          },
+          "opportunity": {
+            "edge": 0.248,
+            "edge_direction": "yes",
+            "expected_value": 0.248,
+            "conviction": "high"
+          }
+        },
+        {
+          "market_info": {
+            "id": "will-barcelona-win-the-202526-la-liga",
+            "title": "Will Barcelona win the 2025\u201326 La Liga?",
+            "slug": "will-barcelona-win-the-202526-la-liga",
+            "url": "https://polymarket.com/market/will-barcelona-win-the-202526-la-liga",
+            "category": null,
+            "volume": 1977477.0,
+            "days_until_close": 71,
+            "probability": 0.815
+          },
+          "forecast": {
+            "probability": 0.65,
+            "confidence": 1.0,
+            "reasoning": "AI predicts 65% YES (market: 82%) \u2022 Based on the available evidence, the outcome more likely favors a \"Yes\" resolution for Barcelona winning the 2025\u201326 La Liga. \u2022 Barcelona currently leads the standings and has shown resilience and strong performances throughout the season. \u2022 The predictive models, such as Opta, give Barcelona a higher probability (60.2%) of winning compared to Real Madrid (39.6%)."
+          },
+          "opportunity": {
+            "edge": 0.165,
+            "edge_direction": "no",
+            "expected_value": 0.165,
+            "conviction": "high"
+          }
+        },
+        {
+          "market_info": {
+            "id": "will-real-madrid-win-the-202526-la-liga",
+            "title": "Will Real Madrid win the 2025\u201326 La Liga?",
+            "slug": "will-real-madrid-win-the-202526-la-liga",
+            "url": "https://polymarket.com/market/will-real-madrid-win-the-202526-la-liga",
+            "category": null,
+            "volume": 1758359.0,
+            "days_until_close": 71,
+            "probability": 0.185
+          },
+          "forecast": {
+            "probability": 0.35,
+            "confidence": 0.88,
+            "reasoning": "AI predicts 35% YES (market: 18%) \u2022 **Your conclusion:** Based on the current evidence, the outcome is more likely to be a \"No,\" meaning Real Madrid will not win the 2025\u201326 La Liga. \u2022 The projections and current form favor Barcelona, who have a stronger chance of winning the title according to Opta's supercomputer. \u2022 Real Madrid's recent setbacks, including back-to-back losses, injuries to key players, and managerial instability, further tilt the balance against them."
+          },
+          "opportunity": {
+            "edge": 0.165,
+            "edge_direction": "yes",
+            "expected_value": 0.165,
+            "conviction": "medium"
+          }
+        },
+        {
+          "market_info": {
+            "id": "will-shai-gilgeous-alexander-win-the-20252026-nba-mvp",
+            "title": "Will Shai Gilgeous-Alexander win the 2025\u20132026 NBA MVP?",
+            "slug": "will-shai-gilgeous-alexander-win-the-20252026-nba-mvp",
+            "url": "https://polymarket.com/market/will-shai-gilgeous-alexander-win-the-20252026-nba-mvp",
+            "category": null,
+            "volume": 1964527.0,
+            "days_until_close": 82,
+            "probability": 0.88
+          },
+          "forecast": {
+            "probability": 0.75,
+            "confidence": 1.0,
+            "reasoning": "AI predicts 75% YES (market: 88%) \u2022 Based on the above, the outcome is more likely to be \"Yes.\" SGA is the current favorite with strong odds and performance metrics, and the Oklahoma City Thunder are leading the Western Conference. \u2022 The primary risk is his eligibility due to the 65-game rule, but reports suggest he is expected to return soon. \u2022 The status quo favors SGA winning the MVP, and unless his injury significantly impacts his ability to play the required games, he remains the frontrunner."
+          },
+          "opportunity": {
+            "edge": 0.13,
+            "edge_direction": "no",
+            "expected_value": 0.13,
+            "conviction": "medium"
+          }
+        },
+        {
+          "market_info": {
+            "id": "will-arsenal-win-the-202526-champions-league",
+            "title": "Will Arsenal win the 2025\u201326 Champions League?",
+            "slug": "will-arsenal-win-the-202526-champions-league",
+            "url": "https://polymarket.com/market/will-arsenal-win-the-202526-champions-league",
+            "category": null,
+            "volume": 3192367.0,
+            "days_until_close": 72,
+            "probability": 0.275
+          },
+          "forecast": {
+            "probability": 0.4,
+            "confidence": 1.0,
+            "reasoning": "AI predicts 40% YES (market: 28%) \u2022 Based on the above, the outcome where Arsenal does not win the Champions League is more likely. \u2022 While Arsenal is currently one of the top favorites and has shown strong performance in the league phase, the competition remains fierce, with several strong teams still in contention. \u2022 The evidence suggests that Arsenal faces significant challenges, particularly from teams like Paris Saint-Germain and Bayern Munich, who have demonstrated exceptional performances in previous rounds."
+          },
+          "opportunity": {
+            "edge": 0.125,
+            "edge_direction": "yes",
+            "expected_value": 0.125,
+            "conviction": "medium"
+          }
+        },
+        {
+          "market_info": {
+            "id": "will-liverpool-win-the-202526-champions-league",
+            "title": "Will Liverpool win the 2025\u201326 Champions League?",
+            "slug": "will-liverpool-win-the-202526-champions-league",
+            "url": "https://polymarket.com/market/will-liverpool-win-the-202526-champions-league",
+            "category": null,
+            "volume": 3112382.0,
+            "days_until_close": 72,
+            "probability": 0.075
+          },
+          "forecast": {
+            "probability": 0.2,
+            "confidence": 1.0,
+            "reasoning": "AI predicts 20% YES (market: 8%) \u2022 Based on the above, the outcome of Liverpool not winning the Champions League is more likely. \u2022 Despite their strong performance against Galatasaray, Liverpool faces a difficult path with formidable opponents ahead. \u2022 Paris Saint-Germain, their quarterfinal opponent, is particularly strong, having recently eliminated Chelsea decisively."
+          },
+          "opportunity": {
+            "edge": 0.125,
+            "edge_direction": "yes",
+            "expected_value": 0.125,
+            "conviction": "medium"
+          }
+        },
+        {
+          "market_info": {
+            "id": "xi-jinping-out-before-2027",
+            "title": "Xi Jinping out before 2027?",
+            "slug": "xi-jinping-out-before-2027",
+            "url": "https://polymarket.com/market/xi-jinping-out-before-2027",
+            "category": null,
+            "volume": 7356574.0,
+            "days_until_close": 286,
+            "probability": 0.088
+          },
+          "forecast": {
+            "probability": 0.2,
+            "confidence": 0.52,
+            "reasoning": "AI predicts 20% YES (market: 9%) \u2022 Conclusion: Based on the available evidence, the outcome of Xi Jinping remaining in power until the end of 2026 is more likely. \u2022 The status quo scenario is supported by the lack of official confirmation of his departure and the emphasis on continuity and long-term goals at the October 2025 4th Plenary Session. \u2022 Although there are rumors and some signs of delegation, these can be interpreted as strategic moves rather than indications of an imminent exit. ======================================================================"
+          },
+          "opportunity": {
+            "edge": 0.112,
+            "edge_direction": "yes",
+            "expected_value": 0.112,
+            "conviction": "low"
+          }
+        }
+      ]
+    }
+  ]
+}

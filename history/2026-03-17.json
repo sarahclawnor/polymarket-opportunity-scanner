@@ -1,0 +1,80 @@
+{
+  "date": "2026-03-17",
+  "scans": [
+    {
+      "scanned_at": "2026-03-17 18:05:45Z",
+      "opportunities_found": 3,
+      "opportunities": [
+        {
+          "market_info": {
+            "id": "will-harvey-weinstein-be-sentenced-to-between-20-and-30-years-in-prison",
+            "title": "Will harvey weinstein be sentenced to between 20 and 30 years in prison",
+            "slug": "will-harvey-weinstein-be-sentenced-to-between-20-and-30-years-in-prison",
+            "url": "https://polymarket.com/market/will-harvey-weinstein-be-sentenced-to-between-20-and-30-years-in-prison",
+            "category": null,
+            "volume": 139708.0,
+            "days_until_close": null,
+            "probability": 0.21
+          },
+          "forecast": {
+            "probability": 0.75,
+            "confidence": 1.0,
+            "reasoning": "## Forecast Summary  **Median Probability:** 75.0% **Run Range:** 75.0% - 75.0% **Individual Runs:** 75.0%, 75.0%, 75.0%  ## Selected Rationale (closest to median):  (a) **The time left until the outcome is known**: The market resolves by July 31, 2026, which is approximately 4.5 months from today, ..."
+          },
+          "opportunity": {
+            "edge": 0.54,
+            "edge_direction": "yes",
+            "expected_value": 0.54,
+            "conviction": "high"
+          }
+        },
+        {
+          "market_info": {
+            "id": "will-harvey-weinstein-be-sentenced-to-between-10-and-20-years-in-prison",
+            "title": "Will harvey weinstein be sentenced to between 10 and 20 years in prison",
+            "slug": "will-harvey-weinstein-be-sentenced-to-between-10-and-20-years-in-prison",
+            "url": "https://polymarket.com/market/will-harvey-weinstein-be-sentenced-to-between-10-and-20-years-in-prison",
+            "category": null,
+            "volume": 112054.0,
+            "days_until_close": null,
+            "probability": 0.157
+          },
+          "forecast": {
+            "probability": 0.6,
+            "confidence": 1.0,
+            "reasoning": "## Forecast Summary  **Median Probability:** 60.0% **Run Range:** 60.0% - 65.0% **Individual Runs:** 60.0%, 60.0%, 65.0%  ## Selected Rationale (closest to median):  (a) The time left until the outcome is known is approximately 4 months, as the third trial is scheduled to begin on April 14, 2026, an..."
+          },
+          "opportunity": {
+            "edge": 0.443,
+            "edge_direction": "yes",
+            "expected_value": 0.443,
+            "conviction": "high"
+          }
+        },
+        {
+          "market_info": {
+            "id": "will-harvey-weinstein-be-sentenced-to-no-prison-time",
+            "title": "Will harvey weinstein be sentenced to no prison time",
+            "slug": "will-harvey-weinstein-be-sentenced-to-no-prison-time",
+            "url": "https://polymarket.com/market/will-harvey-weinstein-be-sentenced-to-no-prison-time",
+            "category": null,
+            "volume": 63238.0,
+            "days_until_close": null,
+            "probability": 0.271
+          },
+          "forecast": {
+            "probability": 0.05,
+            "confidence": 1.0,
+            "reasoning": "## Forecast Summary  **Median Probability:** 5.0% **Run Range:** 5.0% - 5.0% **Individual Runs:** 5.0%, 5.0%, 5.0%  ## Selected Rationale (closest to median):  (a) The time left until the outcome is known is approximately 4 months and 14 days, as the deadline for resolution is July 31, 2026.  (b) Th... ============================================================"
+          },
+          "opportunity": {
+            "edge": 0.221,
+            "edge_direction": "no",
+            "expected_value": 0.221,
+            "conviction": "high"
+          }
+        }
+      ]
+    }
+  ]
+}

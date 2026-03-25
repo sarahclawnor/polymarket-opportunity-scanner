@@ -1,0 +1,82 @@
+{
+  "date": "2026-03-20",
+  "scans": [
+    {
+      "scanned_at": "2026-03-20 00:12:24Z",
+      "opportunities_found": 2,
+      "opportunities": [
+        {
+          "market_info": {
+            "id": "will-the-next-prime-minister-of-hungary-be-viktor-orbn",
+            "title": "Will the next Prime Minister of Hungary be Viktor Orb\u00e1n?",
+            "slug": "will-the-next-prime-minister-of-hungary-be-viktor-orbn",
+            "url": "https://polymarket.com/market/will-the-next-prime-minister-of-hungary-be-viktor-orbn",
+            "category": null,
+            "volume": 3185912.0,
+            "days_until_close": 23,
+            "probability": 0.355
+          },
+          "forecast": {
+            "probability": 0.6,
+            "confidence": 1.0,
+            "reasoning": "AI predicts 60% YES (market: 36%) \u2022 Based on the above, the outcome is more likely to be No, with P\u00e9ter Magyar becoming the next Prime Minister. \u2022 The evidence favors a No outcome due to Magyar's significant lead in the polls and the current socio-economic challenges facing Hungary, which may drive voters to seek change. \u2022 However, the case is not overwhelmingly strong, as Fidesz's historical dominance and electoral advantages present significant hurdles for the opposition."
+          },
+          "opportunity": {
+            "edge": 0.245,
+            "edge_direction": "yes",
+            "expected_value": 0.245,
+            "conviction": "high"
+          }
+        },
+        {
+          "market_info": {
+            "id": "will-manchester-city-win-the-202526-english-premier-league",
+            "title": "Will Manchester City win the 2025\u201326 English Premier League?",
+            "slug": "will-manchester-city-win-the-202526-english-premier-league",
+            "url": "https://polymarket.com/market/will-manchester-city-win-the-202526-english-premier-league",
+            "category": null,
+            "volume": 7831453.0,
+            "days_until_close": 68,
+            "probability": 0.085
+          },
+          "forecast": {
+            "probability": 0.2,
+            "confidence": 0.99,
+            "reasoning": "AI predicts 20% YES (market: 8%) \u2022 Based on the above, the outcome that Arsenal wins the league is more likely. \u2022 The evidence favors a No outcome for Manchester City, as Arsenal currently leads the standings and has shown strong form. \u2022 Manchester City, while capable of a late-season surge, faces a challenging fixture list and needs Arsenal to falter significantly. ======================================================================"
+          },
+          "opportunity": {
+            "edge": 0.115,
+            "edge_direction": "yes",
+            "expected_value": 0.115,
+            "conviction": "medium"
+          }
+        }
+      ]
+    },
+    {
+      "scanned_at": "2026-03-20 04:00:13Z",
+      "opportunities_found": 0,
+      "opportunities": []
+    },
+    {
+      "scanned_at": "2026-03-20 08:05:15Z",
+      "opportunities_found": 0,
+      "opportunities": []
+    },
+    {
+      "scanned_at": "2026-03-20 12:00:13Z",
+      "opportunities_found": 0,
+      "opportunities": []
+    },
+    {
+      "scanned_at": "2026-03-20 16:00:26Z",
+      "opportunities_found": 0,
+      "opportunities": []
+    },
+    {
+      "scanned_at": "2026-03-20 20:00:20Z",
+      "opportunities_found": 0,
+      "opportunities": []
+    }
+  ]
+}

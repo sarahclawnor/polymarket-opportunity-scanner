@@ -1,0 +1,316 @@
+{
+  "date": "2026-03-18",
+  "scans": [
+    {
+      "scanned_at": "2026-03-18 00:00:24Z",
+      "opportunities_found": 0,
+      "opportunities": []
+    },
+    {
+      "scanned_at": "2026-03-18 04:00:22Z",
+      "opportunities_found": 1,
+      "opportunities": [
+        {
+          "market_info": {
+            "id": "will-harvey-weinstein-be-sentenced-to-no-prison-time",
+            "title": "Will Harvey Weinstein be sentenced to no prison time?",
+            "slug": "will-harvey-weinstein-be-sentenced-to-no-prison-time",
+            "url": "https://polymarket.com/market/will-harvey-weinstein-be-sentenced-to-no-prison-time",
+            "category": null,
+            "volume": 110124.0,
+            "days_until_close": 77,
+            "probability": 0.311
+          },
+          "forecast": {
+            "probability": 0.05,
+            "confidence": 1.0,
+            "reasoning": "\u2022 The time left until the outcome is known is approximately 4 months and 13 days, as the market resolves by July 31, 2026. \u2022 The status quo outcome if nothing changed is that Harvey Weinstein will not be sentenced to no prison time. He remains incarcerated due to his California sentence, and the New York \u2022 A scenario that results in a No outcome is if Weinstein is found guilty in the retrial or pleads guilty, leading to additional prison time being added to his current sentence. Even \u2022 A scenario that results in a Yes outcome is if the retrial results in a not guilty verdict, a mistrial, or if the sentencing does not include any additional jail or prison time. Ho"
+          },
+          "opportunity": {
+            "edge": 0.262,
+            "edge_direction": "no",
+            "expected_value": 0.262,
+            "conviction": "high"
+          }
+        }
+      ]
+    },
+    {
+      "scanned_at": "2026-03-18 08:00:27Z",
+      "opportunities_found": 1,
+      "opportunities": [
+        {
+          "market_info": {
+            "id": "will-harvey-weinstein-be-sentenced-to-no-prison-time",
+            "title": "Will Harvey Weinstein be sentenced to no prison time?",
+            "slug": "will-harvey-weinstein-be-sentenced-to-no-prison-time",
+            "url": "https://polymarket.com/market/will-harvey-weinstein-be-sentenced-to-no-prison-time",
+            "category": null,
+            "volume": 110457.0,
+            "days_until_close": 77,
+            "probability": 0.294
+          },
+          "forecast": {
+            "probability": 0.1,
+            "confidence": 1.0,
+            "reasoning": "\u2022 **The time left until the outcome is known:** The market will resolve by July 31, 2026, which is approximately four and a half months from now. \u2022 **The status quo outcome if nothing changed:** Harvey Weinstein remains incarcerated due to his 16-year California conviction and the ongoing New York proceedings. The status quo s \u2022 **A brief description of a scenario that results in a No outcome:** Weinstein is sentenced to additional prison time in New York for the upheld conviction related to Mimi Haley, or"
+          },
+          "opportunity": {
+            "edge": 0.194,
+            "edge_direction": "no",
+            "expected_value": 0.194,
+            "conviction": "high"
+          }
+        }
+      ]
+    },
+    {
+      "scanned_at": "2026-03-18 12:34:03Z",
+      "opportunities_found": 6,
+      "opportunities": [
+        {
+          "market_info": {
+            "id": "will-jesus-christ-return-before-gta-vi-665",
+            "title": "Will Jesus Christ return before GTA VI?",
+            "slug": "will-jesus-christ-return-before-gta-vi-665",
+            "url": "https://polymarket.com/market/will-jesus-christ-return-before-gta-vi-665",
+            "category": null,
+            "volume": 10076436.0,
+            "days_until_close": 135,
+            "probability": 0.485
+          },
+          "forecast": {
+            "probability": 0.01,
+            "confidence": 1.0,
+            "reasoning": "\u2022 The time left until the outcome is known is approximately 4.5 months, as the deadline for the market resolution is July 31, 2026. \u2022 The status quo outcome if nothing changed is \"No.\" As of March 18, 2026, neither the Second Coming of Jesus Christ nor the release of GTA VI has occurred. However, GTA VI is schedu \u2022 A scenario that results in a \"No\" outcome is if GTA VI is released as scheduled in Fall 2025, and there is no verified occurrence of the Second Coming of Jesus Christ before this r \u2022 A scenario that results in a \"Yes\" outcome is if the Second Coming of Jesus Christ occurs and is globally verified by credible sources before the official release of GTA VI."
+          },
+          "opportunity": {
+            "edge": 0.475,
+            "edge_direction": "no",
+            "expected_value": 0.475,
+            "conviction": "high"
+          }
+        },
+        {
+          "market_info": {
+            "id": "will-the-cleveland-cavaliers-win-the-2026-nba-finals",
+            "title": "Will the Cleveland Cavaliers win the 2026 NBA Finals?",
+            "slug": "will-the-cleveland-cavaliers-win-the-2026-nba-finals",
+            "url": "https://polymarket.com/market/will-the-cleveland-cavaliers-win-the-2026-nba-finals",
+            "category": null,
+            "volume": 4238353.0,
+            "days_until_close": 104,
+            "probability": 0.051
+          },
+          "forecast": {
+            "probability": 0.3,
+            "confidence": 1.0,
+            "reasoning": "\u2022 **The time left until the outcome is known:** There are approximately three and a half months left until the NBA Finals in June 2026, with the regular season nearing its end and th \u2022 **The status quo outcome if nothing changed:** The status quo suggests that the Cleveland Cavaliers are strong contenders in the Eastern Conference, with a projected win total of 5 \u2022 **A brief description of a scenario that results in a No outcome:** The Cavaliers could face significant challenges due to their wing depth issues and injury risks. If key players"
+          },
+          "opportunity": {
+            "edge": 0.249,
+            "edge_direction": "yes",
+            "expected_value": 0.249,
+            "conviction": "high"
+          }
+        },
+        {
+          "market_info": {
+            "id": "will-argentina-win-the-2026-fifa-world-cup-245",
+            "title": "Will Argentina win the 2026 FIFA World Cup?",
+            "slug": "will-argentina-win-the-2026-fifa-world-cup-245",
+            "url": "https://polymarket.com/market/will-argentina-win-the-2026-fifa-world-cup-245",
+            "category": null,
+            "volume": 3965339.0,
+            "days_until_close": 123,
+            "probability": 0.112
+          },
+          "forecast": {
+            "probability": 0.3,
+            "confidence": 0.98,
+            "reasoning": "\u2022 The time left until the outcome is known is approximately 4 months until the group stage begins in June 2026, and about 4 months and a few weeks until the World Cup concludes in Ju \u2022 The status quo outcome if nothing changed is that Argentina is among the favorites to win the World Cup, but historical trends suggest they are unlikely to win back-to-back titles. \u2022 A scenario that results in a No outcome could involve Argentina being eliminated in the knockout stages, possibly due to injuries to key players like Lionel Messi or Lautaro Mart\u00edn"
+          },
+          "opportunity": {
+            "edge": 0.188,
+            "edge_direction": "yes",
+            "expected_value": 0.188,
+            "conviction": "high"
+          }
+        },
+        {
+          "market_info": {
+            "id": "will-the-oklahoma-city-thunder-win-the-2026-nba-finals",
+            "title": "Will the Oklahoma City Thunder win the 2026 NBA Finals?",
+            "slug": "will-the-oklahoma-city-thunder-win-the-2026-nba-finals",
+            "url": "https://polymarket.com/market/will-the-oklahoma-city-thunder-win-the-2026-nba-finals",
+            "category": null,
+            "volume": 5178361.0,
+            "days_until_close": 104,
+            "probability": 0.375
+          },
+          "forecast": {
+            "probability": 0.2,
+            "confidence": 0.99,
+            "reasoning": "\u2022 The time left until the outcome is known is approximately 3.5 months, as the NBA Finals typically conclude in early June, and today is March 18, 2026. \u2022 The status quo outcome, if nothing changed, is that the Oklahoma City Thunder will not win the 2026 NBA Finals. This is based on the fact that the Finals have not yet occurred, and \u2022 A scenario that results in a No outcome is that the Oklahoma City Thunder do not make it to the playoffs or are eliminated in an early playoff round. This could happen if they have"
+          },
+          "opportunity": {
+            "edge": 0.175,
+            "edge_direction": "no",
+            "expected_value": 0.175,
+            "conviction": "high"
+          }
+        },
+        {
+          "market_info": {
+            "id": "will-the-colorado-avalanche-win-the-2026-nhl-stanley-cup",
+            "title": "Will the Colorado Avalanche win the 2026 NHL Stanley Cup?",
+            "slug": "will-the-colorado-avalanche-win-the-2026-nhl-stanley-cup",
+            "url": "https://polymarket.com/market/will-the-colorado-avalanche-win-the-2026-nhl-stanley-cup",
+            "category": null,
+            "volume": 12827688.0,
+            "days_until_close": 103,
+            "probability": 0.216
+          },
+          "forecast": {
+            "probability": 0.35,
+            "confidence": 1.0,
+            "reasoning": "\u2022 The time left until the outcome is known is approximately 3.5 months, as the Stanley Cup playoffs typically conclude in mid-to-late June. \u2022 The status quo outcome if nothing changed is that the Colorado Avalanche are strong contenders for the Stanley Cup. They currently lead the NHL with 93 points and have the best goa \u2022 A scenario that results in a No outcome could involve the Avalanche experiencing significant injuries to key players like Nathan MacKinnon or Cale Makar, which would weaken their p"
+          },
+          "opportunity": {
+            "edge": 0.133,
+            "edge_direction": "yes",
+            "expected_value": 0.133,
+            "conviction": "medium"
+          }
+        },
+        {
+          "market_info": {
+            "id": "will-the-san-antonio-spurs-win-the-2026-nba-finals",
+            "title": "Will the San Antonio Spurs win the 2026 NBA Finals?",
+            "slug": "will-the-san-antonio-spurs-win-the-2026-nba-finals",
+            "url": "https://polymarket.com/market/will-the-san-antonio-spurs-win-the-2026-nba-finals",
+            "category": null,
+            "volume": 5415786.0,
+            "days_until_close": 104,
+            "probability": 0.134
+          },
+          "forecast": {
+            "probability": 0.25,
+            "confidence": 0.98,
+            "reasoning": "\u2022 **The time left until the outcome is known:** The NBA Finals are scheduled for June 2026, and today is March 18, 2026. Therefore, there are approximately 3.5 months left until the \u2022 **The status quo outcome if nothing changed:** As of now, the San Antonio Spurs have not won the 2026 NBA Finals, as the playoffs have not yet begun. The status quo outcome, based \u2022 **A brief description of a scenario that results in a No outcome:** The Spurs could fail to win the 2026 NBA Finals if they are eliminated in any round of the playoffs. This could"
+          },
+          "opportunity": {
+            "edge": 0.116,
+            "edge_direction": "yes",
+            "expected_value": 0.116,
+            "conviction": "medium"
+          }
+        }
+      ]
+    },
+    {
+      "scanned_at": "2026-03-18 16:32:17Z",
+      "opportunities_found": 3,
+      "opportunities": [
+        {
+          "market_info": {
+            "id": "will-the-boston-celtics-win-the-2026-nba-finals",
+            "title": "Will the Boston Celtics win the 2026 NBA Finals?",
+            "slug": "will-the-boston-celtics-win-the-2026-nba-finals",
+            "url": "https://polymarket.com/market/will-the-boston-celtics-win-the-2026-nba-finals",
+            "category": null,
+            "volume": 5064179.0,
+            "days_until_close": 104,
+            "probability": 0.109
+          },
+          "forecast": {
+            "probability": 0.35,
+            "confidence": 1.0,
+            "reasoning": "AI predicts 35% YES (market: 11%) \u2022 **Your conclusion:** Based on the current evidence, the outcome leans towards \"No\" given the Thunder's status as favorites with superior metrics and performance. \u2022 The Celtics are strong contenders, but the Thunder's dominance and MVP-caliber play from Shai Gilgeous-Alexander present significant obstacles. \u2022 The Celtics' defensive strength and conference advantage are notable, but the baseline probability favors the status quo, which is the Thunder winning."
+          },
+          "opportunity": {
+            "edge": 0.241,
+            "edge_direction": "yes",
+            "expected_value": 0.241,
+            "conviction": "high"
+          }
+        },
+        {
+          "market_info": {
+            "id": "will-ken-paxton-win-the-2026-republican-primary",
+            "title": "Will Ken Paxton win the 2026 Texas Republican Primary?",
+            "slug": "will-ken-paxton-win-the-2026-republican-primary",
+            "url": "https://polymarket.com/market/will-ken-paxton-win-the-2026-republican-primary",
+            "category": null,
+            "volume": 3791649.0,
+            "days_until_close": 68,
+            "probability": 0.38
+          },
+          "forecast": {
+            "probability": 0.55,
+            "confidence": 0.97,
+            "reasoning": "AI predicts 55% YES (market: 38%) \u2022 **Conclusion:** The evidence suggests a highly competitive race with no clear frontrunner. \u2022 While Paxton has strong grassroots support and appeals to far-right voters, Cornyn benefits from significant financial backing and broader appeal among moderates. \u2022 The baseline probability slightly favors Cornyn due to his financial advantages and the potential for a larger electorate in the runoff."
+          },
+          "opportunity": {
+            "edge": 0.17,
+            "edge_direction": "yes",
+            "expected_value": 0.17,
+            "conviction": "high"
+          }
+        },
+        {
+          "market_info": {
+            "id": "will-brazil-win-the-2026-fifa-world-cup-183",
+            "title": "Will Brazil win the 2026 FIFA World Cup?",
+            "slug": "will-brazil-win-the-2026-fifa-world-cup-183",
+            "url": "https://polymarket.com/market/will-brazil-win-the-2026-fifa-world-cup-183",
+            "category": null,
+            "volume": 4509686.0,
+            "days_until_close": 123,
+            "probability": 0.086
+          },
+          "forecast": {
+            "probability": 0.2,
+            "confidence": 0.99,
+            "reasoning": "AI predicts 20% YES (market: 9%) \u2022 **Your conclusion**: Based on the information provided, the outcome is speculative, with Brazil positioned as a strong contender due to their talented squad and favorable group stage draw. \u2022 However, the inherent unpredictability of the World Cup, combined with Brazil's 24-year title drought and potential defensive weaknesses, suggests that while they are among the favorites, the probabil \u2022 Historical performance and the competitive nature of the tournament imply that while Brazil has a significant chance, the baseline probability of any single team winning the World Cup is relatively lo"
+          },
+          "opportunity": {
+            "edge": 0.114,
+            "edge_direction": "yes",
+            "expected_value": 0.114,
+            "conviction": "medium"
+          }
+        }
+      ]
+    },
+    {
+      "scanned_at": "2026-03-18 20:24:19Z",
+      "opportunities_found": 1,
+      "opportunities": [
+        {
+          "market_info": {
+            "id": "will-the-detroit-pistons-win-the-2026-nba-finals",
+            "title": "Will the Detroit Pistons win the 2026 NBA Finals?",
+            "slug": "will-the-detroit-pistons-win-the-2026-nba-finals",
+            "url": "https://polymarket.com/market/will-the-detroit-pistons-win-the-2026-nba-finals",
+            "category": null,
+            "volume": 5179146.0,
+            "days_until_close": 104,
+            "probability": 0.053
+          },
+          "forecast": {
+            "probability": 0.2,
+            "confidence": 1.0,
+            "reasoning": "AI predicts 20% YES (market: 5%) \u2022 **Your conclusion:** Based on the above, the outcome of the Pistons winning the 2026 NBA Finals is more likely to be \"No.\" The evidence suggests that while the Pistons have had a strong regular season \u2022 The betting odds place them sixth, and analysts predict other teams, such as the Thunder and Knicks, to perform better in the playoffs. \u2022 The baseline probability of the Pistons winning, given their current odds and expert opinions, is relatively low. ======================================================================"
+          },
+          "opportunity": {
+            "edge": 0.147,
+            "edge_direction": "yes",
+            "expected_value": 0.147,
+            "conviction": "medium"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "date": "2026-03-23",
+  "scans": [
+    {
+      "scanned_at": "2026-03-23 00:00:13Z",
+      "opportunities_found": 0,
+      "opportunities": []
+    },
+    {
+      "scanned_at": "2026-03-23 04:00:11Z",
+      "opportunities_found": 0,
+      "opportunities": []
+    },
+    {
+      "scanned_at": "2026-03-23 08:00:35Z",
+      "opportunities_found": 0,
+      "opportunities": []
+    },
+    {
+      "scanned_at": "2026-03-23 12:42:47Z",
+      "opportunities_found": 3,
+      "opportunities": [
+        {
+          "market_info": {
+            "id": "bitboy-convicted",
+            "title": "BitBoy convicted?",
+            "slug": "bitboy-convicted",
+            "url": "https://polymarket.com/market/bitboy-convicted",
+            "category": null,
+            "volume": 179722.0,
+            "days_until_close": 8,
+            "probability": 0.117
+          },
+          "forecast": {
+            "probability": 0.9,
+            "confidence": 1.0,
+            "reasoning": "AI predicts 90% YES (market: 12%) \u2022 Based on the above, the outcome is more likely to be \"No.\" The evidence suggests that there has been no conviction as of early 2026, and with only 8 days remaining until the deadline, it is unlikely t \u2022 The legal process can be lengthy, and the absence of any reports of a conviction or trial outcome indicates that the case may not be resolved imminently. \u2022 Additionally, the fact that BitBoy has faced other legal issues without resulting in a criminal conviction further supports the likelihood of a \"No\" outcome."
+          },
+          "opportunity": {
+            "edge": 0.783,
+            "edge_direction": "yes",
+            "expected_value": 0.783,
+            "conviction": "high"
+          }
+        },
+        {
+          "market_info": {
+            "id": "russia-x-ukraine-ceasefire-before-2027",
+            "title": "Russia x Ukraine ceasefire by end of 2026?",
+            "slug": "russia-x-ukraine-ceasefire-before-2027",
+            "url": "https://polymarket.com/market/russia-x-ukraine-ceasefire-before-2027",
+            "category": null,
+            "volume": 12040704.0,
+            "days_until_close": 282,
+            "probability": 0.335
+          },
+          "forecast": {
+            "probability": 0.05,
+            "confidence": 1.0,
+            "reasoning": "AI predicts 5% YES (market: 34%) \u2022 Conclusion: Based on the current evidence, a \"No\" outcome is more likely. \u2022 The entrenched positions of both Russia and Ukraine, combined with the low probability assigned by market traders (1%), suggest that a breakthrough is unlikely within the remaining 9 months. \u2022 The status quo heavily favors a continuation of the conflict without an official ceasefire agreement."
+          },
+          "opportunity": {
+            "edge": 0.285,
+            "edge_direction": "no",
+            "expected_value": 0.285,
+            "conviction": "high"
+          }
+        },
+        {
+          "market_info": {
+            "id": "will-the-buffalo-sabres-win-the-2026-nhl-stanley-cup",
+            "title": "Will the Buffalo Sabres win the 2026 NHL Stanley Cup?",
+            "slug": "will-the-buffalo-sabres-win-the-2026-nhl-stanley-cup",
+            "url": "https://polymarket.com/market/will-the-buffalo-sabres-win-the-2026-nhl-stanley-cup",
+            "category": null,
+            "volume": 2298486.0,
+            "days_until_close": 98,
+            "probability": 0.059
+          },
+          "forecast": {
+            "probability": 0.25,
+            "confidence": 1.0,
+            "reasoning": "AI predicts 25% YES (market: 6%) \u2022 Based on the above, the more likely outcome is \"No.\" While the Sabres are currently strong contenders with a 25.1% chance to win the Stanley Cup according to MoneyPuck models, the historical context a \u2022 The Sabres have never won a Stanley Cup, and while their recent performance is impressive, the playoffs present a different level of competition and unpredictability. \u2022 The presence of formidable opponents in both conferences further complicates their path to victory."
+          },
+          "opportunity": {
+            "edge": 0.191,
+            "edge_direction": "yes",
+            "expected_value": 0.191,
+            "conviction": "high"
+          }
+        }
+      ]
+    }
+  ]
+}

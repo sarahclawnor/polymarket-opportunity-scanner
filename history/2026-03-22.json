@@ -1,0 +1,35 @@
+{
+  "date": "2026-03-22",
+  "scans": [
+    {
+      "scanned_at": "2026-03-22 00:00:14Z",
+      "opportunities_found": 0,
+      "opportunities": []
+    },
+    {
+      "scanned_at": "2026-03-22 04:00:11Z",
+      "opportunities_found": 0,
+      "opportunities": []
+    },
+    {
+      "scanned_at": "2026-03-22 08:00:10Z",
+      "opportunities_found": 0,
+      "opportunities": []
+    },
+    {
+      "scanned_at": "2026-03-22 12:00:13Z",
+      "opportunities_found": 0,
+      "opportunities": []
+    },
+    {
+      "scanned_at": "2026-03-22 16:00:15Z",
+      "opportunities_found": 0,
+      "opportunities": []
+    },
+    {
+      "scanned_at": "2026-03-22 20:00:15Z",
+      "opportunities_found": 0,
+      "opportunities": []
+    }
+  ]
+}
