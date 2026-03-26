@@ -318,5 +318,55 @@
     "edge_direction": "yes",
     "alerted_at": "2026-03-26T08:55:20.204023",
     "alert_count": 1
+  },
+  "550694": {
+    "market_id": "550694",
+    "market_title": "Will Italy qualify for the 2026 FIFA World Cup?",
+    "market_probability": 0.63,
+    "forecast_probability": 0.45,
+    "edge": 0.18,
+    "edge_direction": "no",
+    "alerted_at": "2026-03-26T09:21:49.364142",
+    "alert_count": 1
+  },
+  "564194": {
+    "market_id": "564194",
+    "market_title": "Will the Cleveland Cavaliers win the NBA Eastern Conference Finals?",
+    "market_probability": 0.195,
+    "forecast_probability": 0.35,
+    "edge": 0.15499999999999997,
+    "edge_direction": "yes",
+    "alerted_at": "2026-03-26T09:25:32.905431",
+    "alert_count": 1
+  },
+  "564211": {
+    "market_id": "564211",
+    "market_title": "Will the Denver Nuggets win the NBA Western Conference Finals?",
+    "market_probability": 0.115,
+    "forecast_probability": 0.3,
+    "edge": 0.185,
+    "edge_direction": "yes",
+    "alerted_at": "2026-03-26T09:26:03.484566",
+    "alert_count": 1
+  },
+  "564163": {
+    "market_id": "564163",
+    "market_title": "Will Luka Doncic win the 2025\u20132026 NBA MVP?",
+    "market_probability": 0.083,
+    "forecast_probability": 0.55,
+    "edge": 0.467,
+    "edge_direction": "yes",
+    "alerted_at": "2026-03-26T12:51:59.913734",
+    "alert_count": 1
+  },
+  "564166": {
+    "market_id": "564166",
+    "market_title": "Will Victor Wembanyama win the 2025\u20132026 NBA MVP?",
+    "market_probability": 0.073,
+    "forecast_probability": 0.25,
+    "edge": 0.177,
+    "edge_direction": "yes",
+    "alerted_at": "2026-03-26T12:54:47.461066",
+    "alert_count": 1
   }
 }
