@@ -18,6 +18,8 @@ python main.py \
     --max-markets 100 \
     --min-volume 10000 \
     --min-edge 0.10 \
+    --max-days 90 \
+    --forecast-runs 1 \
     --skip-alerted \
     --output "${SCRIPT_DIR}/opportunities.json" \
     >> "${SCRIPT_DIR}/scanner.log" 2>&1
@@ -26,5 +28,18 @@ EXIT_CODE=$?
 
 # Log completion
 echo "[$(date)] Scanner completed with exit code ${EXIT_CODE}" >> "${SCRIPT_DIR}/scanner.log"
+
+# Push new data to GitHub if there are changes
+if [ ${EXIT_CODE} -eq 0 ]; then
+    if ! git diff --quiet opportunities.json alerted_markets.json history/ 2>/dev/null || ! git diff --cached --quiet; then
+        git add opportunities.json alerted_markets.json history/
+        COMMIT_MSG="Scanner run $(date +%Y-%m-%d_%H:%M): $(python3 -c "import json; d=json.load(open('opportunities.json')); print(f'{d[\"count\"]} opportunities')" 2>/dev/null || echo "completed")"
+        git commit -m "${COMMIT_MSG}" --quiet
+        git push --quiet 2>> "${SCRIPT_DIR}/scanner.log"
+        echo "[$(date)] Data pushed to GitHub" >> "${SCRIPT_DIR}/scanner.log"
+    else
+        echo "[$(date)] No data changes, skipping push" >> "${SCRIPT_DIR}/scanner.log"
+    fi
+fi
 
 exit ${EXIT_CODE}
