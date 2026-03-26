@@ -43,12 +43,10 @@ class Opportunity:
                 "confidence": round(self.forecast.confidence, 2),
                 "reasoning": self.forecast.reasoning,
             },
-            "opportunity": {
-                "edge": round(self.edge, 3),
-                "edge_direction": self.edge_direction,
-                "expected_value": round(self.expected_value, 3),
-                "conviction": self.conviction,
-            },
+            "edge": round(self.edge, 3),
+            "edge_direction": self.edge_direction.upper(),
+            "expected_value": round(self.expected_value, 3),
+            "conviction": self.conviction.upper(),
         }
 
 
