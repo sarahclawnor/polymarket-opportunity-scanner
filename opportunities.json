@@ -1,73 +1,211 @@
 {
-  "count": 3,
+  "count": 9,
   "opportunities": [
     {
       "market_info": {
-        "id": "531202",
-        "title": "BitBoy convicted?",
-        "slug": "bitboy-convicted",
-        "url": "https://polymarket.com/market/bitboy-convicted",
+        "id": "564198",
+        "title": "Will the Detroit Pistons win the NBA Eastern Conference Finals?",
+        "slug": "will-the-detroit-pistons-win-the-nba-eastern-conference-finals",
+        "url": "https://polymarket.com/market/will-the-detroit-pistons-win-the-nba-eastern-conference-finals",
         "category": "",
-        "volume": 179722.17215699868,
-        "days_until_close": 7.970278727164352,
-        "probability": 0.117
+        "volume": 389301.8202010001,
+        "days_until_close": 78.62679848756945,
+        "probability": 0.13
       },
       "forecast": {
-        "probability": 0.9,
+        "probability": 0.65,
         "confidence": 1.0,
-        "reasoning": "## Forecast Summary\n\n**Median Probability:** 90.0%\n**Run Range:** 90.0% - 95.0%\n**Individual Runs:** 90.0%, 90.0%, 95.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known is approximately 8 days, as today is March 23, 2026, and the deadline for resolution is March 31, 2026.\n\n(b) The status quo outcome, if nothing changed, would be \"No,\" as Ben Armstrong (BitBoy) has not been convicted of any crime related to the threatening communications he sent to Judge Kimberly Childs as of early 2026.\n\n(c) A scenario that results in a No outcome would be if the charges against BitBoy are dropped, dismissed, or resolved through a plea agreement without an admission of guilt, or if the case remains unresolved by the deadline.\n\n(d) A scenario that results in a Yes outcome would be if BitBoy is convicted of the charges related to the threatening communications within the next 8 days.\n\n(e) Based on the above, the outcome is more likely to be \"No.\" The evidence suggests that there has been no conviction as of early 2026, and with only 8 days remaining until the deadline, it is unlikely that a conviction will occur in such a short time frame. The legal process can be lengthy, and the absence of any reports of a conviction or trial outcome indicates that the case may not be resolved imminently. Additionally, the fact that BitBoy has faced other legal issues without resulting in a criminal conviction further supports the likelihood of a \"No\" outcome. Given the slow nature of legal proceedings and the lack of current evidence pointing to a conviction, the baseline probability favors a \"No\" resolution.\n\nProbability: 90%"
+        "reasoning": "## Forecast Summary\n\n**Median Probability:** 65.0%\n**Run Range:** 65.0% - 65.0%\n**Individual Runs:** 65.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known: The NBA Eastern Conference Finals typically occur in late May or early June, so there are approximately 2-3 months left until the outcome is known.\n\n(b) The status quo outcome if nothing changed: As of now, the Detroit Pistons are leading the Eastern Conference and are considered favorites to reach the NBA Finals if they secure the top seed. Therefore, the status quo outcome leans towards a \"Yes\" for them winning the Eastern Conference Finals, given their current performance and standing.\n\n(c) A brief description of a scenario that results in a No outcome: The Pistons could face injuries to key players like Cade Cunningham, which could significantly impact their performance in the playoffs. Additionally, they could face an unexpected loss in the playoffs due to a strong performance by a lower-seeded team or an underestimation of their opponents' capabilities.\n\n(d) A brief description of a scenario that results in a Yes outcome: The Pistons maintain their current form, secure the No. 1 seed, and capitalize on their favorable matchups in the playoffs. Their depth and elite play from key players like Cade Cunningham help them overcome any challenges, leading them to win the Eastern Conference Finals.\n\n(e) Your conclusion: Based on the above, the evidence favors a \"Yes\" outcome. The Pistons are currently leading the Eastern Conference, have clinched a playoff spot, and are considered favorites due to their strong performance and depth. They have a favorable path to the conference finals and have performed well against potential playoff opponents. The case for a \"Yes\" outcome is strong, given their current standing and the analysts' views. The baseline probability should reflect their current dominance and favorable position.\n\nProbability: 65%"
       },
       "opportunity": {
-        "edge": 0.783,
+        "edge": 0.52,
         "edge_direction": "yes",
-        "expected_value": 0.783,
+        "expected_value": 0.52,
         "conviction": "high"
       }
     },
     {
       "market_info": {
-        "id": "567687",
-        "title": "Russia x Ukraine ceasefire by end of 2026?",
-        "slug": "russia-x-ukraine-ceasefire-before-2027",
-        "url": "https://polymarket.com/market/russia-x-ukraine-ceasefire-before-2027",
+        "id": "564195",
+        "title": "Will the New York Knicks win the NBA Eastern Conference Finals?",
+        "slug": "will-the-new-york-knicks-win-the-nba-eastern-conference-finals",
+        "url": "https://polymarket.com/market/will-the-new-york-knicks-win-the-nba-eastern-conference-finals",
         "category": "",
-        "volume": 12040703.601013029,
-        "days_until_close": 282.4702787269908,
-        "probability": 0.335
+        "volume": 352227.14306399785,
+        "days_until_close": 78.62679848739583,
+        "probability": 0.165
       },
       "forecast": {
-        "probability": 0.05,
+        "probability": 0.55,
         "confidence": 1.0,
-        "reasoning": "## Forecast Summary\n\n**Median Probability:** 5.0%\n**Run Range:** 5.0% - 10.0%\n**Individual Runs:** 5.0%, 10.0%, 5.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known is approximately 9 months, as today is March 23, 2026, and the resolution date is December 31, 2026.\n\n(b) The status quo outcome, if nothing changes, is a \"No\" resolution. As of now, there is no official ceasefire agreement between Russia and Ukraine, and the current probability assigned by Polymarket traders is 1%, reflecting very low expectations for a resolution soon.\n\n(c) A scenario that results in a \"No\" outcome: The entrenched demands from both Russia and Ukraine remain unresolved. Russia continues to insist on retaining control over occupied territories and demands Ukraine's neutrality, while Ukraine refuses to concede any territory and insists on stronger security guarantees from the West. The ongoing negotiations fail to bridge these fundamental differences, and no official ceasefire agreement is reached by the end of 2026.\n\n(d) A scenario that results in a \"Yes\" outcome: Diplomatic efforts intensify, and a breakthrough occurs in the negotiations. Ukraine and Russia, possibly with significant pressure and mediation from international actors like the U.S., reach a compromise on key issues such as territorial control and security guarantees. This leads to a mutually agreed official ceasefire, which is publicly announced before the end of 2026.\n\n(e) Conclusion: Based on the current evidence, a \"No\" outcome is more likely. The entrenched positions of both Russia and Ukraine, combined with the low probability assigned by market traders (1%), suggest that a breakthrough is unlikely within the remaining 9 months. The status quo heavily favors a continuation of the conflict without an official ceasefire agreement. Although there are ongoing diplomatic efforts, the fundamental disagreements and lack of urgency from Russia indicate that the situation is unlikely to change dramatically in the short term. The baseline probability for a \"Yes\" outcome remains very low.\n\nProbability: 5%"
+        "reasoning": "## Forecast Summary\n\n**Median Probability:** 55.0%\n**Run Range:** 55.0% - 55.0%\n**Individual Runs:** 55.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known is approximately three months, as the NBA Eastern Conference Finals are typically held in late May or early June, and the market resolves by June 30, 2026.\n\n(b) The status quo outcome, if nothing changed, is that the New York Knicks are strong contenders to win the Eastern Conference Finals. They are currently the No. 3 seed in the Eastern Conference, have a high likelihood of making the playoffs, and are favorites to win the Eastern Conference with 30% implied odds.\n\n(c) A scenario that results in a No outcome is if the Knicks are eliminated in the playoffs before reaching or winning the Eastern Conference Finals. This could happen if they face strong competition from teams like the Orlando Magic, Cleveland Cavaliers, or Atlanta Hawks, as indicated by expert predictions and simulations.\n\n(d) A scenario that results in a Yes outcome is if the Knicks maintain their strong performance, capitalize on their favorable schedule, and successfully navigate through the playoffs to win the Eastern Conference Finals. This would involve overcoming potential challenges from other top Eastern Conference teams.\n\n(e) Based on the above, the outcome of the Knicks winning the Eastern Conference Finals is more likely than not, given their current standing and performance. The evidence favors a Yes outcome, as they are currently leading as favorites with 30% implied odds, have a 100% chance of making the playoffs, and have shown strong recent performance. However, the case is not overwhelmingly strong due to potential competition from other teams and the inherent unpredictability of playoff basketball. The baseline probability, given the current information and expert predictions, suggests a moderate likelihood of the Knicks winning the Eastern Conference Finals.\n\nProbability: 55%"
       },
       "opportunity": {
-        "edge": 0.285,
+        "edge": 0.385,
+        "edge_direction": "yes",
+        "expected_value": 0.385,
+        "conviction": "high"
+      }
+    },
+    {
+      "market_info": {
+        "id": "561365",
+        "title": "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
+        "slug": "will-cooper-flagg-win-the-202526-nba-rookie-of-the-year-award",
+        "url": "https://polymarket.com/market/will-cooper-flagg-win-the-202526-nba-rookie-of-the-year-award",
+        "category": "",
+        "volume": 221299.36977399973,
+        "days_until_close": 52.626798487314815,
+        "probability": 0.435
+      },
+      "forecast": {
+        "probability": 0.7,
+        "confidence": 1.0,
+        "reasoning": "## Forecast Summary\n\n**Median Probability:** 70.0%\n**Run Range:** 70.0% - 70.0%\n**Individual Runs:** 70.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known: The NBA regular season typically ends in mid-April, with the Rookie of the Year award usually announced during the playoffs, which run from mid-April to mid-June. Therefore, there are approximately 2-3 months left until the outcome is known.\n\n(b) The status quo outcome if nothing changed: Cooper Flagg is currently the betting favorite to win the Rookie of the Year award, with odds at -650. This suggests that, despite his recent injury and his team's tanking strategy, he is still considered the frontrunner based on his performance earlier in the season.\n\n(c) A brief description of a scenario that results in a No outcome: If Cooper Flagg's foot injury persists and he misses the remainder of the season, his absence could significantly impact his chances. Additionally, if Kon Knueppel continues to perform at a high level, leading rookies in VORP and contributing to Charlotte's success, he could surpass Flagg in the eyes of voters, especially if Flagg's team continues to lose games due to tanking.\n\n(d) A brief description of a scenario that results in a Yes outcome: If Cooper Flagg returns from his injury and performs at a high level in the remaining games, he could solidify his position as the Rookie of the Year. His strong stats, combined with his early-season performance, could outweigh the games he missed. Additionally, if Kon Knueppel's performance declines or if Charlotte's team success diminishes, Flagg's case would be strengthened.\n\n(e) Your conclusion: Based on the above, explain which outcome is more likely and why. Consider: Does the evidence favor Yes or No? How strong is the case? What's the baseline probability?\n\nThe evidence currently favors a \"Yes\" outcome, as Cooper Flagg remains the betting favorite with significant odds in his favor (-650). This suggests that despite his injury and the Mavericks' tanking strategy, his early-season performance has left a strong impression. The status quo, which is often a reliable indicator, suggests that he is still the frontrunner. However, the case is not overwhelmingly strong due to the uncertainties surrounding his injury and the potential for Knueppel to gain ground. The baseline probability, considering the odds and current situation, leans towards Flagg winning, but it's not a certainty.\n\nProbability: 70%"
+      },
+      "opportunity": {
+        "edge": 0.265,
+        "edge_direction": "yes",
+        "expected_value": 0.265,
+        "conviction": "high"
+      }
+    },
+    {
+      "market_info": {
+        "id": "562187",
+        "title": "Will John Cornyn win the 2026 Texas Republican Primary?",
+        "slug": "will-john-cornyn-win-the-2026-republican-primary",
+        "url": "https://polymarket.com/market/will-john-cornyn-win-the-2026-republican-primary",
+        "category": "",
+        "volume": 2715950.9208122203,
+        "days_until_close": 60.626798487245374,
+        "probability": 0.435
+      },
+      "forecast": {
+        "probability": 0.65,
+        "confidence": 1.0,
+        "reasoning": "## Forecast Summary\n\n**Median Probability:** 65.0%\n**Run Range:** 65.0% - 65.0%\n**Individual Runs:** 65.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known is approximately two months, as the runoff is scheduled for May 26, 2026.\n\n(b) The status quo outcome, if nothing changed, would be John Cornyn winning the runoff. He led in the first round of the primary with 42.0% of the vote compared to Paxton's 40.5%, and he has momentum heading into the runoff.\n\n(c) A scenario that results in a No outcome could involve Paxton successfully consolidating the rural vote and increasing his support in urban areas, potentially through a strategic campaign that capitalizes on his early polling advantage and spending efficiency. Additionally, if Paxton secures a significant endorsement or if Cornyn faces a scandal or misstep, it could shift the dynamics in Paxton's favor.\n\n(d) A scenario that results in a Yes outcome would involve Cornyn maintaining or increasing his lead by securing the Trump endorsement, which would likely solidify his support among Republican voters. His strong performance in urban areas and the backing of establishment figures could also help him expand his base and win over undecided voters or those who supported Wesley Hunt in the first round.\n\n(e) Based on the above, the outcome of Cornyn winning the runoff seems more likely. The evidence favors a Yes outcome due to several factors: Cornyn's better-than-expected performance in the first round, the potential Trump endorsement, and the backing of establishment figures. Additionally, Cornyn's viability in the general election is a motivating factor for Republicans to support him. While Paxton has strengths, such as his rural support and spending efficiency, the momentum and establishment backing currently favor Cornyn. The baseline probability should reflect the status quo, which is Cornyn's current lead and momentum.\n\nProbability: 65%"
+      },
+      "opportunity": {
+        "edge": 0.215,
+        "edge_direction": "yes",
+        "expected_value": 0.215,
+        "conviction": "high"
+      }
+    },
+    {
+      "market_info": {
+        "id": "564200",
+        "title": "Will the Boston Celtics win the NBA Eastern Conference Finals?",
+        "slug": "will-the-boston-celtics-win-the-nba-eastern-conference-finals",
+        "url": "https://polymarket.com/market/will-the-boston-celtics-win-the-nba-eastern-conference-finals",
+        "category": "",
+        "volume": 731111.0849419996,
+        "days_until_close": 78.6267984871875,
+        "probability": 0.377
+      },
+      "forecast": {
+        "probability": 0.55,
+        "confidence": 1.0,
+        "reasoning": "## Forecast Summary\n\n**Median Probability:** 55.0%\n**Run Range:** 55.0% - 55.0%\n**Individual Runs:** 55.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known is approximately 2.5 months, as the Eastern Conference Finals typically conclude by early June.\n\n(b) The status quo outcome, if nothing changes, is that the Boston Celtics are favored to win the Eastern Conference Finals. They currently hold the second seed and have favorable odds of +175, implying a 37% probability of winning the conference.\n\n(c) A scenario that results in a No outcome could involve Jayson Tatum experiencing a setback with his Achilles injury, significantly impacting his performance or sidelining him during critical playoff games. Additionally, if the Celtics face unexpected challenges from lower-seeded teams, such as the Miami Heat or Cleveland Cavaliers, they could be eliminated before reaching the Eastern Conference Finals.\n\n(d) A scenario that results in a Yes outcome would involve the Celtics maintaining their current form and health, particularly with Tatum performing at a high level. If they successfully navigate the first two playoff rounds, their superior defensive capabilities could give them an edge in a potential matchup against the New York Knicks or Detroit Pistons in the Eastern Conference Finals.\n\n(e) Based on the above, the evidence slightly favors a Yes outcome. The Celtics are currently favored in betting markets and have a favorable playoff path. Their current odds imply a 37% probability, which is a strong position compared to other teams. The key uncertainty is Tatum's health, but if he remains fit, the Celtics' chances are bolstered. The status quo suggests a favorable outcome for Boston, and given that the world changes slowly most of the time, the current trajectory is likely to continue unless significant changes occur.\n\nFinal Answer: \"Probability: 55%\""
+      },
+      "opportunity": {
+        "edge": 0.174,
+        "edge_direction": "yes",
+        "expected_value": 0.174,
+        "conviction": "high"
+      }
+    },
+    {
+      "market_info": {
+        "id": "564210",
+        "title": "Will the Oklahoma City Thunder win the NBA Western Conference Finals?",
+        "slug": "will-the-oklahoma-city-thunder-win-the-nba-western-conference-finals",
+        "url": "https://polymarket.com/market/will-the-oklahoma-city-thunder-win-the-nba-western-conference-finals",
+        "category": "",
+        "volume": 441555.6808039998,
+        "days_until_close": 81.62679848712963,
+        "probability": 0.495
+      },
+      "forecast": {
+        "probability": 0.65,
+        "confidence": 1.0,
+        "reasoning": "## Forecast Summary\n\n**Median Probability:** 65.0%\n**Run Range:** 65.0% - 65.0%\n**Individual Runs:** 65.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known: The NBA playoffs typically begin in mid-April and conclude in early to mid-June. Therefore, the outcome of the Western Conference Finals will likely be known by mid-June 2026, giving us approximately 2.5 months until the outcome is determined.\n\n(b) The status quo outcome if nothing changed: The Oklahoma City Thunder are currently the favorites to win the Western Conference Finals. They have clinched the #1 seed in the Western Conference, are on a 12-game win streak, and have a strong 57-15 record. They are also the defending Western Conference and NBA champions, which positions them as the team to beat.\n\n(c) A brief description of a scenario that results in a No outcome: The Thunder could face a strong challenge from other top teams in the Western Conference, such as the San Antonio Spurs or Denver Nuggets. If the Thunder were to lose a playoff series against any of these teams, they would not win the Western Conference Finals. Additionally, injuries to key players or unexpected poor performance could also lead to a No outcome.\n\n(d) A brief description of a scenario that results in a Yes outcome: The Thunder maintain their strong form throughout the playoffs, leveraging their home-court advantage and depth of talent to defeat their opponents in each playoff round. They successfully navigate potential matchups against strong teams like the Spurs or Nuggets and win the Western Conference Finals, advancing to the NBA Finals.\n\n(e) Your conclusion: Based on the above, explain which outcome is more likely and why. Consider: Does the evidence favor Yes or No? How strong is the case? What's the baseline probability?\n\nThe evidence strongly favors a Yes outcome, given the Thunder's current status as the top seed in the Western Conference, their impressive 12-game win streak, and their position as defending champions. The betting odds and ESPN's BPI both support the Thunder as favorites, with a 65% chance to reach the NBA Finals according to ESPN's metrics. Historical challenges, such as the difficulty of repeating as conference champions, do exist, but the Thunder's current form and home-court advantage provide a solid foundation for success. The baseline probability, considering their current status and expert analysis, suggests a strong likelihood of the Thunder winning the Western Conference Finals.\n\nProbability: 65%"
+      },
+      "opportunity": {
+        "edge": 0.155,
+        "edge_direction": "yes",
+        "expected_value": 0.155,
+        "conviction": "high"
+      }
+    },
+    {
+      "market_info": {
+        "id": "550708",
+        "title": "Will Ukraine qualify for the 2026 FIFA World Cup?",
+        "slug": "will-ukraine-qualify-for-the-2026-fifa-world-cup",
+        "url": "https://polymarket.com/market/will-ukraine-qualify-for-the-2026-fifa-world-cup",
+        "category": "",
+        "volume": 156207.97585200044,
+        "days_until_close": 16.626798487060185,
+        "probability": 0.255
+      },
+      "forecast": {
+        "probability": 0.4,
+        "confidence": 1.0,
+        "reasoning": "## Forecast Summary\n\n**Median Probability:** 40.0%\n**Run Range:** 40.0% - 40.0%\n**Individual Runs:** 40.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known: The UEFA play-offs are scheduled for March 2026, with the semifinals on March 26 and the finals shortly thereafter. The outcome of Ukraine's qualification should be known by the end of March 2026.\n\n(b) The status quo outcome if nothing changed: Ukraine has not yet qualified for the 2026 FIFA World Cup. They are currently in the play-off stage and must win two matches (a semifinal against Sweden and a final against the winner of Poland vs. Albania) to qualify.\n\n(c) A brief description of a scenario that results in a No outcome: Ukraine loses to Sweden in the play-off semifinal, or if they win against Sweden, they subsequently lose in the Path B final against either Poland or Albania. Additionally, if the World Cup is canceled or the qualifying stage is not completed by the deadline, the outcome would also be No.\n\n(d) A brief description of a scenario that results in a Yes outcome: Ukraine defeats Sweden in the play-off semifinal and then wins the Path B final against the winner of Poland vs. Albania, securing one of the four additional European spots available through the play-offs.\n\n(e) Your conclusion: Based on the above, explain which outcome is more likely and why. Consider: Does the evidence favor Yes or No? How strong is the case? What's the baseline probability?\n\nThe evidence suggests a balanced but slightly challenging path for Ukraine. They are ranked 25th in FIFA standings and 13th in UEFA, indicating they are a competitive team but not among the top-tier European teams. The play-off path requires them to win two consecutive matches against potentially strong opponents. Given the competitive nature of European football and the fact that only 4 out of 22 teams in the play-offs will qualify, the baseline probability of Ukraine qualifying is relatively low.\n\nThe status quo outcome, where Ukraine has not yet qualified, carries significant weight. The world of football, particularly at the international level, tends to change slowly, and the play-offs are inherently high-pressure, unpredictable events. While Ukraine has shown capability by reaching the play-offs, the need to win two matches against strong opponents makes their path to qualification uncertain.\n\nProbability: 40%"
+      },
+      "opportunity": {
+        "edge": 0.145,
+        "edge_direction": "yes",
+        "expected_value": 0.145,
+        "conviction": "medium"
+      }
+    },
+    {
+      "market_info": {
+        "id": "561370",
+        "title": "Will Kon Knueppel win the 2025\u201326 NBA Rookie of the Year award?",
+        "slug": "will-kon-knueppel-win-the-202526-nba-rookie-of-the-year-award",
+        "url": "https://polymarket.com/market/will-kon-knueppel-win-the-202526-nba-rookie-of-the-year-award",
+        "category": "",
+        "volume": 597866.7075680005,
+        "days_until_close": 52.62679848700231,
+        "probability": 0.562
+      },
+      "forecast": {
+        "probability": 0.68,
+        "confidence": 1.0,
+        "reasoning": "## Forecast Summary\n\n**Median Probability:** 68.0%\n**Run Range:** 68.0% - 68.0%\n**Individual Runs:** 68.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known is approximately two months, as the NBA Rookie of the Year award is typically announced shortly after the conclusion of the regular season, which ends in mid-April. The award announcement is expected by May 18, 2026.\n\n(b) The status quo outcome, if nothing changed, is that Kon Knueppel wins the 2025\u201326 NBA Rookie of the Year award. He is currently the betting favorite with odds implying a 67-67.74% probability of winning.\n\n(c) A scenario that results in a No outcome could involve Cooper Flagg significantly outperforming Knueppel in the remaining games, particularly in critical matchups or high-stakes situations. If Flagg leads the Mavericks to a strong finish or a playoff berth while continuing to dominate statistically, he could sway voters in his favor.\n\n(d) A scenario that results in a Yes outcome would involve Knueppel maintaining or improving his current performance level, continuing to contribute significantly to the Hornets' playoff push, and possibly achieving standout performances in key games. His consistency and the Hornets' success would reinforce his candidacy for the award.\n\n(e) Based on the above, the outcome of Knueppel winning is more likely. The evidence favors a Yes outcome, as Knueppel is the current betting favorite with a substantial implied probability of winning. His performance metrics, particularly his scoring and shooting, are impressive, and he has played more games than his main competitor, Flagg. The Hornets' potential playoff appearance also enhances his profile. While Flagg is a strong challenger, the status quo and current odds suggest Knueppel has the edge. Given the baseline probability and the weight of the status quo, Knueppel's chances are strong unless there are significant changes in the remaining games.\n\nProbability: 68%"
+      },
+      "opportunity": {
+        "edge": 0.118,
+        "edge_direction": "yes",
+        "expected_value": 0.118,
+        "conviction": "medium"
+      }
+    },
+    {
+      "market_info": {
+        "id": "562186",
+        "title": "Will Ken Paxton win the 2026 Texas Republican Primary?",
+        "slug": "will-ken-paxton-win-the-2026-republican-primary",
+        "url": "https://polymarket.com/market/will-ken-paxton-win-the-2026-republican-primary",
+        "category": "",
+        "volume": 3925108.426152013,
+        "days_until_close": 60.62679848690972,
+        "probability": 0.555
+      },
+      "forecast": {
+        "probability": 0.45,
+        "confidence": 1.0,
+        "reasoning": "## Forecast Summary\n\n**Median Probability:** 45.0%\n**Run Range:** 45.0% - 45.0%\n**Individual Runs:** 45.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known: There are approximately two months until the May runoff election, which will determine the winner of the 2026 Texas Republican Primary for U.S. Senate.\n\n(b) The status quo outcome if nothing changed: Currently, the race is extremely competitive, with polling showing Ken Paxton and John Cornyn nearly tied. The status quo outcome would be that the race remains very close, with neither candidate having a clear advantage.\n\n(c) A brief description of a scenario that results in a No outcome: Ken Paxton could lose the runoff if John Cornyn successfully consolidates support from undecided voters and leverages his perceived general election viability. If Republican leadership's support for Cornyn sways undecided voters or if Cornyn's campaign effectively highlights Paxton's potential weaknesses in a general election, Cornyn could win the runoff.\n\n(d) A brief description of a scenario that results in a Yes outcome: Ken Paxton could win the runoff if he manages to energize his base and persuade undecided voters. If Paxton's campaign effectively counters concerns about his general election viability and emphasizes his alignment with the Republican base's priorities, he could secure enough support to win the runoff.\n\n(e) Your conclusion: Based on the above, explain which outcome is more likely and why. Consider: Does the evidence favor Yes or No? How strong is the case? What's the baseline probability?\n\nThe evidence suggests a highly competitive race, with polling showing both candidates nearly tied. The status quo outcome is a close contest, and given the time left until the runoff, significant changes in voter sentiment are possible but not guaranteed. The key factors influencing the outcome will be the candidates' ability to sway undecided voters and the impact of Republican leadership's support for Cornyn. While Cornyn's general election viability is a strong argument in his favor, Paxton's ability to energize the Republican base could counteract this advantage. Given the current polling and dynamics, the baseline probability is close to 50/50, but the slight edge may go to Cornyn due to his general election viability and leadership support.\n\nProbability: 45%"
+      },
+      "opportunity": {
+        "edge": 0.105,
         "edge_direction": "no",
-        "expected_value": 0.285,
-        "conviction": "high"
-      }
-    },
-    {
-      "market_info": {
-        "id": "553851",
-        "title": "Will the Buffalo Sabres win the 2026 NHL Stanley Cup?",
-        "slug": "will-the-buffalo-sabres-win-the-2026-nhl-stanley-cup",
-        "url": "https://polymarket.com/market/will-the-buffalo-sabres-win-the-2026-nhl-stanley-cup",
-        "category": "",
-        "volume": 2298486.191075999,
-        "days_until_close": 98.47027872689814,
-        "probability": 0.059
-      },
-      "forecast": {
-        "probability": 0.25,
-        "confidence": 1.0,
-        "reasoning": "## Forecast Summary\n\n**Median Probability:** 25.0%\n**Run Range:** 25.0% - 25.0%\n**Individual Runs:** 25.0%, 25.0%, 25.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known is approximately three months, as the Stanley Cup playoffs typically conclude in June, and today is March 23, 2026.\n\n(b) The status quo outcome if nothing changed would be a \"No,\" as the Buffalo Sabres have not yet won the 2026 NHL Stanley Cup. The playoffs have not started, and the outcome is still to be determined.\n\n(c) A scenario that results in a No outcome could involve the Sabres being eliminated in the playoffs by a strong Eastern Conference rival like Tampa Bay or Carolina, or by a Western Conference powerhouse such as Colorado or Dallas. Factors contributing to this could include injuries to key players, a decline in goaltending performance, or failure to maintain their current level of play against tougher playoff competition.\n\n(d) A scenario that results in a Yes outcome would involve the Sabres continuing their strong performance from the regular season into the playoffs, successfully navigating through the Eastern Conference, and ultimately defeating the Western Conference champion in the Stanley Cup Finals. This could be supported by sustained high-level goaltending, effective contributions from recent trade acquisitions, and the team's ability to maintain their scoring prowess and defensive stability.\n\n(e) Based on the above, the more likely outcome is \"No.\" While the Sabres are currently strong contenders with a 25.1% chance to win the Stanley Cup according to MoneyPuck models, the historical context and the inherent challenges of the playoffs suggest that the status quo outcome is more probable. The Sabres have never won a Stanley Cup, and while their recent performance is impressive, the playoffs present a different level of competition and unpredictability. The presence of formidable opponents in both conferences further complicates their path to victory. The evidence, while showing promise, does not overwhelmingly favor a \"Yes\" outcome, and the baseline probability of winning the Cup remains relatively low compared to the likelihood of not winning.\n\nProbability: 25%"
-      },
-      "opportunity": {
-        "edge": 0.191,
-        "edge_direction": "yes",
-        "expected_value": 0.191,
-        "conviction": "high"
+        "expected_value": 0.105,
+        "conviction": "medium"
       }
     }
   ]
