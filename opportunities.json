@@ -1,46 +1,67 @@
 {
-  "count": 2,
+  "count": 3,
   "opportunities": [
     {
       "market_info": {
-        "id": "564163",
-        "title": "Will Luka Doncic win the 2025\u20132026 NBA MVP?",
-        "slug": "will-luka-doncic-win-the-20252026-nba-mvp",
-        "url": "https://polymarket.com/market/will-luka-doncic-win-the-20252026-nba-mvp",
+        "id": "553856",
+        "title": "Will the Oklahoma City Thunder win the 2026 NBA Finals?",
+        "slug": "will-the-oklahoma-city-thunder-win-the-2026-nba-finals",
+        "url": "https://polymarket.com/market/will-the-oklahoma-city-thunder-win-the-2026-nba-finals?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
         "category": "",
-        "volume": 12765518.991897905,
-        "days_until_close": 75.45621256219907,
-        "probability": 0.083
+        "volume": 5778736.8573219245,
+        "days_until_close": 89.41203126835649,
+        "probability": 0.375
       },
       "forecast": {
-        "probability": 0.55,
-        "confidence": 0.88,
-        "reasoning": "## Forecast Summary\n\n**Median Probability:** 55.0%\n**Run Range:** 30.0% - 55.0%\n**Individual Runs:** 30.0%, 55.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known is approximately 2.5 months, as the NBA regular season typically ends in mid-April, and the MVP award is usually announced during the playoffs, which conclude in June.\n\n(b) The status quo outcome, assuming no significant changes, is that Luka Doncic is a strong MVP candidate. Historically, he has been a top performer in the league, and if he is currently leading the Lakers with career numbers, this suggests he is in contention. However, without specific odds or rankings, it's challenging to definitively say he is the frontrunner.\n\n(c) A scenario that results in a No outcome could involve Doncic suffering an injury that sidelines him for the remainder of the season, significantly diminishing his chances of being a finalist. Alternatively, another player could have an outstanding end to the season, overshadowing Doncic's performance and swaying voters.\n\n(d) A scenario that results in a Yes outcome would involve Doncic continuing to perform at a high level, maintaining or improving his statistical output, and leading his team to a strong finish in the standings. If he remains healthy and his team performs well, he could solidify his position as the MVP frontrunner.\n\n(e) Based on the above, the outcome is uncertain but leans slightly towards Yes, given Doncic's historical performance and current standing as a top player. However, without specific odds or expert analysis, the case is not overwhelmingly strong. The baseline probability should consider Doncic's consistent excellence and potential for continued success, but also the competitive nature of the MVP race and the possibility of unforeseen developments.\n\nProbability: 55%"
+        "probability": 0.75,
+        "confidence": 1.0,
+        "reasoning": "## Forecast Summary\n\n**Median Probability:** 75.0%\n**Run Range:** 75.0% - 75.0%\n**Individual Runs:** 75.0%, 75.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known: The 2026 NBA Finals are currently underway, and the outcome will be known by the end of the Finals series, which typically concludes in June. Therefore, there are approximately 2-3 months left until the outcome is determined.\n\n(b) The status quo outcome if nothing changed: The Oklahoma City Thunder are the defending champions and are currently competing in the 2026 NBA Finals. They have a strong regular-season record and are favorites to win, suggesting that the status quo outcome is that they will win the Finals.\n\n(c) A brief description of a scenario that results in a No outcome: A No outcome would occur if the Thunder lose the 2026 NBA Finals. This could happen if their key players, such as Shai Gilgeous-Alexander, Chet Holmgren, or Jalen Williams, suffer injuries or underperform. Additionally, if their opponents, likely the Boston Celtics, outperform expectations and win the series, the market would resolve to No.\n\n(d) A brief description of a scenario that results in a Yes outcome: A Yes outcome would occur if the Thunder win the 2026 NBA Finals. Given their strong regular-season performance and status as favorites, maintaining their current level of play and avoiding significant injuries would likely lead to a victory in the Finals.\n\n(e) Your conclusion: Based on the above, explain which outcome is more likely and why. The evidence favors a Yes outcome, as the Thunder are the defending champions, have a dominant regular-season record, and are overwhelming favorites to win the Finals. Their core roster remains strong, and they have demonstrated the ability to perform well under pressure. The baseline probability is high for a Yes outcome, given their current status and performance metrics.\n\nFinal Answer: \"Probability: 75%\""
       },
-      "edge": 0.467,
+      "edge": 0.375,
       "edge_direction": "YES",
-      "expected_value": 0.467,
+      "expected_value": 0.375,
       "conviction": "HIGH"
     },
     {
       "market_info": {
-        "id": "564166",
-        "title": "Will Victor Wembanyama win the 2025\u20132026 NBA MVP?",
-        "slug": "will-victor-wembanyama-win-the-20252026-nba-mvp",
-        "url": "https://polymarket.com/market/will-victor-wembanyama-win-the-20252026-nba-mvp",
+        "id": "553828",
+        "title": "Will the Colorado Avalanche win the 2026 NHL Stanley Cup?",
+        "slug": "will-the-colorado-avalanche-win-the-2026-nhl-stanley-cup",
+        "url": "https://polymarket.com/market/will-the-colorado-avalanche-win-the-2026-nhl-stanley-cup?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
         "category": "",
-        "volume": 2620735.8948890097,
-        "days_until_close": 75.4562125620023,
-        "probability": 0.073
+        "volume": 13344031.075050037,
+        "days_until_close": 88.41203126818287,
+        "probability": 0.198
       },
       "forecast": {
-        "probability": 0.25,
-        "confidence": 1.0,
-        "reasoning": "## Forecast Summary\n\n**Median Probability:** 25.0%\n**Run Range:** 25.0% - 25.0%\n**Individual Runs:** 25.0%, 25.0%\n\n## Selected Rationale (closest to median):\n\n(a) **The time left until the outcome is known:**  \nThe NBA regular season typically ends in mid-April, with the MVP award announced during the playoffs, usually in June. As of March 26, 2026, there are approximately 2.5 months left until the MVP is announced.\n\n(b) **The status quo outcome if nothing changed:**  \nCurrently, Victor Wembanyama is not the favorite to win the MVP award. He is placed third or fourth in betting odds, behind Shai Gilgeous-Alexander and Luka Doncic, with SGA being the defending MVP and leading the top team. If nothing changes significantly, the status quo suggests a \"No\" outcome for Wembanyama winning the MVP.\n\n(c) **A brief description of a scenario that results in a No outcome:**  \nIf Shai Gilgeous-Alexander maintains his performance and the Oklahoma City Thunder finish as the top team in the league, SGA is likely to win the MVP again. Additionally, if Wembanyama fails to meet the 65-game eligibility requirement or if the Spurs do not surpass the Thunder in standings, it would further diminish his chances.\n\n(d) **A brief description of a scenario that results in a Yes outcome:**  \nFor Wembanyama to win the MVP, the Spurs would need to overtake the Thunder in the standings, potentially finishing with the best record in the league. Wembanyama would also need to continue his strong performance, particularly in high-profile games, and play at least 65 games. A significant decline in performance or injury to SGA or Luka Doncic could also improve Wembanyama's chances.\n\n(e) **Your conclusion:**  \nBased on the current information, the evidence favors a \"No\" outcome. Wembanyama is a strong contender but not the favorite, with significant competition from SGA and Doncic. The historical preference for offensive players and team success in MVP voting also works against him. While recent developments have improved his odds, the gap remains substantial. The baseline probability, given his current odds and status, suggests a lower likelihood of winning the MVP.\n\n**Probability: 25%**"
+        "probability": 0.6,
+        "confidence": 0.61,
+        "reasoning": "## Forecast Summary\n\n**Median Probability:** 60.0%\n**Run Range:** 16.0% - 60.0%\n**Individual Runs:** 16.0%, 60.0%\n\n## Selected Rationale (closest to median):\n\n(a) **The time left until the outcome is known:** The NHL playoffs typically conclude in June, so there are approximately 2-3 months remaining until the 2026 Stanley Cup champion is determined.\n\n(b) **The status quo outcome if nothing changed:** As of now, the Colorado Avalanche are leading the NHL standings and have clinched a playoff spot. They are the betting favorites to win the Stanley Cup, indicating a strong likelihood of success if current trends continue.\n\n(c) **A brief description of a scenario that results in a No outcome:** The Avalanche could face significant injuries to key players, which might weaken their performance in the playoffs. Additionally, they could encounter a particularly challenging opponent in the playoffs who manages to outperform them, leading to their elimination before winning the Stanley Cup.\n\n(d) **A brief description of a scenario that results in a Yes outcome:** The Avalanche maintain their current form and momentum, leveraging their strong regular-season performance and depth in the playoffs. They successfully navigate through each playoff round, overcoming any potential injuries or tough matchups, and ultimately win the Stanley Cup.\n\n(e) **Your conclusion:** Based on the above, the evidence slightly favors a \"Yes\" outcome for the Avalanche winning the 2026 Stanley Cup. They are currently leading the NHL standings, have clinched a playoff spot, and are the betting favorites with the highest odds among all teams. Their recent history of success, including a Stanley Cup win in 2022, further supports their capability to win again. However, the playoffs are inherently unpredictable, and factors such as injuries and matchups can significantly impact outcomes. Despite these uncertainties, the baseline probability remains high for the Avalanche given their current position and performance metrics.\n\n**Probability: 60%**"
       },
-      "edge": 0.177,
+      "edge": 0.402,
       "edge_direction": "YES",
-      "expected_value": 0.177,
+      "expected_value": 0.402,
+      "conviction": "HIGH"
+    },
+    {
+      "market_info": {
+        "id": "562186",
+        "title": "Will Ken Paxton win the 2026 Texas Republican Primary?",
+        "slug": "will-ken-paxton-win-the-2026-republican-primary",
+        "url": "https://polymarket.com/market/will-ken-paxton-win-the-2026-republican-primary?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
+        "category": "",
+        "volume": 4087391.4788690284,
+        "days_until_close": 53.412031268090274,
+        "probability": 0.655
+      },
+      "forecast": {
+        "probability": 0.5,
+        "confidence": 0.99,
+        "reasoning": "## Forecast Summary\n\n**Median Probability:** 50.0%\n**Run Range:** 45.0% - 50.0%\n**Individual Runs:** 45.0%, 50.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known is approximately 54 days, as today is April 2, 2026, and the runoff is scheduled for May 26, 2026.\n\n(b) The status quo outcome, if nothing changed, would suggest a highly competitive race with no clear frontrunner. Both Ken Paxton and John Cornyn are locked in a \"neck-and-neck\" battle, with significant intraparty conflict expected.\n\n(c) A scenario that results in a No outcome (Ken Paxton not winning) could involve John Cornyn leveraging his advantages, such as the substantial financial backing from the GOP Senate campaign arm and his strong early vote performance. Additionally, Cornyn's extensive experience and history of never losing a race could sway undecided voters in his favor.\n\n(d) A scenario that results in a Yes outcome (Ken Paxton winning) could involve Paxton capitalizing on his initial polling lead and positioning as a \"Republican unity candidate.\" If Paxton can effectively mobilize his base and secure a late endorsement from influential figures like President Trump, it could tip the scales in his favor.\n\n(e) Based on the above, the outcome remains highly uncertain, but the status quo suggests a very close race. The evidence does not strongly favor either candidate, as both have significant strengths and potential weaknesses. Cornyn's financial backing and experience are substantial advantages, but Paxton's initial polling lead and potential for high-profile endorsements could counterbalance these. Given the tight nature of the race and the lack of decisive evidence favoring one candidate, the baseline probability should reflect this uncertainty.\n\nProbability: 50%"
+      },
+      "edge": 0.155,
+      "edge_direction": "NO",
+      "expected_value": 0.155,
       "conviction": "HIGH"
     }
   ]

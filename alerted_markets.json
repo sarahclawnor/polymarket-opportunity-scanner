@@ -2,12 +2,12 @@
   "553828": {
     "market_id": "553828",
     "market_title": "Will the Colorado Avalanche win the 2026 NHL Stanley Cup?",
-    "market_probability": 0.2165,
-    "forecast_probability": 0.35,
-    "edge": 0.13349999999999998,
+    "market_probability": 0.198,
+    "forecast_probability": 0.6,
+    "edge": 0.40199999999999997,
     "edge_direction": "yes",
-    "alerted_at": "2026-03-18T12:03:12.464227",
-    "alert_count": 1
+    "alerted_at": "2026-04-02T14:01:42.241203",
+    "alert_count": 2
   },
   "540819": {
     "market_id": "540819",
@@ -33,11 +33,11 @@
     "market_id": "553856",
     "market_title": "Will the Oklahoma City Thunder win the 2026 NBA Finals?",
     "market_probability": 0.375,
-    "forecast_probability": 0.2,
-    "edge": 0.175,
-    "edge_direction": "no",
-    "alerted_at": "2026-03-18T12:25:21.049159",
-    "alert_count": 1
+    "forecast_probability": 0.75,
+    "edge": 0.375,
+    "edge_direction": "yes",
+    "alerted_at": "2026-04-02T14:06:40.496426",
+    "alert_count": 2
   },
   "553857": {
     "market_id": "553857",
@@ -62,12 +62,12 @@
   "562186": {
     "market_id": "562186",
     "market_title": "Will Ken Paxton win the 2026 Texas Republican Primary?",
-    "market_probability": 0.555,
-    "forecast_probability": 0.45,
-    "edge": 0.10500000000000004,
+    "market_probability": 0.655,
+    "forecast_probability": 0.5,
+    "edge": 0.15500000000000003,
     "edge_direction": "no",
-    "alerted_at": "2026-03-26T08:49:13.053996",
-    "alert_count": 2
+    "alerted_at": "2026-04-02T14:05:49.085807",
+    "alert_count": 3
   },
   "553862": {
     "market_id": "553862",
