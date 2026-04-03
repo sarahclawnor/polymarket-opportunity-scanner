@@ -1,0 +1,77 @@
+{
+  "date": "2026-04-03",
+  "scans": [
+    {
+      "scanned_at": "2026-04-03T14:21:53.179065Z",
+      "opportunities_found": 3,
+      "opportunities": [
+        {
+          "market_info": {
+            "id": "562187",
+            "title": "Will John Cornyn win the 2026 Texas Republican Primary?",
+            "slug": "will-john-cornyn-win-the-2026-republican-primary",
+            "url": "https://polymarket.com/market/will-john-cornyn-win-the-2026-republican-primary?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
+            "category": "",
+            "volume": 3039603.287414222,
+            "days_until_close": 52.40146783476852,
+            "probability": 0.345
+          },
+          "forecast": {
+            "probability": 0.65,
+            "confidence": 0.99,
+            "reasoning": "## Forecast Summary\n\n**Median Probability:** 65.0%\n**Run Range:** 60.0% - 65.0%\n**Individual Runs:** 60.0%, 65.0%\n\n## Selected Rationale (closest to median):\n\n(a) **The time left until the outcome is known:** There are approximately seven weeks until the runoff election on May 26, 2026.\n\n(b) **The status quo outcome if nothing changed:** John Cornyn is currently leading in early voting and has a history of winning runoffs, as seen in his 1998 attorney general race. He also has significant financial resources, having spent over $70 million compared to Ken Paxton's $5 million. If these factors remain unchanged, Cornyn is likely to maintain his lead and win the runoff.\n\n(c) **A brief description of a scenario that results in a No outcome:** Ken Paxton could gain significant momentum if he secures a major endorsement, such as from former President Trump, who has not yet endorsed either candidate. Additionally, if Paxton can effectively mobilize his base and increase voter turnout, especially among those dissatisfied with Cornyn's positions, he could overcome Cornyn's lead.\n\n(d) **A brief description of a scenario that results in a Yes outcome:** John Cornyn could solidify his lead by continuing to outspend Paxton and by securing endorsements from influential figures within the Republican Party. If he can maintain or increase his support among early voters and leverage his established political network, he is likely to win the runoff.\n\n(e) **Your conclusion:** Based on the current evidence, the outcome is more likely to favor John Cornyn. The status quo, which leans towards Cornyn, is supported by his financial advantage, early voting lead, and historical success in runoffs. Although there are uncertainties, such as the potential impact of a Trump endorsement, the evidence currently favors Cornyn. The baseline probability should reflect the status quo, which is more likely to persist given the slow pace of change in political dynamics.\n\n**Probability: 65%**"
+          },
+          "edge": 0.305,
+          "edge_direction": "YES",
+          "expected_value": 0.305,
+          "conviction": "HIGH",
+          "reasoning_summary": "AI predicts 65% YES (vs market 34%) \u2192 Bet YES\n\n**Your conclusion:** Based on the current evidence, the outcome is more likely to favor John Cornyn. The status quo, which leans towards Cornyn, is supported by his financial advantage, early voting lead, and historical success in runoffs. Although there are uncertainties, such as the potential impact of a Trump endorsement, the evidence currently favors Cornyn. The baseline probability should reflect the status quo, which is more likely to persist given the slow pace of change in political dynamics."
+        },
+        {
+          "market_info": {
+            "id": "553866",
+            "title": "Will the San Antonio Spurs win the 2026 NBA Finals?",
+            "slug": "will-the-san-antonio-spurs-win-the-2026-nba-finals",
+            "url": "https://polymarket.com/market/will-the-san-antonio-spurs-win-the-2026-nba-finals?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
+            "category": "",
+            "volume": 9405723.777663846,
+            "days_until_close": 88.40146783347222,
+            "probability": 0.176
+          },
+          "forecast": {
+            "probability": 0.35,
+            "confidence": 1.0,
+            "reasoning": "## Forecast Summary\n\n**Median Probability:** 35.0%\n**Run Range:** 35.0% - 35.0%\n**Individual Runs:** 35.0%, 35.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known is approximately three months, as the NBA Finals typically conclude in June, and today is April 3, 2026.\n\n(b) The status quo outcome, if nothing changed, would be that the San Antonio Spurs are strong contenders but not the favorites to win the 2026 NBA Finals. The Oklahoma City Thunder are currently favored, with the Spurs ranked as the second or third favorite according to betting odds.\n\n(c) A scenario that results in a No outcome could involve the Spurs losing in the Western Conference playoffs, potentially to the Thunder, who have a historically dominant point differential and are the favorites. Additionally, injuries to key Spurs players or a loss of their current momentum could lead to an early playoff exit.\n\n(d) A scenario that results in a Yes outcome would involve the Spurs maintaining their current momentum, continuing their strong performance in the playoffs, and defeating the Thunder in the Western Conference Finals. They would then need to overcome the Eastern Conference champion, potentially the Boston Celtics, in the NBA Finals.\n\n(e) Based on the above, the evidence slightly favors a No outcome, given the current status quo and the fact that the Thunder are the favorites. While the Spurs have shown impressive recent performance and have beaten the Thunder multiple times, the Thunder's overall season dominance and point differential make them a formidable opponent. The Spurs' odds are competitive, but they are not the outright favorites. The baseline probability, considering the Spurs' current odds and the historical difficulty of winning an NBA championship as a non-favorite, suggests that while a Spurs victory is plausible, it is not the most likely outcome.\n\nProbability: 35%"
+          },
+          "edge": 0.174,
+          "edge_direction": "YES",
+          "expected_value": 0.174,
+          "conviction": "HIGH",
+          "reasoning_summary": "AI predicts 35% YES (vs market 18%) \u2192 Bet YES\n\nBased on the above, the evidence slightly favors a No outcome, given the current status quo and the fact that the Thunder are the favorites. While the Spurs have shown impressive recent performance and have beaten the Thunder multiple times, the Thunder's overall season dominance and point differential make them a formidable opponent. The Spurs' odds are competitive, but they are not the outright favorites. The baseline probability, considering the Spurs' current odds and the historical difficulty of winning an NBA championship as a non-favorite, suggests that while a Spurs victory is plausibl"
+        },
+        {
+          "market_info": {
+            "id": "553857",
+            "title": "Will the Cleveland Cavaliers win the 2026 NBA Finals?",
+            "slug": "will-the-cleveland-cavaliers-win-the-2026-nba-finals",
+            "url": "https://polymarket.com/market/will-the-cleveland-cavaliers-win-the-2026-nba-finals?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
+            "category": "",
+            "volume": 4824815.284687952,
+            "days_until_close": 88.40146783267362,
+            "probability": 0.051
+          },
+          "forecast": {
+            "probability": 0.2,
+            "confidence": 1.0,
+            "reasoning": "## Forecast Summary\n\n**Median Probability:** 20.0%\n**Run Range:** 20.0% - 20.0%\n**Individual Runs:** 20.0%, 20.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known is approximately three months, as the NBA Finals typically conclude in mid to late June, and today is April 3, 2026.\n\n(b) The status quo outcome, if nothing changed, is that the Cleveland Cavaliers will not win the 2026 NBA Finals. They are currently ranked outside the top tier of favorites and face strong competition from teams like the Oklahoma City Thunder, who are heavily favored.\n\n(c) A scenario that results in a No outcome is the Cavaliers being eliminated in the playoffs by a higher-seeded team, such as the Boston Celtics or the defending champions, the Oklahoma City Thunder. Given their current seeding, they could face tough matchups early in the playoffs.\n\n(d) A scenario that results in a Yes outcome is the Cavaliers capitalizing on the \"wide open\" Eastern Conference due to injuries and roster losses among top competitors. If they manage to advance to the NBA Finals and face a team other than the Thunder, or if the Thunder underperform, the Cavaliers could potentially win the championship.\n\n(e) Based on the above, the outcome of the Cavaliers not winning the 2026 NBA Finals is more likely. The evidence strongly favors a No outcome due to several factors: the Cavaliers are not among the top favorites in betting odds, they are currently the No. 4 seed in the Eastern Conference, and they face formidable competition from the Thunder, who are the defending champions and have been dominant throughout the season. The baseline probability for the Cavaliers winning is relatively low, given their current position and the strength of their competitors. While the Eastern Conference is more open due to injuries, the overall likelihood of the Cavaliers winning the Finals remains slim.\n\nProbability: 20%"
+          },
+          "edge": 0.149,
+          "edge_direction": "YES",
+          "expected_value": 0.149,
+          "conviction": "MEDIUM",
+          "reasoning_summary": "AI predicts 20% YES (vs market 5%) \u2192 Bet YES\n\nBased on the above, the outcome of the Cavaliers not winning the 2026 NBA Finals is more likely. The evidence strongly favors a No outcome due to several factors: the Cavaliers are not among the top favorites in betting odds, they are currently the No. 4 seed in the Eastern Conference, and they face formidable competition from the Thunder, who are the defending champions and have been dominant throughout the season. The baseline probability for the Cavaliers winning is relatively low, given their current position and the strength of their competitors. While the Eastern Conference is more open "
+        }
+      ]
+    }
+  ]
+}

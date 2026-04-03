@@ -22,12 +22,12 @@
   "553866": {
     "market_id": "553866",
     "market_title": "Will the San Antonio Spurs win the 2026 NBA Finals?",
-    "market_probability": 0.1335,
-    "forecast_probability": 0.25,
-    "edge": 0.11649999999999999,
+    "market_probability": 0.176,
+    "forecast_probability": 0.35,
+    "edge": 0.174,
     "edge_direction": "yes",
-    "alerted_at": "2026-03-18T12:24:24.124839",
-    "alert_count": 1
+    "alerted_at": "2026-04-03T14:13:40.154819",
+    "alert_count": 2
   },
   "553856": {
     "market_id": "553856",
@@ -43,11 +43,11 @@
     "market_id": "553857",
     "market_title": "Will the Cleveland Cavaliers win the 2026 NBA Finals?",
     "market_probability": 0.051,
-    "forecast_probability": 0.3,
-    "edge": 0.249,
+    "forecast_probability": 0.2,
+    "edge": 0.14900000000000002,
     "edge_direction": "yes",
-    "alerted_at": "2026-03-18T12:29:28.352103",
-    "alert_count": 1
+    "alerted_at": "2026-04-03T14:21:51.487916",
+    "alert_count": 2
   },
   "558938": {
     "market_id": "558938",
@@ -242,12 +242,12 @@
   "562187": {
     "market_id": "562187",
     "market_title": "Will John Cornyn win the 2026 Texas Republican Primary?",
-    "market_probability": 0.435,
+    "market_probability": 0.345,
     "forecast_probability": 0.65,
-    "edge": 0.21500000000000002,
+    "edge": 0.30500000000000005,
     "edge_direction": "yes",
-    "alerted_at": "2026-03-26T08:49:36.389328",
-    "alert_count": 1
+    "alerted_at": "2026-04-03T14:21:37.590177",
+    "alert_count": 2
   },
   "561370": {
     "market_id": "561370",
