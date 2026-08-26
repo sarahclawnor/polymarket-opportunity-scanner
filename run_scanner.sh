@@ -27,16 +27,22 @@ python main.py \
 
 EXIT_CODE=$?
 
+# Execute automated trading on detected opportunities
+if [ ${EXIT_CODE} -eq 0 ]; then
+    echo "[$(date)] Running automated trade executor..." >> "${SCRIPT_DIR}/scanner.log"
+    python executor.py >> "${SCRIPT_DIR}/scanner.log" 2>&1
+fi
+
 # Log completion
 echo "[$(date)] Scanner completed with exit code ${EXIT_CODE}" >> "${SCRIPT_DIR}/scanner.log"
 
 # Push new data to GitHub if there are changes
 if [ ${EXIT_CODE} -eq 0 ]; then
-    if ! git diff --quiet opportunities.json alerted_markets.json history/ 2>/dev/null || ! git diff --cached --quiet; then
-        git add opportunities.json alerted_markets.json history/
+    if ! git diff --quiet opportunities.json alerted_markets.json history/ trades.json 2>/dev/null || ! git diff --cached --quiet; then
+        git add opportunities.json alerted_markets.json history/ trades.json
         TIMESTAMP=$(date +%Y-%m-%d_%H:%M)
         OPP_COUNT=$(grep -o '"count": [0-9]*' opportunities.json | head -1 | grep -o '[0-9]*' || echo "?")
-        git commit -m "Scanner run ${TIMESTAMP}: ${OPP_COUNT} opportunities" --quiet
+        git commit -m "Scanner run ${TIMESTAMP}: ${OPP_COUNT} opportunities + trade execution" --quiet
         git push --quiet 2>> "${SCRIPT_DIR}/scanner.log"
         echo "[$(date)] Data pushed to GitHub" >> "${SCRIPT_DIR}/scanner.log"
     else

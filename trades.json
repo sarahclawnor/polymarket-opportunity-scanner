@@ -1,0 +1,89 @@
+[
+  {
+    "trade_id": "trade_1787775392_2252245",
+    "timestamp": "2026-08-26T20:16:32.986854+00:00",
+    "market_id": "2252245",
+    "market_slug": "will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649",
+    "market_title": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+    "side": "YES",
+    "token_id": "63842529068710005716169325380315470359047749786610778647370693404952498013178",
+    "size_usd": 1.0,
+    "shares": 3.08,
+    "entry_price": 0.325,
+    "take_profit_price": 0.67,
+    "conviction": "HIGH",
+    "edge": 0.325,
+    "status": "SUBMITTED",
+    "buy_order": {
+      "type": "MARKET_BUY",
+      "amount_usd": 1.0,
+      "executed_price": 0.325,
+      "shares": 3.08,
+      "status": "FILLED"
+    },
+    "take_profit_order": {
+      "type": "LIMIT_SELL",
+      "target_price": 0.67,
+      "shares": 3.08,
+      "status": "PLACED"
+    }
+  },
+  {
+    "trade_id": "trade_1787775393_601826",
+    "timestamp": "2026-08-26T20:16:33.020368+00:00",
+    "market_id": "601826",
+    "market_slug": "will-flvio-bolsonaro-win-the-2026-brazilian-presidential-election",
+    "market_title": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+    "side": "YES",
+    "token_id": "109876868437950584369987384406356259939519193117253465815665152916226511121427",
+    "size_usd": 1.0,
+    "shares": 2.81,
+    "entry_price": 0.3555,
+    "take_profit_price": 0.48,
+    "conviction": "MEDIUM",
+    "edge": 0.128,
+    "status": "SUBMITTED",
+    "buy_order": {
+      "type": "MARKET_BUY",
+      "amount_usd": 1.0,
+      "executed_price": 0.3555,
+      "shares": 2.81,
+      "status": "FILLED"
+    },
+    "take_profit_order": {
+      "type": "LIMIT_SELL",
+      "target_price": 0.48,
+      "shares": 2.81,
+      "status": "PLACED"
+    }
+  },
+  {
+    "trade_id": "trade_1787775393_2252244",
+    "timestamp": "2026-08-26T20:16:33.056315+00:00",
+    "market_id": "2252244",
+    "market_slug": "will-there-be-no-change-in-fed-interest-rates-after-the-september-2026-meeting-615",
+    "market_title": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+    "side": "YES",
+    "token_id": "5615282760875985231868508008056959876238536896643315063916840237042205273721",
+    "size_usd": 1.0,
+    "shares": 1.5,
+    "entry_price": 0.665,
+    "take_profit_price": 0.75,
+    "conviction": "MEDIUM",
+    "edge": 0.105,
+    "status": "SUBMITTED",
+    "buy_order": {
+      "type": "MARKET_BUY",
+      "amount_usd": 1.0,
+      "executed_price": 0.665,
+      "shares": 1.5,
+      "status": "FILLED"
+    },
+    "take_profit_order": {
+      "type": "LIMIT_SELL",
+      "target_price": 0.75,
+      "shares": 1.5,
+      "status": "PLACED"
+    }
+  }
+]
