@@ -66,6 +66,7 @@ class OpportunityScanner:
         min_volume: float = 100000,
         max_days_to_close: Optional[int] = 30,
         category: Optional[str] = None,
+        max_opportunities: int = 3,
     ) -> List[Opportunity]:
         """
         Run full scanning pipeline.
@@ -74,6 +75,7 @@ class OpportunityScanner:
             min_volume: Minimum market volume in USD
             max_days_to_close: Only scan markets closing within N days
             category: Filter by market category
+            max_opportunities: Stop scanning after finding this many opportunities (default: 3)
         
         Returns:
             List of detected opportunities
@@ -128,6 +130,14 @@ class OpportunityScanner:
                         
                         # Record that we're alerting on this
                         self.alert_history.record_alert(opportunity)
+                        
+                        # Early exit: stop scanning once we have enough opportunities
+                        if len(opportunities) >= max_opportunities:
+                            logger.info(
+                                f"Found {max_opportunities} opportunities — stopping scan early "
+                                f"({len(markets) - i} markets remaining)"
+                            )
+                            break
                     else:
                         logger.info(f"  ✗ No opportunity detected")
                 except Exception as e:
@@ -236,6 +246,12 @@ def main():
         default=100,
         help="Maximum markets to analyze (default: 100)",
     )
+    parser.add_argument(
+        "--max-opportunities",
+        type=int,
+        default=3,
+        help="Stop scanning after finding this many opportunities (default: 3)",
+    )
     
     # Forecasting settings
     parser.add_argument(
@@ -322,6 +338,7 @@ def main():
             min_volume=args.min_volume,
             max_days_to_close=args.max_days,
             category=args.category,
+            max_opportunities=args.max_opportunities,
         ))
         
         # Exit code based on results

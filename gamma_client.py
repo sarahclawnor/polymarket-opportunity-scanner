@@ -88,40 +88,46 @@ class GammaClient:
             category: Filter by category (optional)
             prioritize_recent: If True, prioritize markets closing sooner
         """
-        # Fetch more than needed to allow for filtering
-        fetch_limit = min(limit * 3, 500)
-        
-        params = {
-            "active": "true",
-            "closed": "false",
-            "limit": fetch_limit,
-            "sort": "volume",
-        }
-        
-        if category:
-            params["category"] = category
-        
-        data = await self._get("/markets", params)
+        # Fetch up to fetch_limit across pages
+        fetch_target = min(limit * 5, 500)
+        page_size = 100
         markets = []
         
-        # Handle both list response and dict with 'markets' key
-        market_list = data if isinstance(data, list) else data.get("markets", [])
-        
-        for market_data in market_list:
-            try:
-                market = self._parse_market(market_data)
-                # Filter by volume
-                if market.volume < min_volume:
-                    continue
-                # Filter by days to close if specified
-                if max_days_to_close is not None:
-                    days = market.days_until_close
-                    if days is None or days > max_days_to_close:
+        for offset in range(0, fetch_target, page_size):
+            params = {
+                "active": "true",
+                "closed": "false",
+                "limit": page_size,
+                "offset": offset,
+                "order": "volume24hr",
+                "ascending": "false",
+            }
+            if category:
+                params["category"] = category
+            
+            data = await self._get("/markets", params)
+            market_list = data if isinstance(data, list) else data.get("markets", [])
+            if not market_list:
+                break
+            
+            for market_data in market_list:
+                try:
+                    market = self._parse_market(market_data)
+                    # Filter by volume
+                    if market.volume < min_volume:
                         continue
-                markets.append(market)
-            except Exception as e:
-                logger.warning(f"Failed to parse market: {e}")
-                continue
+                    # Filter by days to close if specified
+                    if max_days_to_close is not None:
+                        days = market.days_until_close
+                        if days is None or days < 0 or days > max_days_to_close:
+                            continue
+                    markets.append(market)
+                except Exception as e:
+                    logger.warning(f"Failed to parse market: {e}")
+                    continue
+            
+            if len(markets) >= limit * 2:
+                break
         
         # Prioritize: markets closing sooner get higher priority
         if prioritize_recent:

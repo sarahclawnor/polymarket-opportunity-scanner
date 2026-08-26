@@ -172,12 +172,7 @@ class TelegramAlerts(AlertHandler):
         emoji = {"high": "🔥", "medium": "⚡", "low": "💡"}.get(opp.conviction, "📊")
         
         # Get contextualized reasoning
-        reasoning_summary = self._extract_reasoning_for_telegram(
-            opp.forecast.reasoning, 
-            opp.forecast_probability,
-            opp.market_probability,
-            opp.edge_direction
-        )
+        reasoning_summary = opp.reasoning_summary
         
         return f"""{emoji} *{opp.conviction.upper()} CONVICTION OPPORTUNITY*
 
@@ -197,49 +192,6 @@ AI predicts {opp.forecast_probability:.0%} YES (market at {opp.market_probabilit
 [View on Polymarket]({opp.market_url})
 """
     
-    def _extract_reasoning_for_telegram(self, reasoning: str, forecast_prob: float, 
-                                        market_prob: float, direction: str) -> str:
-        """Extract concise reasoning for Telegram format."""
-        import re
-        
-        lines = [l.strip() for l in reasoning.split('\n') if l.strip()]
-        
-        # Look for section (e) - conclusion
-        in_conclusion = False
-        conclusion_parts = []
-        
-        for line in lines:
-            if re.match(r'^[\s]*(?:\(?)[e][\).]\s*', line, re.IGNORECASE):
-                in_conclusion = True
-                content = re.sub(r'^[\s]*(?:\(?)[e][\).]\s*', '', line, flags=re.IGNORECASE)
-                if content and len(content) > 20:
-                    conclusion_parts.append(content)
-                continue
-            
-            if in_conclusion:
-                if re.match(r'^[\s]*(?:\(?)[a-d][\).]\s*', line, re.IGNORECASE):
-                    break
-                if 'probability:' in line.lower():
-                    break
-                conclusion_parts.append(line)
-        
-        if conclusion_parts:
-            full_text = ' '.join(conclusion_parts)
-            full_text = re.sub(r'\s+', ' ', full_text).strip()
-            # Get first 2-3 sentences
-            sentences = re.split(r'(?<=[.!?])\s+', full_text)
-            summary = ' '.join(sentences[:2])
-            return summary[:400] if len(summary) > 400 else summary
-        
-        # Fallback: look for conclusion keywords
-        for line in lines:
-            lower = line.lower()
-            if any(x in lower for x in ['conclusion:', 'summary:', 'overall:']):
-                content = line.split(':', 1)[-1].strip()
-                if len(content) > 30:
-                    return content[:400]
-        
-        return "See detailed analysis on Polymarket"
 
 
 class DiscordAlerts(AlertHandler):
@@ -305,12 +257,14 @@ class DiscordAlerts(AlertHandler):
         emoji = emoji_map.get(opp.conviction, "📊")
         
         # Extract key reasoning points with proper context
-        reasoning = self._extract_reasoning_summary(
-            opp.forecast.reasoning, 
-            opp.forecast_probability,
-            opp.market_probability,
-            opp.edge_direction
-        )
+        reasoning = opp.reasoning_summary
+        # Add Discord bold formatting to header line
+        lines = reasoning.split('\n', 1)
+        if lines:
+            discord_reasoning = f"**{lines[0]}**"
+            if len(lines) > 1:
+                discord_reasoning += f"\n{lines[1]}"
+            reasoning = discord_reasoning
         
         return {
             "title": f"{emoji} {opp.market.title[:250]}",
@@ -360,88 +314,6 @@ class DiscordAlerts(AlertHandler):
             "timestamp": datetime.now().isoformat(),
         }
     
-    def _extract_reasoning_summary(self, reasoning: str, forecast_probability: float = 0.5, 
-                                     market_probability: float = 0.5, edge_direction: str = "yes") -> str:
-        """Extract key reasoning points from forecast text.
-        
-        The key insight: AI might say "30% YES" and explain why it's unlikely (leaning NO),
-        but if market is at 5% YES, the edge is betting YES. The reasoning needs to be
-        contextualized to match the action.
-        """
-        import re
-        
-        # Split into lines and clean
-        lines = [l.strip() for l in reasoning.split('\n') if l.strip()]
-        
-        # Determine what the forecast is saying relative to the market
-        forecast_direction = "YES" if forecast_probability > 0.5 else "NO"
-        prob_diff = abs(forecast_probability - market_probability)
-        
-        # PRIORITY 1: Look for section (e) - the conclusion that explains which outcome is favored
-        conclusion_section = []
-        in_conclusion = False
-        
-        for line in lines:
-            if re.match(r'^[\s]*(?:\(?)[e][\).]\s*', line, re.IGNORECASE):
-                in_conclusion = True
-                content = re.sub(r'^[\s]*(?:\(?)[e][\).]\s*', '', line, flags=re.IGNORECASE)
-                if content and len(content) > 20:
-                    conclusion_section.append(content)
-                continue
-            
-            if in_conclusion:
-                if re.match(r'^[\s]*(?:\(?)[a-d][\).]\s*', line, re.IGNORECASE):
-                    break
-                if 'probability:' in line.lower():
-                    break
-                conclusion_section.append(line)
-        
-        if conclusion_section:
-            full_conclusion = ' '.join(conclusion_section)
-            full_conclusion = re.sub(r'\s+', ' ', full_conclusion).strip()
-            if len(full_conclusion) > 40:
-                # Frame the conclusion to match the action
-                header = f"**AI predicts {forecast_probability:.0%} YES** (vs market {market_probability:.0%}) → Bet {edge_direction.upper()}"
-                return f"{header}\n\n{full_conclusion[:600]}"
-        
-        # PRIORITY 2: Look for "your conclusion" or similar patterns
-        conclusion_patterns = [
-            r'(?:your\s+)?conclusion[:\s]+(.+?)(?=\n\s*(?:\([a-d]\)|probability:|$))',
-            r'(?:based on the above|therefore)[,\s]+(.+?)(?=\n\s*(?:\([a-d]\)|probability:|$))',
-        ]
-        
-        for pattern in conclusion_patterns:
-            match = re.search(pattern, reasoning, re.IGNORECASE | re.DOTALL)
-            if match:
-                conclusion = match.group(1).strip()
-                conclusion = re.sub(r'\s+', ' ', conclusion)
-                if len(conclusion) > 30:
-                    header = f"**AI predicts {forecast_probability:.0%} YES** (vs market {market_probability:.0%}) → Bet {edge_direction.upper()}"
-                    return f"{header}\n\n{conclusion[:600]}"
-        
-        # PRIORITY 3: Show both scenarios (c) and (d) with context
-        scenarios = []
-        seen = set()
-        for line in lines:
-            match = re.match(r'^[\s]*(?:\(?)([c-d])[\).]\s*(.+)$', line, re.IGNORECASE)
-            if match:
-                letter = match.group(1).upper()
-                content = match.group(2).strip()
-                content_lower = content.lower()[:50]
-                if content_lower not in seen and len(content) > 20:
-                    seen.add(content_lower)
-                    content = re.sub(r'\s+', ' ', content)
-                    # Remove the "A brief description..." prefix
-                    content = re.sub(r'^A brief description of a scenario that results in [aA]\s*', '', content)
-                    scenarios.append(f"**{letter}:** {content[:180]}")
-        
-        if scenarios:
-            header = f"**AI predicts {forecast_probability:.0%} YES** (vs market {market_probability:.0%}) → Bet {edge_direction.upper()}"
-            return f"{header}\n\nKey scenarios:\n" + '\n'.join(scenarios[:2])
-        
-        # Fallback: just show the forecast vs market comparison
-        return f"**AI predicts {forecast_probability:.0%} YES** (vs market {market_probability:.0%}) → Bet {edge_direction.upper()}\n\nSee detailed analysis in logs"
-
 
 class CompositeAlerts(AlertHandler):
     """Send to multiple handlers."""

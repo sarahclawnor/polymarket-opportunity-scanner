@@ -17,6 +17,7 @@ source venv/bin/activate
 python main.py \
     --max-markets 100 \
     --min-volume 10000 \
+    --max-opportunities 3 \
     --min-edge 0.10 \
     --max-days 90 \
     --forecast-runs 2 \
