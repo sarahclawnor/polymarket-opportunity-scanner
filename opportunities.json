@@ -3,69 +3,69 @@
   "opportunities": [
     {
       "market_info": {
-        "id": "562187",
-        "title": "Will John Cornyn win the 2026 Texas Republican Primary?",
-        "slug": "will-john-cornyn-win-the-2026-republican-primary",
-        "url": "https://polymarket.com/market/will-john-cornyn-win-the-2026-republican-primary?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
+        "id": "2252245",
+        "title": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+        "slug": "will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649",
+        "url": "https://polymarket.com/market/will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
         "category": "",
-        "volume": 3039603.287414222,
-        "days_until_close": 52.40148738533565,
+        "volume": 10336272.173258001,
+        "days_until_close": 20.411345538333332,
         "probability": 0.345
       },
       "forecast": {
-        "probability": 0.65,
-        "confidence": 0.99,
-        "reasoning": "## Forecast Summary\n\n**Median Probability:** 65.0%\n**Run Range:** 60.0% - 65.0%\n**Individual Runs:** 60.0%, 65.0%\n\n## Selected Rationale (closest to median):\n\n(a) **The time left until the outcome is known:** There are approximately seven weeks until the runoff election on May 26, 2026.\n\n(b) **The status quo outcome if nothing changed:** John Cornyn is currently leading in early voting and has a history of winning runoffs, as seen in his 1998 attorney general race. He also has significant financial resources, having spent over $70 million compared to Ken Paxton's $5 million. If these factors remain unchanged, Cornyn is likely to maintain his lead and win the runoff.\n\n(c) **A brief description of a scenario that results in a No outcome:** Ken Paxton could gain significant momentum if he secures a major endorsement, such as from former President Trump, who has not yet endorsed either candidate. Additionally, if Paxton can effectively mobilize his base and increase voter turnout, especially among those dissatisfied with Cornyn's positions, he could overcome Cornyn's lead.\n\n(d) **A brief description of a scenario that results in a Yes outcome:** John Cornyn could solidify his lead by continuing to outspend Paxton and by securing endorsements from influential figures within the Republican Party. If he can maintain or increase his support among early voters and leverage his established political network, he is likely to win the runoff.\n\n(e) **Your conclusion:** Based on the current evidence, the outcome is more likely to favor John Cornyn. The status quo, which leans towards Cornyn, is supported by his financial advantage, early voting lead, and historical success in runoffs. Although there are uncertainties, such as the potential impact of a Trump endorsement, the evidence currently favors Cornyn. The baseline probability should reflect the status quo, which is more likely to persist given the slow pace of change in political dynamics.\n\n**Probability: 65%**"
+        "probability": 0.67,
+        "confidence": 0.8,
+        "reasoning": "## Forecast Summary\n\n**Median Probability:** 67.0%\n**Run Range:** 35.0% - 67.0%\n**Individual Runs:** 35.0%, 67.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known: There are approximately 21 days remaining until the Federal Reserve's decision is announced on September 16, 2026.\n\n(b) The status quo outcome if nothing changed: The status quo outcome is that the Federal Reserve will keep the target federal funds rate unchanged at 3.50%\u20133.75%.\n\n(c) A brief description of a scenario that results in a No outcome: A scenario that results in a No outcome could involve continued economic data indicating stable inflation and employment levels, reducing the urgency for a rate hike. Additionally, if global economic conditions remain stable or deteriorate slightly, the Fed might opt to maintain the current rates to avoid unnecessary tightening.\n\n(d) A brief description of a scenario that results in a Yes outcome: A scenario that results in a Yes outcome could involve unexpected economic data showing a significant rise in inflation or stronger-than-expected employment growth, prompting the Fed to increase rates to prevent the economy from overheating. Additionally, if there is a shift in the Fed's internal consensus, with more members supporting a hike, this could lead to a decision to raise rates.\n\n(e) Your conclusion: Based on the above, explain which outcome is more likely and why. Consider: Does the evidence favor Yes or No? How strong is the case? What's the baseline probability?\n\nThe evidence currently leans towards a No outcome. Prediction markets and recent reports suggest a roughly one-in-three chance of a rate hike, indicating that the majority expectation is for rates to remain unchanged. The status quo outcome is often given more weight because economic conditions typically change gradually, and the Fed tends to avoid making abrupt policy shifts unless justified by significant changes in economic indicators. The mixed signals from market participants and analysts, combined with the Fed's recent decision to leave rates unchanged despite some dissent, suggest that the case for a hike is not overwhelmingly strong. Therefore, the baseline probability of no change is higher.\n\nFinal answer: \"Probability: 67%\""
       },
-      "edge": 0.305,
+      "edge": 0.325,
       "edge_direction": "YES",
-      "expected_value": 0.305,
+      "expected_value": 0.325,
       "conviction": "HIGH",
-      "reasoning_summary": "AI predicts 65% YES (vs market 34%) \u2192 Bet YES\n\n**Your conclusion:** Based on the current evidence, the outcome is more likely to favor John Cornyn. The status quo, which leans towards Cornyn, is supported by his financial advantage, early voting lead, and historical success in runoffs. Although there are uncertainties, such as the potential impact of a Trump endorsement, the evidence currently favors Cornyn. The baseline probability should reflect the status quo, which is more likely to persist given the slow pace of change in political dynamics."
+      "reasoning_summary": "AI predicts 67% YES (vs market 34%) \u2192 Bet YES\n\nYour conclusion: Based on the above, explain which outcome is more likely and why. Consider: Does the evidence favor Yes or No? How strong is the case? What's the baseline probability? The evidence currently leans towards a No outcome. Prediction markets and recent reports suggest a roughly one-in-three chance of a rate hike, indicating that the majority expectation is for rates to remain unchanged. The status quo outcome is often given more weight because economic conditions typically change gradually, and the Fed tends to avoid making abrupt policy shifts unless justified by significant chan"
     },
     {
       "market_info": {
-        "id": "553866",
-        "title": "Will the San Antonio Spurs win the 2026 NBA Finals?",
-        "slug": "will-the-san-antonio-spurs-win-the-2026-nba-finals",
-        "url": "https://polymarket.com/market/will-the-san-antonio-spurs-win-the-2026-nba-finals?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
+        "id": "601826",
+        "title": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+        "slug": "will-flvio-bolsonaro-win-the-2026-brazilian-presidential-election",
+        "url": "https://polymarket.com/market/will-flvio-bolsonaro-win-the-2026-brazilian-presidential-election?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
         "category": "",
-        "volume": 9405723.777663846,
-        "days_until_close": 88.40148738445602,
-        "probability": 0.176
+        "volume": 8936676.381853998,
+        "days_until_close": 38.411345537152776,
+        "probability": 0.352
       },
       "forecast": {
-        "probability": 0.35,
+        "probability": 0.48,
         "confidence": 1.0,
-        "reasoning": "## Forecast Summary\n\n**Median Probability:** 35.0%\n**Run Range:** 35.0% - 35.0%\n**Individual Runs:** 35.0%, 35.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known is approximately three months, as the NBA Finals typically conclude in June, and today is April 3, 2026.\n\n(b) The status quo outcome, if nothing changed, would be that the San Antonio Spurs are strong contenders but not the favorites to win the 2026 NBA Finals. The Oklahoma City Thunder are currently favored, with the Spurs ranked as the second or third favorite according to betting odds.\n\n(c) A scenario that results in a No outcome could involve the Spurs losing in the Western Conference playoffs, potentially to the Thunder, who have a historically dominant point differential and are the favorites. Additionally, injuries to key Spurs players or a loss of their current momentum could lead to an early playoff exit.\n\n(d) A scenario that results in a Yes outcome would involve the Spurs maintaining their current momentum, continuing their strong performance in the playoffs, and defeating the Thunder in the Western Conference Finals. They would then need to overcome the Eastern Conference champion, potentially the Boston Celtics, in the NBA Finals.\n\n(e) Based on the above, the evidence slightly favors a No outcome, given the current status quo and the fact that the Thunder are the favorites. While the Spurs have shown impressive recent performance and have beaten the Thunder multiple times, the Thunder's overall season dominance and point differential make them a formidable opponent. The Spurs' odds are competitive, but they are not the outright favorites. The baseline probability, considering the Spurs' current odds and the historical difficulty of winning an NBA championship as a non-favorite, suggests that while a Spurs victory is plausible, it is not the most likely outcome.\n\nProbability: 35%"
+        "reasoning": "## Forecast Summary\n\n**Median Probability:** 48.0%\n**Run Range:** 45.0% - 48.0%\n**Individual Runs:** 48.0%, 45.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known is approximately 1 month and 9 days, as the election is scheduled for October 4, 2026.\n\n(b) The status quo outcome if nothing changed would likely be a very close race between Fl\u00e1vio Bolsonaro and Lula, with the possibility of either candidate winning. Current polling shows them neck and neck, with slight variations depending on the poll.\n\n(c) A scenario that results in a No outcome could involve Lula consolidating his lead in the polls, possibly due to a successful campaign strategy, increased voter turnout among his base, or a failure by Fl\u00e1vio Bolsonaro to effectively unite the right-wing factions. Additionally, any negative developments or controversies surrounding Fl\u00e1vio Bolsonaro could sway undecided voters towards Lula.\n\n(d) A scenario that results in a Yes outcome could involve Fl\u00e1vio Bolsonaro gaining momentum in the final weeks leading up to the election. This could be due to effective campaigning, successful debates, or a shift in public opinion favoring his policies. Additionally, if the right-wing factions rally strongly behind him, it could increase his chances of securing a majority in the runoff.\n\n(e) Based on the above, the outcome is still highly uncertain, but the evidence slightly favors a No outcome. The polling data shows a very close race, with Lula sometimes leading and other times being neck and neck with Fl\u00e1vio Bolsonaro. The fact that Jair Bolsonaro is legally sidelined could hinder Fl\u00e1vio's ability to fully capitalize on his father's political base. Additionally, the two-round system means that even if Fl\u00e1vio Bolsonaro performs well in the first round, he would still need to secure over 50% of the votes in the runoff, which is not guaranteed given the current polling trends. The baseline probability leans slightly towards Lula, given his historical political presence and the current polling data.\n\nProbability: 48%"
       },
-      "edge": 0.174,
+      "edge": 0.128,
       "edge_direction": "YES",
-      "expected_value": 0.174,
-      "conviction": "HIGH",
-      "reasoning_summary": "AI predicts 35% YES (vs market 18%) \u2192 Bet YES\n\nBased on the above, the evidence slightly favors a No outcome, given the current status quo and the fact that the Thunder are the favorites. While the Spurs have shown impressive recent performance and have beaten the Thunder multiple times, the Thunder's overall season dominance and point differential make them a formidable opponent. The Spurs' odds are competitive, but they are not the outright favorites. The baseline probability, considering the Spurs' current odds and the historical difficulty of winning an NBA championship as a non-favorite, suggests that while a Spurs victory is plausibl"
-    },
-    {
-      "market_info": {
-        "id": "553857",
-        "title": "Will the Cleveland Cavaliers win the 2026 NBA Finals?",
-        "slug": "will-the-cleveland-cavaliers-win-the-2026-nba-finals",
-        "url": "https://polymarket.com/market/will-the-cleveland-cavaliers-win-the-2026-nba-finals?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
-        "category": "",
-        "volume": 4824815.284687952,
-        "days_until_close": 88.40148738364583,
-        "probability": 0.051
-      },
-      "forecast": {
-        "probability": 0.2,
-        "confidence": 1.0,
-        "reasoning": "## Forecast Summary\n\n**Median Probability:** 20.0%\n**Run Range:** 20.0% - 20.0%\n**Individual Runs:** 20.0%, 20.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known is approximately three months, as the NBA Finals typically conclude in mid to late June, and today is April 3, 2026.\n\n(b) The status quo outcome, if nothing changed, is that the Cleveland Cavaliers will not win the 2026 NBA Finals. They are currently ranked outside the top tier of favorites and face strong competition from teams like the Oklahoma City Thunder, who are heavily favored.\n\n(c) A scenario that results in a No outcome is the Cavaliers being eliminated in the playoffs by a higher-seeded team, such as the Boston Celtics or the defending champions, the Oklahoma City Thunder. Given their current seeding, they could face tough matchups early in the playoffs.\n\n(d) A scenario that results in a Yes outcome is the Cavaliers capitalizing on the \"wide open\" Eastern Conference due to injuries and roster losses among top competitors. If they manage to advance to the NBA Finals and face a team other than the Thunder, or if the Thunder underperform, the Cavaliers could potentially win the championship.\n\n(e) Based on the above, the outcome of the Cavaliers not winning the 2026 NBA Finals is more likely. The evidence strongly favors a No outcome due to several factors: the Cavaliers are not among the top favorites in betting odds, they are currently the No. 4 seed in the Eastern Conference, and they face formidable competition from the Thunder, who are the defending champions and have been dominant throughout the season. The baseline probability for the Cavaliers winning is relatively low, given their current position and the strength of their competitors. While the Eastern Conference is more open due to injuries, the overall likelihood of the Cavaliers winning the Finals remains slim.\n\nProbability: 20%"
-      },
-      "edge": 0.149,
-      "edge_direction": "YES",
-      "expected_value": 0.149,
+      "expected_value": 0.128,
       "conviction": "MEDIUM",
-      "reasoning_summary": "AI predicts 20% YES (vs market 5%) \u2192 Bet YES\n\nBased on the above, the outcome of the Cavaliers not winning the 2026 NBA Finals is more likely. The evidence strongly favors a No outcome due to several factors: the Cavaliers are not among the top favorites in betting odds, they are currently the No. 4 seed in the Eastern Conference, and they face formidable competition from the Thunder, who are the defending champions and have been dominant throughout the season. The baseline probability for the Cavaliers winning is relatively low, given their current position and the strength of their competitors. While the Eastern Conference is more open "
+      "reasoning_summary": "AI predicts 48% YES (vs market 35%) \u2192 Bet YES\n\nBased on the above, the outcome is still highly uncertain, but the evidence slightly favors a No outcome. The polling data shows a very close race, with Lula sometimes leading and other times being neck and neck with Fl\u00e1vio Bolsonaro. The fact that Jair Bolsonaro is legally sidelined could hinder Fl\u00e1vio's ability to fully capitalize on his father's political base. Additionally, the two-round system means that even if Fl\u00e1vio Bolsonaro performs well in the first round, he would still need to secure over 50% of the votes in the runoff, which is not guaranteed given the current polling trends. The"
+    },
+    {
+      "market_info": {
+        "id": "2252244",
+        "title": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+        "slug": "will-there-be-no-change-in-fed-interest-rates-after-the-september-2026-meeting-615",
+        "url": "https://polymarket.com/market/will-there-be-no-change-in-fed-interest-rates-after-the-september-2026-meeting-615?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
+        "category": "",
+        "volume": 11420931.12538701,
+        "days_until_close": 20.411345536261575,
+        "probability": 0.645
+      },
+      "forecast": {
+        "probability": 0.75,
+        "confidence": 0.99,
+        "reasoning": "## Forecast Summary\n\n**Median Probability:** 75.0%\n**Run Range:** 70.0% - 75.0%\n**Individual Runs:** 70.0%, 75.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known is approximately three weeks, as the FOMC meeting is scheduled for September 15-16, 2026.\n\n(b) The status quo outcome if nothing changed would be \"no change\" in the Fed interest rates, as the majority of economists and market indicators currently lean towards this scenario.\n\n(c) A scenario that results in a No outcome (i.e., a change in interest rates) could involve unexpected economic data indicating stronger-than-expected inflation or economic growth, prompting the Fed to increase rates to curb inflationary pressures. Alternatively, a significant geopolitical event or financial market instability could lead to a rate cut to support economic stability.\n\n(d) A scenario that results in a Yes outcome (i.e., no change in interest rates) would be the continuation of current economic conditions without any major surprises. This includes stable inflation rates, moderate economic growth, and no significant disruptions in financial markets, aligning with the majority view of economists and market predictions.\n\n(e) Based on the above, the outcome of \"no change\" is more likely. The evidence strongly favors a Yes outcome, with 90% of economists in the Reuters poll expecting no change, and Kalshi showing a 66% chance for no change. While there is some uncertainty due to hawkish views from major banks and a one-in-three chance implied by market futures, the baseline probability remains skewed towards stability. Historically, the Fed tends to maintain rates unless there are compelling reasons for adjustment, and the current economic indicators do not suggest a pressing need for a rate change. The status quo outcome is favored due to the slow-changing nature of economic conditions and the Fed's cautious approach.\n\nProbability: 75%"
+      },
+      "edge": 0.105,
+      "edge_direction": "YES",
+      "expected_value": 0.105,
+      "conviction": "MEDIUM",
+      "reasoning_summary": "AI predicts 75% YES (vs market 64%) \u2192 Bet YES\n\nBased on the above, the outcome of \"no change\" is more likely. The evidence strongly favors a Yes outcome, with 90% of economists in the Reuters poll expecting no change, and Kalshi showing a 66% chance for no change. While there is some uncertainty due to hawkish views from major banks and a one-in-three chance implied by market futures, the baseline probability remains skewed towards stability. Historically, the Fed tends to maintain rates unless there are compelling reasons for adjustment, and the current economic indicators do not suggest a pressing need for a rate change. The status quo o"
     }
   ]
 }

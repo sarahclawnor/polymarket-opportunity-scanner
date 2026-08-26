@@ -1,0 +1,55 @@
+{
+  "date": "2026-06-18",
+  "scans": [
+    {
+      "scanned_at": "2026-06-18T14:18:24.179918Z",
+      "opportunities_found": 2,
+      "opportunities": [
+        {
+          "market_info": {
+            "id": "558940",
+            "title": "Will Portugal win the 2026 FIFA World Cup?",
+            "slug": "will-portugal-win-the-2026-fifa-world-cup-912",
+            "url": "https://polymarket.com/market/will-portugal-win-the-2026-fifa-world-cup-912?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
+            "category": "",
+            "volume": 54864814.10280707,
+            "days_until_close": 31.403886806388886,
+            "probability": 0.081
+          },
+          "forecast": {
+            "probability": 0.92,
+            "confidence": 1.0,
+            "reasoning": "## Forecast Summary\n\n**Median Probability:** 92.0%\n**Run Range:** 92.0% - 92.0%\n**Individual Runs:** 92.0%, 92.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known: The 2026 FIFA World Cup is scheduled to conclude on July 20, 2026. Today is June 18, 2026, so there is approximately one month left until the tournament concludes.\n\n(b) The status quo outcome if nothing changed: Based on current betting markets and prediction models, Portugal has a 6-9% chance of winning the World Cup. Therefore, the status quo outcome is that Portugal does not win the World Cup, with a probability of 91-94%.\n\n(c) A brief description of a scenario that results in a No outcome: Portugal progresses through the group stage but is eliminated in the knockout rounds, possibly in the quarter-finals or semi-finals, as suggested by bookmaker odds and model projections. This aligns with historical performance and current expectations.\n\n(d) A brief description of a scenario that results in a Yes outcome: Portugal advances through the group stage and successfully navigates the knockout rounds, defeating strong opponents such as Argentina, Brazil, or France. Key players, including Cristiano Ronaldo, perform exceptionally well, and the team capitalizes on tactical advantages and favorable matchups.\n\n(e) Your conclusion: Based on the above, explain which outcome is more likely and why. Consider: Does the evidence favor Yes or No? How strong is the case? What's the baseline probability?\n\nThe evidence strongly favors a No outcome. Portugal is considered a strong contender but not a favorite, with a win probability of 6-9%. Historical performance and current market odds suggest that while Portugal is capable of winning, it is not the most likely scenario. The baseline probability of a No outcome is approximately 91-94%, reflecting both the current odds and the historical precedent of Portugal not winning the World Cup.\n\nFinal Answer: \"Probability: 92%\""
+          },
+          "edge": 0.84,
+          "edge_direction": "YES",
+          "expected_value": 0.84,
+          "conviction": "HIGH",
+          "reasoning_summary": "AI predicts 92% YES (vs market 8%) \u2192 Bet YES\n\nYour conclusion: Based on the above, explain which outcome is more likely and why. Consider: Does the evidence favor Yes or No? How strong is the case? What's the baseline probability? The evidence strongly favors a No outcome. Portugal is considered a strong contender but not a favorite, with a win probability of 6-9%. Historical performance and current market odds suggest that while Portugal is capable of winning, it is not the most likely scenario. The baseline probability of a No outcome is approximately 91-94%, reflecting both the current odds and the historical precedent of Portugal not "
+        },
+        {
+          "market_info": {
+            "id": "540817",
+            "title": "New Rihanna Album before GTA VI?",
+            "slug": "new-rhianna-album-before-gta-vi-926",
+            "url": "https://polymarket.com/market/new-rhianna-album-before-gta-vi-926?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
+            "category": "",
+            "volume": 828921.2880400063,
+            "days_until_close": 42.90388680493056,
+            "probability": 0.525
+          },
+          "forecast": {
+            "probability": 0.65,
+            "confidence": 1.0,
+            "reasoning": "## Forecast Summary\n\n**Median Probability:** 65.0%\n**Run Range:** 61.0% - 65.0%\n**Individual Runs:** 65.0%, 61.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known is approximately 1 month and 13 days, as the market will resolve on July 31, 2026, if neither event has occurred by then.\n\n(b) The status quo outcome if nothing changed would be a 50-50 resolution, as neither Rihanna's album nor GTA VI has been released yet, and the market will default to a 50-50 outcome if neither is released by July 31, 2026.\n\n(c) A scenario that results in a No outcome would involve GTA VI being released on or before July 31, 2026, before Rihanna releases her new album. This would require Rockstar/Take-Two to move up their release date significantly, which is unlikely given their current public commitment to November 19, 2026.\n\n(d) A scenario that results in a Yes outcome would involve Rihanna releasing her new album before July 31, 2026. Given her active studio work and market speculation leaning towards an earlier release, this scenario is plausible if she decides to drop the album unexpectedly in the coming weeks.\n\n(e) Based on the above, the outcome of \"Yes\" (Rihanna releasing her album before GTA VI) seems more likely. The evidence includes:\n\n- Rockstar/Take-Two's announced release date for GTA VI is November 19, 2026, which is after the July 31, 2026, market resolution date. This makes an earlier release highly unlikely.\n- Rihanna is actively working on her album, with frequent studio visits and public confirmations of her progress. This increases the probability of an imminent release.\n- Prediction markets currently favor a \"Yes\" outcome, with a 61% probability, reflecting trader sentiment that Rihanna's album will arrive first.\n\nThe case for a \"Yes\" outcome is moderately strong, given the combination of market sentiment, Rihanna's active production status, and the unlikelihood of GTA VI's release date moving forward.\n\nProbability: 65%"
+          },
+          "edge": 0.125,
+          "edge_direction": "YES",
+          "expected_value": 0.125,
+          "conviction": "MEDIUM",
+          "reasoning_summary": "AI predicts 65% YES (vs market 52%) \u2192 Bet YES\n\nBased on the above, the outcome of \"Yes\" (Rihanna releasing her album before GTA VI) seems more likely. The evidence includes: - Rockstar/Take-Two's announced release date for GTA VI is November 19, 2026, which is after the July 31, 2026, market resolution date. This makes an earlier release highly unlikely. - Rihanna is actively working on her album, with frequent studio visits and public confirmations of her progress. This increases the probability of an imminent release. - Prediction markets currently favor a \"Yes\" outcome, with a 61% probability, reflecting trader sentiment that Rihanna's "
+        }
+      ]
+    }
+  ]
+}

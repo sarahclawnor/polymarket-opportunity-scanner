@@ -12,12 +12,12 @@
   "540819": {
     "market_id": "540819",
     "market_title": "Will Jesus Christ return before GTA VI?",
-    "market_probability": 0.485,
-    "forecast_probability": 0.010000000000000009,
-    "edge": 0.475,
-    "edge_direction": "no",
-    "alerted_at": "2026-03-18T12:17:56.617367",
-    "alert_count": 1
+    "market_probability": 0.495,
+    "forecast_probability": 0.95,
+    "edge": 0.45499999999999996,
+    "edge_direction": "yes",
+    "alerted_at": "2026-06-15T14:17:47.622946",
+    "alert_count": 2
   },
   "553866": {
     "market_id": "553866",
@@ -142,12 +142,12 @@
   "540844": {
     "market_id": "540844",
     "market_title": "Will bitcoin hit $1m before GTA VI?",
-    "market_probability": 0.488,
+    "market_probability": 0.4955,
     "forecast_probability": 0.05,
-    "edge": 0.438,
+    "edge": 0.4455,
     "edge_direction": "no",
-    "alerted_at": "2026-03-19T20:36:51.318562",
-    "alert_count": 1
+    "alerted_at": "2026-06-17T14:16:13.464189",
+    "alert_count": 2
   },
   "559651": {
     "market_id": "559651",
@@ -367,6 +367,96 @@
     "edge": 0.177,
     "edge_direction": "yes",
     "alerted_at": "2026-03-26T12:54:47.461066",
+    "alert_count": 1
+  },
+  "556108": {
+    "market_id": "556108",
+    "market_title": "Will MegaETH perform an airdrop by June 30? ",
+    "market_probability": 0.1425,
+    "forecast_probability": 0.4,
+    "edge": 0.25750000000000006,
+    "edge_direction": "yes",
+    "alerted_at": "2026-06-15T14:18:25.494259",
+    "alert_count": 1
+  },
+  "540843": {
+    "market_id": "540843",
+    "market_title": "Will China invades Taiwan before GTA VI?",
+    "market_probability": 0.505,
+    "forecast_probability": 0.15,
+    "edge": 0.355,
+    "edge_direction": "no",
+    "alerted_at": "2026-06-15T14:19:17.138317",
+    "alert_count": 1
+  },
+  "540818": {
+    "market_id": "540818",
+    "market_title": "New Playboi Carti Album before GTA VI?",
+    "market_probability": 0.515,
+    "forecast_probability": 0.99,
+    "edge": 0.475,
+    "edge_direction": "yes",
+    "alerted_at": "2026-06-17T14:17:18.778804",
+    "alert_count": 1
+  },
+  "540820": {
+    "market_id": "540820",
+    "market_title": "Trump out as President before GTA VI?",
+    "market_probability": 0.505,
+    "forecast_probability": 0.9,
+    "edge": 0.395,
+    "edge_direction": "yes",
+    "alerted_at": "2026-06-17T14:17:34.989599",
+    "alert_count": 1
+  },
+  "558940": {
+    "market_id": "558940",
+    "market_title": "Will Portugal win the 2026 FIFA World Cup?",
+    "market_probability": 0.0805,
+    "forecast_probability": 0.92,
+    "edge": 0.8395,
+    "edge_direction": "yes",
+    "alerted_at": "2026-06-18T14:09:02.271554",
+    "alert_count": 1
+  },
+  "540817": {
+    "market_id": "540817",
+    "market_title": "New Rihanna Album before GTA VI?",
+    "market_probability": 0.525,
+    "forecast_probability": 0.65,
+    "edge": 0.125,
+    "edge_direction": "yes",
+    "alerted_at": "2026-06-18T14:17:56.256714",
+    "alert_count": 1
+  },
+  "2252244": {
+    "market_id": "2252244",
+    "market_title": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+    "market_probability": 0.645,
+    "forecast_probability": 0.75,
+    "edge": 0.10499999999999998,
+    "edge_direction": "yes",
+    "alerted_at": "2026-08-26T14:05:24.679050",
+    "alert_count": 1
+  },
+  "2252245": {
+    "market_id": "2252245",
+    "market_title": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+    "market_probability": 0.345,
+    "forecast_probability": 0.67,
+    "edge": 0.32500000000000007,
+    "edge_direction": "yes",
+    "alerted_at": "2026-08-26T14:05:37.582406",
+    "alert_count": 1
+  },
+  "601826": {
+    "market_id": "601826",
+    "market_title": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+    "market_probability": 0.3525,
+    "forecast_probability": 0.48,
+    "edge": 0.1275,
+    "edge_direction": "yes",
+    "alerted_at": "2026-08-26T14:07:39.739692",
     "alert_count": 1
   }
 }

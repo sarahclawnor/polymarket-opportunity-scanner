@@ -1,0 +1,77 @@
+{
+  "date": "2026-06-17",
+  "scans": [
+    {
+      "scanned_at": "2026-06-17T14:17:36.472834Z",
+      "opportunities_found": 3,
+      "opportunities": [
+        {
+          "market_info": {
+            "id": "540818",
+            "title": "New Playboi Carti Album before GTA VI?",
+            "slug": "new-playboi-carti-album-before-gta-vi-421",
+            "url": "https://polymarket.com/market/new-playboi-carti-album-before-gta-vi-421?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
+            "category": "",
+            "volume": 740398.6967539465,
+            "days_until_close": 43.90443897170139,
+            "probability": 0.515
+          },
+          "forecast": {
+            "probability": 0.99,
+            "confidence": 1.0,
+            "reasoning": "## Forecast Summary\n\n**Median Probability:** 99.0%\n**Run Range:** 99.0% - 99.0%\n**Individual Runs:** 99.0%, 99.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known is approximately 1 month and 14 days, as the resolution date is July 31, 2026.\n\n(b) The status quo outcome if nothing changed is \"Yes,\" because Playboi Carti has already released a new album, \"MUSIC,\" on March 14, 2025, which is before the scheduled release date of GTA VI on November 19, 2026.\n\n(c) A scenario that results in a \"No\" outcome would require a significant change in the current situation, such as the discovery that \"MUSIC\" does not meet the criteria for a new album release (e.g., if it were somehow reclassified as a re-release or compilation with less than 50% new tracks). Alternatively, if GTA VI were to be released earlier than March 14, 2025, due to an unexpected change in Rockstar's release plans, this could also result in a \"No\" outcome.\n\n(d) A scenario that results in a \"Yes\" outcome is the current situation where Playboi Carti's album \"MUSIC\" has already been released on March 14, 2025, and GTA VI is scheduled for a later release on November 19, 2026. This scenario is supported by the official announcements and releases from both Playboi Carti and Rockstar Games.\n\n(e) Conclusion: Based on the above, the outcome is overwhelmingly likely to be \"Yes.\" The evidence strongly favors this outcome, as Playboi Carti's album has already been released well before the scheduled release date of GTA VI. The case for \"Yes\" is robust, given the official release dates and the lack of any credible information suggesting a change in these dates. The baseline probability for \"Yes\" is extremely high, as the status quo outcome aligns with the current facts and official announcements.\n\nProbability: 99%"
+          },
+          "edge": 0.475,
+          "edge_direction": "YES",
+          "expected_value": 0.475,
+          "conviction": "HIGH",
+          "reasoning_summary": "AI predicts 99% YES (vs market 52%) \u2192 Bet YES\n\nConclusion: Based on the above, the outcome is overwhelmingly likely to be \"Yes.\" The evidence strongly favors this outcome, as Playboi Carti's album has already been released well before the scheduled release date of GTA VI. The case for \"Yes\" is robust, given the official release dates and the lack of any credible information suggesting a change in these dates. The baseline probability for \"Yes\" is extremely high, as the status quo outcome aligns with the current facts and official announcements."
+        },
+        {
+          "market_info": {
+            "id": "540844",
+            "title": "Will bitcoin hit $1m before GTA VI?",
+            "slug": "will-bitcoin-hit-1m-before-gta-vi-872-424",
+            "url": "https://polymarket.com/market/will-bitcoin-hit-1m-before-gta-vi-872-424?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
+            "category": "",
+            "volume": 4480991.600426517,
+            "days_until_close": 43.90443897037037,
+            "probability": 0.495
+          },
+          "forecast": {
+            "probability": 0.05,
+            "confidence": 1.0,
+            "reasoning": "## Forecast Summary\n\n**Median Probability:** 5.0%\n**Run Range:** 5.0% - 5.0%\n**Individual Runs:** 5.0%, 5.0%\n\n## Selected Rationale (closest to median):\n\n(a) **The time left until the outcome is known:** There are approximately 1 month and 14 days remaining until the final resolution date of July 31, 2026.\n\n(b) **The status quo outcome if nothing changed:** As of today, Bitcoin has not reached $1 million, and Grand Theft Auto VI has not been released. If nothing changes, the market would resolve to \"No,\" as Bitcoin has not hit $1 million before GTA VI's release.\n\n(c) **A brief description of a scenario that results in a No outcome:** Bitcoin remains well below $1 million, and GTA VI is released as scheduled in fall 2025 or shortly thereafter. Even if there are minor delays, they do not extend beyond July 31, 2026. This scenario aligns with the current expert consensus that Bitcoin reaching $1 million is more likely to occur around 2030 or later.\n\n(d) **A brief description of a scenario that results in a Yes outcome:** Bitcoin experiences an unprecedented surge in value, driven by factors such as a major macroeconomic shock, hyperinflation, or a significant increase in institutional adoption. This results in Bitcoin reaching $1 million before GTA VI is released. Additionally, GTA VI's release is delayed significantly beyond July 31, 2026, providing more time for Bitcoin to reach the target price.\n\n(e) **Your conclusion:** Based on the above, the evidence strongly favors a \"No\" outcome. The current price of Bitcoin is far below $1 million, and mainstream forecasts do not anticipate such a price level until around 2030 or later. The scheduled release of GTA VI in fall 2025 further supports this conclusion, as there is limited time for Bitcoin to experience the extreme price increase required. While there are scenarios where Bitcoin could reach $1 million before GTA VI's release, they are highly speculative and rely on extraordinary events. Therefore, the baseline probability is heavily weighted towards a \"No\" outcome, given the status quo and expert projections.\n\n**Probability: 5%**"
+          },
+          "edge": 0.446,
+          "edge_direction": "NO",
+          "expected_value": 0.446,
+          "conviction": "HIGH",
+          "reasoning_summary": "AI predicts 5% YES (vs market 50%) \u2192 Bet NO\n\n**Your conclusion:** Based on the above, the evidence strongly favors a \"No\" outcome. The current price of Bitcoin is far below $1 million, and mainstream forecasts do not anticipate such a price level until around 2030 or later. The scheduled release of GTA VI in fall 2025 further supports this conclusion, as there is limited time for Bitcoin to experience the extreme price increase required. While there are scenarios where Bitcoin could reach $1 million before GTA VI's release, they are highly speculative and rely on extraordinary events. Therefore, the baseline probability is heavily weight"
+        },
+        {
+          "market_info": {
+            "id": "540820",
+            "title": "Trump out as President before GTA VI?",
+            "slug": "trump-out-as-president-before-gta-vi-846",
+            "url": "https://polymarket.com/market/trump-out-as-president-before-gta-vi-846?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
+            "category": "",
+            "volume": 665686.2999680071,
+            "days_until_close": 43.904438969525465,
+            "probability": 0.505
+          },
+          "forecast": {
+            "probability": 0.9,
+            "confidence": 1.0,
+            "reasoning": "## Forecast Summary\n\n**Median Probability:** 90.0%\n**Run Range:** 90.0% - 90.0%\n**Individual Runs:** 90.0%, 90.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known: There are approximately 1 month and 14 days left until the market's end date of July 31, 2026.\n\n(b) The status quo outcome if nothing changed: If nothing changes, Donald Trump will remain President, and Grand Theft Auto VI will be released during his term, leading to a \"No\" resolution.\n\n(c) A brief description of a scenario that results in a No outcome: Grand Theft Auto VI is released in the US as planned in fall 2025, or at any point before July 31, 2026, while Donald Trump remains in office as President, without any early exit.\n\n(d) A brief description of a scenario that results in a Yes outcome: Donald Trump is permanently removed from office before the official release of Grand Theft Auto VI in the US. This could occur through resignation, impeachment and conviction, death, or another constitutional mechanism that results in JD Vance or another successor becoming President before the game's release.\n\n(e) Your conclusion: Based on the above, the outcome is more likely to be \"No.\" The evidence strongly favors this conclusion because:\n\n- The release of Grand Theft Auto VI is expected to occur during Trump's current term, with no official indication of a delay beyond his presidency.\n- Historically, early exits from the U.S. presidency are rare, and there is no current indication of a specific, imminent threat to Trump's presidency that would lead to an early departure.\n- The status quo, where Trump remains in office and GTA VI releases as planned, is the most probable scenario given the current information.\n\nGiven the weight of evidence and the tendency for the status quo to prevail, the baseline probability of a \"No\" outcome is quite high.\n\nProbability: 90%"
+          },
+          "edge": 0.395,
+          "edge_direction": "YES",
+          "expected_value": 0.395,
+          "conviction": "HIGH",
+          "reasoning_summary": "AI predicts 90% YES (vs market 50%) \u2192 Bet YES\n\nYour conclusion: Based on the above, the outcome is more likely to be \"No.\" The evidence strongly favors this conclusion because: - The release of Grand Theft Auto VI is expected to occur during Trump's current term, with no official indication of a delay beyond his presidency. - Historically, early exits from the U.S. presidency are rare, and there is no current indication of a specific, imminent threat to Trump's presidency that would lead to an early departure. - The status quo, where Trump remains in office and GTA VI releases as planned, is the most probable scenario given the current inf"
+        }
+      ]
+    }
+  ]
+}

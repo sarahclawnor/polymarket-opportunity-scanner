@@ -1,0 +1,149 @@
+{
+  "date": "2026-06-15",
+  "scans": [
+    {
+      "scanned_at": "2026-06-15T14:16:33.751044Z",
+      "opportunities_found": 3,
+      "opportunities": [
+        {
+          "market_info": {
+            "id": "540819",
+            "title": "Will Jesus Christ return before GTA VI?",
+            "slug": "will-jesus-christ-return-before-gta-vi-665",
+            "url": "https://polymarket.com/market/will-jesus-christ-return-before-gta-vi-665?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
+            "category": "",
+            "volume": 11572733.19609575,
+            "days_until_close": 45.90516491834491,
+            "probability": 0.495
+          },
+          "forecast": {
+            "probability": 0.99,
+            "confidence": 1.0,
+            "reasoning": "## Forecast Summary\n\n**Median Probability:** 99.0%\n**Run Range:** 99.0% - 99.0%\n**Individual Runs:** 99.0%, 99.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known: Approximately 1 month and 16 days remain until the deadline of July 31, 2026.\n\n(b) The status quo outcome if nothing changed: The status quo outcome would be \"No,\" as there has been no credible evidence or widespread recognition of the Second Coming of Jesus Christ, while GTA VI has not yet been released.\n\n(c) A brief description of a scenario that results in a No outcome: GTA VI is officially released in the US before any globally recognized event occurs that is identified as the Second Coming of Jesus Christ. This would lead to a resolution of \"No.\"\n\n(d) A brief description of a scenario that results in a Yes outcome: A globally recognized event occurs, widely reported by credible media and accepted by major religious authorities, as the Second Coming of Jesus Christ before GTA VI is officially released.\n\n(e) Your conclusion: Based on the above, explain which outcome is more likely and why. Consider: Does the evidence favor Yes or No? How strong is the case? What's the baseline probability?\n\nThe evidence overwhelmingly favors a \"No\" outcome. The status quo strongly supports this, as there is no credible evidence or reporting of a Second Coming event, while GTA VI is expected to be released soon. Prediction markets and expert opinions consistently rate the probability of a Second Coming before GTA VI as extremely low. The baseline probability for a \"No\" outcome is very high, given the lack of any indication of an imminent Second Coming and the anticipated release of GTA VI within the specified timeframe.\n\nFinal Answer: \"Probability: 99%.\""
+          },
+          "edge": 0.495,
+          "edge_direction": "YES",
+          "expected_value": 0.495,
+          "conviction": "HIGH",
+          "reasoning_summary": "AI predicts 99% YES (vs market 50%) \u2192 Bet YES\n\nYour conclusion: Based on the above, explain which outcome is more likely and why. Consider: Does the evidence favor Yes or No? How strong is the case? What's the baseline probability? The evidence overwhelmingly favors a \"No\" outcome. The status quo strongly supports this, as there is no credible evidence or reporting of a Second Coming event, while GTA VI is expected to be released soon. Prediction markets and expert opinions consistently rate the probability of a Second Coming before GTA VI as extremely low. The baseline probability for a \"No\" outcome is very high, given the lack of any ind"
+        },
+        {
+          "market_info": {
+            "id": "540844",
+            "title": "Will bitcoin hit $1m before GTA VI?",
+            "slug": "will-bitcoin-hit-1m-before-gta-vi-872-424",
+            "url": "https://polymarket.com/market/will-bitcoin-hit-1m-before-gta-vi-872-424?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
+            "category": "",
+            "volume": 4476285.637721517,
+            "days_until_close": 45.9051649168287,
+            "probability": 0.492
+          },
+          "forecast": {
+            "probability": 0.05,
+            "confidence": 1.0,
+            "reasoning": "## Forecast Summary\n\n**Median Probability:** 5.0%\n**Run Range:** 5.0% - 5.0%\n**Individual Runs:** 5.0%, 5.0%\n\n## Selected Rationale (closest to median):\n\n(a) **The time left until the outcome is known:** As of today, June 15, 2026, there are approximately 1.5 months remaining until the market resolution deadline of July 31, 2026.\n\n(b) **The status quo outcome if nothing changed:** The status quo outcome is that Bitcoin will not reach $1 million before the release of GTA VI, given the current price levels and the consensus forecasts. GTA VI is expected to release in fall 2025, which is already past, indicating that the game has likely been released by now.\n\n(c) **A brief description of a scenario that results in a No outcome:** Bitcoin continues to trade well below $1 million, consistent with mainstream forecasts that place the $1 million price target in the 2030s. GTA VI has already been released, or will be released shortly, as per Take-Two Interactive's guidance for a fall 2025 launch.\n\n(d) **A brief description of a scenario that results in a Yes outcome:** A sudden and extreme global financial crisis occurs, leading to hyperinflation in major fiat currencies and causing a rapid flight to Bitcoin as a safe-haven asset. This results in a parabolic price increase, pushing Bitcoin to $1 million before the end of July 2026. Additionally, GTA VI experiences an unexpected delay, pushing its release beyond the current market resolution deadline.\n\n(e) **Your conclusion:** Based on the above, the evidence strongly favors a No outcome. The consensus among institutional forecasts and credible analysts places Bitcoin's $1 million price target well into the 2030s, not within the next 1.5 months. The release window for GTA VI was fall 2025, and it is likely that the game has already been released, or will be released shortly, making it improbable for Bitcoin to reach $1 million before this event. The case for a Yes outcome relies on extreme and speculative scenarios that are considered low-probability by most analysts.\n\nThe baseline probability for Bitcoin reaching $1 million before GTA VI is very low, given the current market conditions and the historical release patterns of GTA games. The status quo outcome is that GTA VI releases before Bitcoin reaches $1 million, which aligns with the majority of forecasts and available information.\n\n**Probability: 5%**"
+          },
+          "edge": 0.443,
+          "edge_direction": "NO",
+          "expected_value": 0.443,
+          "conviction": "HIGH",
+          "reasoning_summary": "AI predicts 5% YES (vs market 49%) \u2192 Bet NO\n\n**Your conclusion:** Based on the above, the evidence strongly favors a No outcome. The consensus among institutional forecasts and credible analysts places Bitcoin's $1 million price target well into the 2030s, not within the next 1.5 months. The release window for GTA VI was fall 2025, and it is likely that the game has already been released, or will be released shortly, making it improbable for Bitcoin to reach $1 million before this event. The case for a Yes outcome relies on extreme and speculative scenarios that are considered low-probability by most analysts. The baseline probability fo"
+        },
+        {
+          "market_info": {
+            "id": "556108",
+            "title": "Will MegaETH perform an airdrop by June 30? ",
+            "slug": "will-megaeth-perform-an-airdrop-by-june-30-143-229-513-574-212-254",
+            "url": "https://polymarket.com/market/will-megaeth-perform-an-airdrop-by-june-30-143-229-513-574-212-254?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
+            "category": "",
+            "volume": 1578906.0192909944,
+            "days_until_close": 15.571831582129631,
+            "probability": 0.142
+          },
+          "forecast": {
+            "probability": 0.4,
+            "confidence": 1.0,
+            "reasoning": "## Forecast Summary\n\n**Median Probability:** 40.0%\n**Run Range:** 40.0% - 40.0%\n**Individual Runs:** 40.0%, 40.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known is approximately 15 days, as today is June 15, 2026, and the deadline for the airdrop to occur is June 30, 2026.\n\n(b) The status quo outcome if nothing changed would likely be \"No,\" as there is currently no explicit confirmation or documentation stating that the airdrop will be distributed by June 30, 2026. The absence of a confirmed distribution date leaves uncertainty about whether the airdrop will occur within the required timeframe.\n\n(c) A brief description of a scenario that results in a No outcome: MegaETH continues its current trajectory without making any official announcements or taking actions to distribute the airdrop by June 30. The tokens remain non-transferable or locked, or the distribution occurs after the deadline, failing to meet the market's criteria for a \"Yes\" resolution.\n\n(d) A brief description of a scenario that results in a Yes outcome: MegaETH makes an official announcement confirming that the airdrop will be distributed and the tokens will be swappable by June 30. The distribution process is completed on-chain, and users receive their tokens in a manner that meets the market's criteria for a \"Yes\" resolution.\n\n(e) Your conclusion: Based on the above, explain which outcome is more likely and why. Consider: Does the evidence favor Yes or No? How strong is the case? What's the baseline probability?\n\nThe evidence currently leans towards a \"No\" outcome due to the lack of explicit confirmation regarding the distribution date. While there is a confirmed airdrop program and allocation for Season 1 participants, the absence of a specific commitment to distribute by June 30 introduces significant uncertainty. The prediction markets initially showed optimism, but recent pricing indicates a more cautious stance, with a 44% probability for a \"Yes\" outcome. This suggests that while there is a meaningful chance of the airdrop occurring in time, the lack of a definitive announcement makes a \"No\" outcome more likely.\n\nConsidering the status quo and the tendency for the world to change slowly, it is reasonable to assign a higher probability to the \"No\" outcome. The baseline probability should reflect the current lack of evidence for a timely distribution, balanced against the possibility that MegaETH could still act within the remaining 15 days.\n\nProbability: 40%"
+          },
+          "edge": 0.258,
+          "edge_direction": "YES",
+          "expected_value": 0.258,
+          "conviction": "HIGH",
+          "reasoning_summary": "AI predicts 40% YES (vs market 14%) \u2192 Bet YES\n\nYour conclusion: Based on the above, explain which outcome is more likely and why. Consider: Does the evidence favor Yes or No? How strong is the case? What's the baseline probability? The evidence currently leans towards a \"No\" outcome due to the lack of explicit confirmation regarding the distribution date. While there is a confirmed airdrop program and allocation for Season 1 participants, the absence of a specific commitment to distribute by June 30 introduces significant uncertainty. The prediction markets initially showed optimism, but recent pricing indicates a more cautious stance, wit"
+        }
+      ]
+    },
+    {
+      "scanned_at": "2026-06-15T14:19:18.228147Z",
+      "opportunities_found": 3,
+      "opportunities": [
+        {
+          "market_info": {
+            "id": "540819",
+            "title": "Will Jesus Christ return before GTA VI?",
+            "slug": "will-jesus-christ-return-before-gta-vi-665",
+            "url": "https://polymarket.com/market/will-jesus-christ-return-before-gta-vi-665?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
+            "category": "",
+            "volume": 11572733.19609575,
+            "days_until_close": 45.90326124818287,
+            "probability": 0.495
+          },
+          "forecast": {
+            "probability": 0.95,
+            "confidence": 0.99,
+            "reasoning": "## Forecast Summary\n\n**Median Probability:** 95.0%\n**Run Range:** 90.0% - 95.0%\n**Individual Runs:** 90.0%, 95.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known is approximately 1.5 months, as today is June 15, 2026, and the market resolves on July 31, 2026.\n\n(b) The status quo outcome if nothing changed is that GTA VI will be released before the Second Coming of Jesus Christ. This is based on current market sentiment and betting odds, which strongly favor GTA VI being released first.\n\n(c) A scenario that results in a No outcome is that Rockstar Games officially releases GTA VI in the US before July 31, 2026, and there is no credible consensus or evidence of the Second Coming of Jesus Christ occurring before this release.\n\n(d) A scenario that results in a Yes outcome would require a credible and widely accepted event or series of events that are interpreted as the Second Coming of Jesus Christ occurring before the official release of GTA VI in the US.\n\n(e) Based on the above, the outcome that GTA VI will be released before the Second Coming of Jesus Christ is more likely. The evidence strongly favors a No outcome, as the market and betting odds indicate a high probability of GTA VI being released first. The game is expected to be released in the fall of 2026, which aligns with the timeline before the market's resolution date. Additionally, the Second Coming of Jesus Christ is a highly speculative event with no credible evidence suggesting it will occur within the next 1.5 months. The baseline probability for the No outcome is therefore very high, given the current market conditions and expectations.\n\nProbability: 95%"
+          },
+          "edge": 0.455,
+          "edge_direction": "YES",
+          "expected_value": 0.455,
+          "conviction": "HIGH",
+          "reasoning_summary": "AI predicts 95% YES (vs market 50%) \u2192 Bet YES\n\nBased on the above, the outcome that GTA VI will be released before the Second Coming of Jesus Christ is more likely. The evidence strongly favors a No outcome, as the market and betting odds indicate a high probability of GTA VI being released first. The game is expected to be released in the fall of 2026, which aligns with the timeline before the market's resolution date. Additionally, the Second Coming of Jesus Christ is a highly speculative event with no credible evidence suggesting it will occur within the next 1.5 months. The baseline probability for the No outcome is therefore very high"
+        },
+        {
+          "market_info": {
+            "id": "540843",
+            "title": "Will China invades Taiwan before GTA VI?",
+            "slug": "will-china-invades-taiwan-before-gta-vi-716-644",
+            "url": "https://polymarket.com/market/will-china-invades-taiwan-before-gta-vi-716-644?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
+            "category": "",
+            "volume": 1865350.637879066,
+            "days_until_close": 45.90326124642361,
+            "probability": 0.505
+          },
+          "forecast": {
+            "probability": 0.15,
+            "confidence": 0.99,
+            "reasoning": "## Forecast Summary\n\n**Median Probability:** 15.0%\n**Run Range:** 10.0% - 15.0%\n**Individual Runs:** 10.0%, 15.0%\n\n## Selected Rationale (closest to median):\n\n(a) **The time left until the outcome is known:**  \nThere are approximately 1.5 months left until the market's backstop date of July 31, 2026.\n\n(b) **The status quo outcome if nothing changed:**  \nIf no invasion occurs by July 31, 2026, and GTA VI is not released before this date (which it won't be, as it is scheduled for November 19, 2026), the market will resolve to 50-50 by rule. However, in terms of real-world events, there has been no invasion, and GTA VI has not yet been released.\n\n(c) **A brief description of a scenario that results in a No outcome:**  \nChina does not initiate a military offensive against Taiwan before July 31, 2026. The current geopolitical status quo remains, with ongoing tensions but no escalation to an invasion. GTA VI is released on November 19, 2026, without any delays that push it beyond this date.\n\n(d) **A brief description of a scenario that results in a Yes outcome:**  \nChina launches a military offensive intended to establish control over any part of Taiwan, including inhabited islands, before July 31, 2026. This could be due to a significant geopolitical shift, such as a breakdown in US-China relations, internal pressures within China, or a strategic decision by Chinese leadership to act before perceived windows of opportunity close.\n\n(e) **Your conclusion:**  \nBased on the current evidence, a No outcome is more likely. The historical base rate shows no invasion despite longstanding tensions. Recent intelligence assessments suggest that China does not have a fixed timeline for invasion and is unlikely to do so by 2027. The market for \"Will China invade Taiwan by end of 2026?\" shows a low probability of around 6%. Additionally, the scheduled release date for GTA VI is firm and after the market's backstop date, making it impossible for GTA VI to release first within the market's timeframe. The evidence strongly favors a No outcome, with the primary risk factor being any unforeseen geopolitical shifts that could prompt an invasion.\n\n**Probability: 15%**"
+          },
+          "edge": 0.355,
+          "edge_direction": "NO",
+          "expected_value": 0.355,
+          "conviction": "HIGH",
+          "reasoning_summary": "AI predicts 15% YES (vs market 50%) \u2192 Bet NO\n\nBased on the current evidence, a No outcome is more likely. The historical base rate shows no invasion despite longstanding tensions. Recent intelligence assessments suggest that China does not have a fixed timeline for invasion and is unlikely to do so by 2027. The market for \"Will China invade Taiwan by end of 2026?\" shows a low probability of around 6%. Additionally, the scheduled release date for GTA VI is firm and after the market's backstop date, making it impossible for GTA VI to release first within the market's timeframe. The evidence strongly favors a No outcome, with the primary ris"
+        },
+        {
+          "market_info": {
+            "id": "556108",
+            "title": "Will MegaETH perform an airdrop by June 30? ",
+            "slug": "will-megaeth-perform-an-airdrop-by-june-30-143-229-513-574-212-254",
+            "url": "https://polymarket.com/market/will-megaeth-perform-an-airdrop-by-june-30-143-229-513-574-212-254?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
+            "category": "",
+            "volume": 1578906.0192909944,
+            "days_until_close": 15.569927911967593,
+            "probability": 0.142
+          },
+          "forecast": {
+            "probability": 0.4,
+            "confidence": 1.0,
+            "reasoning": "## Forecast Summary\n\n**Median Probability:** 40.0%\n**Run Range:** 40.0% - 40.0%\n**Individual Runs:** 40.0%, 40.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known is 15 days, as today is June 15, 2026, and the deadline for the airdrop is June 30, 2026.\n\n(b) The status quo outcome if nothing changed would be \"No,\" as there is currently no official confirmation from MegaETH regarding the airdrop, and the market is still speculating on the likelihood of it happening.\n\n(c) A scenario that results in a No outcome would involve MegaETH failing to make an official announcement or perform the airdrop by the deadline. This could be due to internal delays, strategic decisions to postpone the token launch, or regulatory hurdles that prevent the airdrop from occurring within the specified timeframe.\n\n(d) A scenario that results in a Yes outcome would involve MegaETH making an official announcement and executing the airdrop before the deadline. This could be facilitated by resolving any outstanding technical or regulatory issues and aligning all necessary resources to ensure the airdrop is completed on time.\n\n(e) Based on the above, the outcome is more likely to be \"No.\" While the market-implied probability leans towards \"Yes,\" there is no decisive evidence or official confirmation from MegaETH that the airdrop will occur by the deadline. The prediction markets show a wide range of probabilities, indicating uncertainty and disagreement among participants. The status quo, which is the absence of an official announcement, suggests that the airdrop is not imminent. Given the slow pace at which large organizations typically operate and the lack of concrete evidence, the baseline probability should favor the status quo outcome of \"No.\"\n\nProbability: 40%"
+          },
+          "edge": 0.258,
+          "edge_direction": "YES",
+          "expected_value": 0.258,
+          "conviction": "HIGH",
+          "reasoning_summary": "AI predicts 40% YES (vs market 14%) \u2192 Bet YES\n\nBased on the above, the outcome is more likely to be \"No.\" While the market-implied probability leans towards \"Yes,\" there is no decisive evidence or official confirmation from MegaETH that the airdrop will occur by the deadline. The prediction markets show a wide range of probabilities, indicating uncertainty and disagreement among participants. The status quo, which is the absence of an official announcement, suggests that the airdrop is not imminent. Given the slow pace at which large organizations typically operate and the lack of concrete evidence, the baseline probability should favor th"
+        }
+      ]
+    }
+  ]
+}

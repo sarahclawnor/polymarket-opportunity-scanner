@@ -1,0 +1,77 @@
+{
+  "date": "2026-08-26",
+  "scans": [
+    {
+      "scanned_at": "2026-08-26T14:07:40.997962Z",
+      "opportunities_found": 3,
+      "opportunities": [
+        {
+          "market_info": {
+            "id": "2252245",
+            "title": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+            "slug": "will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649",
+            "url": "https://polymarket.com/market/will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
+            "category": "",
+            "volume": 10336272.173258001,
+            "days_until_close": 20.411331041898148,
+            "probability": 0.345
+          },
+          "forecast": {
+            "probability": 0.67,
+            "confidence": 0.8,
+            "reasoning": "## Forecast Summary\n\n**Median Probability:** 67.0%\n**Run Range:** 35.0% - 67.0%\n**Individual Runs:** 35.0%, 67.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known: There are approximately 21 days remaining until the Federal Reserve's decision is announced on September 16, 2026.\n\n(b) The status quo outcome if nothing changed: The status quo outcome is that the Federal Reserve will keep the target federal funds rate unchanged at 3.50%\u20133.75%.\n\n(c) A brief description of a scenario that results in a No outcome: A scenario that results in a No outcome could involve continued economic data indicating stable inflation and employment levels, reducing the urgency for a rate hike. Additionally, if global economic conditions remain stable or deteriorate slightly, the Fed might opt to maintain the current rates to avoid unnecessary tightening.\n\n(d) A brief description of a scenario that results in a Yes outcome: A scenario that results in a Yes outcome could involve unexpected economic data showing a significant rise in inflation or stronger-than-expected employment growth, prompting the Fed to increase rates to prevent the economy from overheating. Additionally, if there is a shift in the Fed's internal consensus, with more members supporting a hike, this could lead to a decision to raise rates.\n\n(e) Your conclusion: Based on the above, explain which outcome is more likely and why. Consider: Does the evidence favor Yes or No? How strong is the case? What's the baseline probability?\n\nThe evidence currently leans towards a No outcome. Prediction markets and recent reports suggest a roughly one-in-three chance of a rate hike, indicating that the majority expectation is for rates to remain unchanged. The status quo outcome is often given more weight because economic conditions typically change gradually, and the Fed tends to avoid making abrupt policy shifts unless justified by significant changes in economic indicators. The mixed signals from market participants and analysts, combined with the Fed's recent decision to leave rates unchanged despite some dissent, suggest that the case for a hike is not overwhelmingly strong. Therefore, the baseline probability of no change is higher.\n\nFinal answer: \"Probability: 67%\""
+          },
+          "edge": 0.325,
+          "edge_direction": "YES",
+          "expected_value": 0.325,
+          "conviction": "HIGH",
+          "reasoning_summary": "AI predicts 67% YES (vs market 34%) \u2192 Bet YES\n\nYour conclusion: Based on the above, explain which outcome is more likely and why. Consider: Does the evidence favor Yes or No? How strong is the case? What's the baseline probability? The evidence currently leans towards a No outcome. Prediction markets and recent reports suggest a roughly one-in-three chance of a rate hike, indicating that the majority expectation is for rates to remain unchanged. The status quo outcome is often given more weight because economic conditions typically change gradually, and the Fed tends to avoid making abrupt policy shifts unless justified by significant chan"
+        },
+        {
+          "market_info": {
+            "id": "601826",
+            "title": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+            "slug": "will-flvio-bolsonaro-win-the-2026-brazilian-presidential-election",
+            "url": "https://polymarket.com/market/will-flvio-bolsonaro-win-the-2026-brazilian-presidential-election?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
+            "category": "",
+            "volume": 8936676.381853998,
+            "days_until_close": 38.41133104016203,
+            "probability": 0.352
+          },
+          "forecast": {
+            "probability": 0.48,
+            "confidence": 1.0,
+            "reasoning": "## Forecast Summary\n\n**Median Probability:** 48.0%\n**Run Range:** 45.0% - 48.0%\n**Individual Runs:** 48.0%, 45.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known is approximately 1 month and 9 days, as the election is scheduled for October 4, 2026.\n\n(b) The status quo outcome if nothing changed would likely be a very close race between Fl\u00e1vio Bolsonaro and Lula, with the possibility of either candidate winning. Current polling shows them neck and neck, with slight variations depending on the poll.\n\n(c) A scenario that results in a No outcome could involve Lula consolidating his lead in the polls, possibly due to a successful campaign strategy, increased voter turnout among his base, or a failure by Fl\u00e1vio Bolsonaro to effectively unite the right-wing factions. Additionally, any negative developments or controversies surrounding Fl\u00e1vio Bolsonaro could sway undecided voters towards Lula.\n\n(d) A scenario that results in a Yes outcome could involve Fl\u00e1vio Bolsonaro gaining momentum in the final weeks leading up to the election. This could be due to effective campaigning, successful debates, or a shift in public opinion favoring his policies. Additionally, if the right-wing factions rally strongly behind him, it could increase his chances of securing a majority in the runoff.\n\n(e) Based on the above, the outcome is still highly uncertain, but the evidence slightly favors a No outcome. The polling data shows a very close race, with Lula sometimes leading and other times being neck and neck with Fl\u00e1vio Bolsonaro. The fact that Jair Bolsonaro is legally sidelined could hinder Fl\u00e1vio's ability to fully capitalize on his father's political base. Additionally, the two-round system means that even if Fl\u00e1vio Bolsonaro performs well in the first round, he would still need to secure over 50% of the votes in the runoff, which is not guaranteed given the current polling trends. The baseline probability leans slightly towards Lula, given his historical political presence and the current polling data.\n\nProbability: 48%"
+          },
+          "edge": 0.128,
+          "edge_direction": "YES",
+          "expected_value": 0.128,
+          "conviction": "MEDIUM",
+          "reasoning_summary": "AI predicts 48% YES (vs market 35%) \u2192 Bet YES\n\nBased on the above, the outcome is still highly uncertain, but the evidence slightly favors a No outcome. The polling data shows a very close race, with Lula sometimes leading and other times being neck and neck with Fl\u00e1vio Bolsonaro. The fact that Jair Bolsonaro is legally sidelined could hinder Fl\u00e1vio's ability to fully capitalize on his father's political base. Additionally, the two-round system means that even if Fl\u00e1vio Bolsonaro performs well in the first round, he would still need to secure over 50% of the votes in the runoff, which is not guaranteed given the current polling trends. The"
+        },
+        {
+          "market_info": {
+            "id": "2252244",
+            "title": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+            "slug": "will-there-be-no-change-in-fed-interest-rates-after-the-september-2026-meeting-615",
+            "url": "https://polymarket.com/market/will-there-be-no-change-in-fed-interest-rates-after-the-september-2026-meeting-615?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
+            "category": "",
+            "volume": 11420931.12538701,
+            "days_until_close": 20.41133103923611,
+            "probability": 0.645
+          },
+          "forecast": {
+            "probability": 0.75,
+            "confidence": 0.99,
+            "reasoning": "## Forecast Summary\n\n**Median Probability:** 75.0%\n**Run Range:** 70.0% - 75.0%\n**Individual Runs:** 70.0%, 75.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known is approximately three weeks, as the FOMC meeting is scheduled for September 15-16, 2026.\n\n(b) The status quo outcome if nothing changed would be \"no change\" in the Fed interest rates, as the majority of economists and market indicators currently lean towards this scenario.\n\n(c) A scenario that results in a No outcome (i.e., a change in interest rates) could involve unexpected economic data indicating stronger-than-expected inflation or economic growth, prompting the Fed to increase rates to curb inflationary pressures. Alternatively, a significant geopolitical event or financial market instability could lead to a rate cut to support economic stability.\n\n(d) A scenario that results in a Yes outcome (i.e., no change in interest rates) would be the continuation of current economic conditions without any major surprises. This includes stable inflation rates, moderate economic growth, and no significant disruptions in financial markets, aligning with the majority view of economists and market predictions.\n\n(e) Based on the above, the outcome of \"no change\" is more likely. The evidence strongly favors a Yes outcome, with 90% of economists in the Reuters poll expecting no change, and Kalshi showing a 66% chance for no change. While there is some uncertainty due to hawkish views from major banks and a one-in-three chance implied by market futures, the baseline probability remains skewed towards stability. Historically, the Fed tends to maintain rates unless there are compelling reasons for adjustment, and the current economic indicators do not suggest a pressing need for a rate change. The status quo outcome is favored due to the slow-changing nature of economic conditions and the Fed's cautious approach.\n\nProbability: 75%"
+          },
+          "edge": 0.105,
+          "edge_direction": "YES",
+          "expected_value": 0.105,
+          "conviction": "MEDIUM",
+          "reasoning_summary": "AI predicts 75% YES (vs market 64%) \u2192 Bet YES\n\nBased on the above, the outcome of \"no change\" is more likely. The evidence strongly favors a Yes outcome, with 90% of economists in the Reuters poll expecting no change, and Kalshi showing a 66% chance for no change. While there is some uncertainty due to hawkish views from major banks and a one-in-three chance implied by market futures, the baseline probability remains skewed towards stability. Historically, the Fed tends to maintain rates unless there are compelling reasons for adjustment, and the current economic indicators do not suggest a pressing need for a rate change. The status quo o"
+        }
+      ]
+    }
+  ]
+}
