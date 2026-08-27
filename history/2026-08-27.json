@@ -1,0 +1,77 @@
+{
+  "date": "2026-08-27",
+  "scans": [
+    {
+      "scanned_at": "2026-08-27T14:05:51.021923Z",
+      "opportunities_found": 3,
+      "opportunities": [
+        {
+          "market_info": {
+            "id": "3901046",
+            "title": "Map Handicap: MOUZ (-1.5) vs 9z (+1.5)",
+            "slug": "cs2-mouz-9z-2026-08-27-map-handicap-away-1pt5",
+            "url": "https://polymarket.com/market/cs2-mouz-9z-2026-08-27-map-handicap-away-1pt5?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
+            "category": "",
+            "volume": 363483.191458,
+            "days_until_close": 0.1626039128125,
+            "probability": 0.5
+          },
+          "forecast": {
+            "probability": 0.75,
+            "confidence": 1.0,
+            "reasoning": "## Forecast Summary\n\n**Median Probability:** 75.0%\n**Run Range:** 75.0% - 75.0%\n**Individual Runs:** 75.0%, 75.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known is approximately 10.5 hours, as the match is scheduled for August 27, 2026, at 7:30 AM ET, and today is August 27, 2026.\n\n(b) The status quo outcome, if nothing changed, is that MOUZ wins the match 2-0, thus covering the -1.5 map handicap. This is based on the current market sentiment and betting odds, which heavily favor MOUZ.\n\n(c) A scenario that results in a No outcome (9z +1.5) would be if 9z manages to win at least one map in the series. This could happen if 9z performs better than expected on one of the maps, perhaps due to strong individual performances or strategic advantages on a particular map.\n\n(d) A scenario that results in a Yes outcome (MOUZ -1.5) would be if MOUZ wins the series 2-0. This would require MOUZ to maintain their expected performance level and capitalize on their strengths, such as superior team coordination, individual skill, and strategic execution.\n\n(e) Based on the above, the outcome of MOUZ winning 2-0 (Yes outcome) is more likely. The evidence strongly favors MOUZ, as indicated by the 81% probability in the match odds and the moneyline odds of 1.46 compared to 2.67 for 9z. The market's expectation is that MOUZ is significantly stronger, and the -1.5 map handicap reflects this belief. The baseline probability for MOUZ to win 2-0 is high, given the current market sentiment and the historical performance of both teams.\n\nProbability: 75%"
+          },
+          "edge": 0.25,
+          "edge_direction": "YES",
+          "expected_value": 0.25,
+          "conviction": "HIGH",
+          "reasoning_summary": "AI predicts 75% YES (vs market 50%) \u2192 Bet YES\n\nBased on the above, the outcome of MOUZ winning 2-0 (Yes outcome) is more likely. The evidence strongly favors MOUZ, as indicated by the 81% probability in the match odds and the moneyline odds of 1.46 compared to 2.67 for 9z. The market's expectation is that MOUZ is significantly stronger, and the -1.5 map handicap reflects this belief. The baseline probability for MOUZ to win 2-0 is high, given the current market sentiment and the historical performance of both teams."
+        },
+        {
+          "market_info": {
+            "id": "3682186",
+            "title": "Counter-Strike: MOUZ vs 9z - Map 1 Winner",
+            "slug": "cs2-mouz-9z-2026-08-27-game1",
+            "url": "https://polymarket.com/market/cs2-mouz-9z-2026-08-27-game1?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
+            "category": "",
+            "volume": 415353.5105129996,
+            "days_until_close": 0.16260391152777778,
+            "probability": 0.5
+          },
+          "forecast": {
+            "probability": 0.65,
+            "confidence": 0.95,
+            "reasoning": "## Forecast Summary\n\n**Median Probability:** 65.0%\n**Run Range:** 50.0% - 65.0%\n**Individual Runs:** 50.0%, 65.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known is until the end of Map 1 of the match between MOUZ and 9z, which is scheduled to start on August 27, 2026, at 7:30 AM ET. Assuming the match starts on time and a typical map lasts around 45 minutes to an hour, the outcome should be known by approximately 8:30 AM ET on the same day.\n\n(b) The status quo outcome if nothing changed is that the match is yet to start, and no winner has been determined for Map 1. Therefore, the current status quo is unresolved.\n\n(c) A brief description of a scenario that results in a No outcome: If 9z wins Map 1 by 4 or more rounds, the market will resolve to \"9z,\" resulting in a No outcome for MOUZ as the Map 1 winner.\n\n(d) A brief description of a scenario that results in a Yes outcome: If MOUZ wins Map 1 by 7 or more rounds, the market will resolve to \"MOUZ,\" resulting in a Yes outcome for MOUZ as the Map 1 winner.\n\n(e) Your conclusion: Based on the above, explain which outcome is more likely and why. Consider: Does the evidence favor Yes or No? How strong is the case? What's the baseline probability?\n\nTo determine the likelihood of MOUZ winning Map 1 by 7 or more rounds, we need to consider the historical performance and current form of both teams. MOUZ has historically been a stronger team with a more consistent performance in international tournaments compared to 9z. They have a higher ranking on HLTV and have consistently performed well against teams of similar or higher caliber. This suggests that MOUZ is more likely to dominate the map and achieve a significant round differential.\n\nThe baseline probability would typically favor the higher-ranked team, which in this case is MOUZ. Given the requirement for MOUZ to win by 7 or more rounds, the probability is slightly reduced compared to just winning the map. However, considering MOUZ's historical strength and the fact that they are likely the favorites in this matchup, the probability of them achieving the required round differential is still reasonably high.\n\nFinal Answer: \"Probability: 65%\""
+          },
+          "edge": 0.15,
+          "edge_direction": "YES",
+          "expected_value": 0.15,
+          "conviction": "MEDIUM",
+          "reasoning_summary": "AI predicts 65% YES (vs market 50%) \u2192 Bet YES\n\nYour conclusion: Based on the above, explain which outcome is more likely and why. Consider: Does the evidence favor Yes or No? How strong is the case? What's the baseline probability? To determine the likelihood of MOUZ winning Map 1 by 7 or more rounds, we need to consider the historical performance and current form of both teams. MOUZ has historically been a stronger team with a more consistent performance in international tournaments compared to 9z. They have a higher ranking on HLTV and have consistently performed well against teams of similar or higher caliber. This suggests that MOUZ is"
+        },
+        {
+          "market_info": {
+            "id": "1130012",
+            "title": "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
+            "slug": "will-united-russia-er-gain-the-most-seats-in-the-next-russian-parliamentary-election",
+            "url": "https://polymarket.com/market/will-united-russia-er-gain-the-most-seats-in-the-next-russian-parliamentary-election?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
+            "category": "",
+            "volume": 7999355.1943109995,
+            "days_until_close": 33.41260391034722,
+            "probability": 0.725
+          },
+          "forecast": {
+            "probability": 0.85,
+            "confidence": 1.0,
+            "reasoning": "## Forecast Summary\n\n**Median Probability:** 85.0%\n**Run Range:** 85.0% - 85.0%\n**Individual Runs:** 85.0%, 85.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known: Approximately one month until the Russian parliamentary elections scheduled for September 2026.\n\n(b) The status quo outcome if nothing changed: United Russia (ER) is projected to gain the most seats based on current market pricing and independent seat projections. ER is the dominant party with a high probability of election victory and an absolute majority.\n\n(c) A brief description of a scenario that results in a No outcome: A significant political upheaval or scandal involving United Russia could drastically alter public opinion and voter behavior, leading to a surge in support for opposition parties like New People or other parties. This could result in one of these parties gaining more seats than ER, despite current projections.\n\n(d) A brief description of a scenario that results in a Yes outcome: The current political environment remains stable, and United Russia continues to leverage its established political machinery, media influence, and resources to maintain its dominant position. This leads to ER gaining the most seats in the election, as projected by current market trends and election models.\n\n(e) Your conclusion: Based on the above, the evidence strongly favors a Yes outcome. United Russia is the clear frontrunner with a significant lead in market pricing and election projections. The status quo suggests ER will maintain its dominant position, as it has historically done in past elections. The probability of a major shift in voter sentiment or political dynamics within the next month is low, given the current stability and control exerted by ER. Therefore, the baseline probability for ER gaining the most seats remains high.\n\nFinal answer: \"Probability: 85%\""
+          },
+          "edge": 0.125,
+          "edge_direction": "YES",
+          "expected_value": 0.125,
+          "conviction": "MEDIUM",
+          "reasoning_summary": "AI predicts 85% YES (vs market 72%) \u2192 Bet YES\n\nYour conclusion: Based on the above, the evidence strongly favors a Yes outcome. United Russia is the clear frontrunner with a significant lead in market pricing and election projections. The status quo suggests ER will maintain its dominant position, as it has historically done in past elections. The probability of a major shift in voter sentiment or political dynamics within the next month is low, given the current stability and control exerted by ER. Therefore, the baseline probability for ER gaining the most seats remains high."
+        }
+      ]
+    }
+  ]
+}

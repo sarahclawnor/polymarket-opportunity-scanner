@@ -85,5 +85,92 @@
       "shares": 1.5,
       "status": "PLACED"
     }
+  },
+  {
+    "trade_id": "trade_1787839551_3901046",
+    "timestamp": "2026-08-27T14:05:51.501370+00:00",
+    "market_id": "3901046",
+    "market_slug": "cs2-mouz-9z-2026-08-27-map-handicap-away-1pt5",
+    "market_title": "Map Handicap: MOUZ (-1.5) vs 9z (+1.5)",
+    "side": "YES",
+    "token_id": "40587610456757793023417283035787294364354631284770626961706202864979035903048",
+    "size_usd": 1.0,
+    "shares": 1.0,
+    "entry_price": 0.9995,
+    "take_profit_price": 0.99,
+    "conviction": "HIGH",
+    "edge": 0.25,
+    "status": "SUBMITTED",
+    "buy_order": {
+      "type": "MARKET_BUY",
+      "amount_usd": 1.0,
+      "executed_price": 0.9995,
+      "shares": 1.0,
+      "status": "FILLED"
+    },
+    "take_profit_order": {
+      "type": "LIMIT_SELL",
+      "target_price": 0.99,
+      "shares": 1.0,
+      "status": "PLACED"
+    }
+  },
+  {
+    "trade_id": "trade_1787839551_3682186",
+    "timestamp": "2026-08-27T14:05:51.624444+00:00",
+    "market_id": "3682186",
+    "market_slug": "cs2-mouz-9z-2026-08-27-game1",
+    "market_title": "Counter-Strike: MOUZ vs 9z - Map 1 Winner",
+    "side": "YES",
+    "token_id": "11035520321674783134693270948193952784718688920444996278581878400539744343959",
+    "size_usd": 1.0,
+    "shares": 1.0,
+    "entry_price": 0.9995,
+    "take_profit_price": 0.99,
+    "conviction": "MEDIUM",
+    "edge": 0.15,
+    "status": "SUBMITTED",
+    "buy_order": {
+      "type": "MARKET_BUY",
+      "amount_usd": 1.0,
+      "executed_price": 0.9995,
+      "shares": 1.0,
+      "status": "FILLED"
+    },
+    "take_profit_order": {
+      "type": "LIMIT_SELL",
+      "target_price": 0.99,
+      "shares": 1.0,
+      "status": "PLACED"
+    }
+  },
+  {
+    "trade_id": "trade_1787839551_1130012",
+    "timestamp": "2026-08-27T14:05:51.651691+00:00",
+    "market_id": "1130012",
+    "market_slug": "will-united-russia-er-gain-the-most-seats-in-the-next-russian-parliamentary-election",
+    "market_title": "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
+    "side": "YES",
+    "token_id": "20915769520649892253891152116814645067070024223185517956799957803974344024878",
+    "size_usd": 1.0,
+    "shares": 1.38,
+    "entry_price": 0.725,
+    "take_profit_price": 0.85,
+    "conviction": "MEDIUM",
+    "edge": 0.125,
+    "status": "SUBMITTED",
+    "buy_order": {
+      "type": "MARKET_BUY",
+      "amount_usd": 1.0,
+      "executed_price": 0.725,
+      "shares": 1.38,
+      "status": "FILLED"
+    },
+    "take_profit_order": {
+      "type": "LIMIT_SELL",
+      "target_price": 0.85,
+      "shares": 1.38,
+      "status": "PLACED"
+    }
   }
 ]

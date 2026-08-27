@@ -458,5 +458,35 @@
     "edge_direction": "yes",
     "alerted_at": "2026-08-26T14:07:39.739692",
     "alert_count": 1
+  },
+  "3682186": {
+    "market_id": "3682186",
+    "market_title": "Counter-Strike: MOUZ vs 9z - Map 1 Winner",
+    "market_probability": 0.5,
+    "forecast_probability": 0.65,
+    "edge": 0.15000000000000002,
+    "edge_direction": "yes",
+    "alerted_at": "2026-08-27T14:03:28.698536",
+    "alert_count": 1
+  },
+  "3901046": {
+    "market_id": "3901046",
+    "market_title": "Map Handicap: MOUZ (-1.5) vs 9z (+1.5)",
+    "market_probability": 0.5,
+    "forecast_probability": 0.75,
+    "edge": 0.25,
+    "edge_direction": "yes",
+    "alerted_at": "2026-08-27T14:03:58.557878",
+    "alert_count": 1
+  },
+  "1130012": {
+    "market_id": "1130012",
+    "market_title": "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
+    "market_probability": 0.725,
+    "forecast_probability": 0.85,
+    "edge": 0.125,
+    "edge_direction": "yes",
+    "alerted_at": "2026-08-27T14:05:49.662019",
+    "alert_count": 1
   }
 }
