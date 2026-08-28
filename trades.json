@@ -259,5 +259,35 @@
       "shares": 1.74,
       "status": "PLACED"
     }
+  },
+  {
+    "trade_id": "trade_1787933041_3860167",
+    "timestamp": "2026-08-28T16:04:01.167400+00:00",
+    "market_id": "3860167",
+    "market_slug": "lol-shft-th-2026-08-28-game1",
+    "market_title": "LoL: Shifters vs Team Heretics - Game 1 Winner",
+    "side": "YES",
+    "size_usd": 1.0,
+    "conviction": "HIGH",
+    "edge": 0.49,
+    "status": "FAILED",
+    "bankr_job_id": null,
+    "bankr_response": "",
+    "error": "Submit failed: HTTP 202 {\"success\":true,\"jobId\":\"job_W7GT375PG23XP2MS\",\"threadId\":\"thr_R6SUBKAJ5GM6Y3T6\",\"status\":\"pending\",\"message\":\"Prompt submitted successfully. Use the jobId to check status.\"}"
+  },
+  {
+    "trade_id": "trade_1787933041_3910911",
+    "timestamp": "2026-08-28T16:04:01.879931+00:00",
+    "market_id": "3910911",
+    "market_slug": "cs2-navi-pain-2026-08-28",
+    "market_title": "Counter-Strike: Natus Vincere vs paiN (BO3) - BLAST Open Porto Group A",
+    "side": "YES",
+    "size_usd": 1.0,
+    "conviction": "HIGH",
+    "edge": 0.18,
+    "status": "FAILED",
+    "bankr_job_id": null,
+    "bankr_response": "",
+    "error": "Submit failed: HTTP 202 {\"success\":true,\"jobId\":\"job_BMK726QGTHJ6JEBT\",\"threadId\":\"thr_P2CYQQT6H98XE8FR\",\"status\":\"pending\",\"message\":\"Prompt submitted successfully. Use the jobId to check status.\"}"
   }
 ]

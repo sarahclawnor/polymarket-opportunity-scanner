@@ -432,12 +432,12 @@
   "2252244": {
     "market_id": "2252244",
     "market_title": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-    "market_probability": 0.645,
-    "forecast_probability": 0.75,
-    "edge": 0.10499999999999998,
+    "market_probability": 0.485,
+    "forecast_probability": 0.7,
+    "edge": 0.21499999999999997,
     "edge_direction": "yes",
-    "alerted_at": "2026-08-26T14:05:24.679050",
-    "alert_count": 1
+    "alerted_at": "2026-08-28T16:03:58.295823",
+    "alert_count": 2
   },
   "2252245": {
     "market_id": "2252245",
@@ -517,6 +517,26 @@
     "edge": 0.19999999999999996,
     "edge_direction": "yes",
     "alerted_at": "2026-08-28T14:02:43.408391",
+    "alert_count": 1
+  },
+  "3860167": {
+    "market_id": "3860167",
+    "market_title": "LoL: Shifters vs Team Heretics - Game 1 Winner",
+    "market_probability": 0.5,
+    "forecast_probability": 0.99,
+    "edge": 0.49,
+    "edge_direction": "yes",
+    "alerted_at": "2026-08-28T16:03:14.855331",
+    "alert_count": 1
+  },
+  "3910911": {
+    "market_id": "3910911",
+    "market_title": "Counter-Strike: Natus Vincere vs paiN (BO3) - BLAST Open Porto Group A",
+    "market_probability": 0.5,
+    "forecast_probability": 0.68,
+    "edge": 0.18000000000000005,
+    "edge_direction": "yes",
+    "alerted_at": "2026-08-28T16:03:29.298876",
     "alert_count": 1
   }
 }
