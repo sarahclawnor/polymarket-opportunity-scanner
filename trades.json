@@ -172,5 +172,92 @@
       "shares": 1.38,
       "status": "PLACED"
     }
+  },
+  {
+    "trade_id": "trade_1787925765_3902516",
+    "timestamp": "2026-08-28T14:02:45.356213+00:00",
+    "market_id": "3902516",
+    "market_slug": "cs2-g2-ts7-2026-08-28-game2",
+    "market_title": "Counter-Strike: G2 vs Spirit - Map 2 Winner",
+    "side": "YES",
+    "token_id": "64489918327164099584128251027314592429728042744061803542043541042036781411598",
+    "size_usd": 1.0,
+    "shares": 2000.0,
+    "entry_price": 0.0005,
+    "take_profit_price": 0.7,
+    "conviction": "HIGH",
+    "edge": 0.2,
+    "status": "SUBMITTED",
+    "buy_order": {
+      "type": "MARKET_BUY",
+      "amount_usd": 1.0,
+      "executed_price": 0.0005,
+      "shares": 2000.0,
+      "status": "FILLED"
+    },
+    "take_profit_order": {
+      "type": "LIMIT_SELL",
+      "target_price": 0.7,
+      "shares": 2000.0,
+      "status": "PLACED"
+    }
+  },
+  {
+    "trade_id": "trade_1787925765_3902517",
+    "timestamp": "2026-08-28T14:02:45.438662+00:00",
+    "market_id": "3902517",
+    "market_slug": "cs2-g2-ts7-2026-08-28",
+    "market_title": "Counter-Strike: G2 vs Spirit (BO3) - BLAST Open Porto Group A",
+    "side": "YES",
+    "token_id": "56990178116193291303455473820026415864280242084951111088977406533223040086689",
+    "size_usd": 1.0,
+    "shares": 2000.0,
+    "entry_price": 0.0005,
+    "take_profit_price": 0.7,
+    "conviction": "HIGH",
+    "edge": 0.2,
+    "status": "SUBMITTED",
+    "buy_order": {
+      "type": "MARKET_BUY",
+      "amount_usd": 1.0,
+      "executed_price": 0.0005,
+      "shares": 2000.0,
+      "status": "FILLED"
+    },
+    "take_profit_order": {
+      "type": "LIMIT_SELL",
+      "target_price": 0.7,
+      "shares": 2000.0,
+      "status": "PLACED"
+    }
+  },
+  {
+    "trade_id": "trade_1787925765_3595745",
+    "timestamp": "2026-08-28T14:02:45.468376+00:00",
+    "market_id": "3595745",
+    "market_slug": "epl-cry-mac-2026-08-28-mac",
+    "market_title": "Will Manchester City FC win on 2026-08-28?",
+    "side": "YES",
+    "token_id": "73348592430926237939145499087674836852947768215971800694544367449834873510352",
+    "size_usd": 1.0,
+    "shares": 1.74,
+    "entry_price": 0.575,
+    "take_profit_price": 0.7,
+    "conviction": "MEDIUM",
+    "edge": 0.125,
+    "status": "SUBMITTED",
+    "buy_order": {
+      "type": "MARKET_BUY",
+      "amount_usd": 1.0,
+      "executed_price": 0.575,
+      "shares": 1.74,
+      "status": "FILLED"
+    },
+    "take_profit_order": {
+      "type": "LIMIT_SELL",
+      "target_price": 0.7,
+      "shares": 1.74,
+      "status": "PLACED"
+    }
   }
 ]

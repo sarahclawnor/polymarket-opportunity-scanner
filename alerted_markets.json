@@ -488,5 +488,35 @@
     "edge_direction": "yes",
     "alerted_at": "2026-08-27T14:05:49.662019",
     "alert_count": 1
+  },
+  "3902516": {
+    "market_id": "3902516",
+    "market_title": "Counter-Strike: G2 vs Spirit - Map 2 Winner",
+    "market_probability": 0.5,
+    "forecast_probability": 0.7,
+    "edge": 0.19999999999999996,
+    "edge_direction": "yes",
+    "alerted_at": "2026-08-28T14:01:01.839222",
+    "alert_count": 1
+  },
+  "3595745": {
+    "market_id": "3595745",
+    "market_title": "Will Manchester City FC win on 2026-08-28?",
+    "market_probability": 0.575,
+    "forecast_probability": 0.7,
+    "edge": 0.125,
+    "edge_direction": "yes",
+    "alerted_at": "2026-08-28T14:02:35.002645",
+    "alert_count": 1
+  },
+  "3902517": {
+    "market_id": "3902517",
+    "market_title": "Counter-Strike: G2 vs Spirit (BO3) - BLAST Open Porto Group A",
+    "market_probability": 0.5,
+    "forecast_probability": 0.7,
+    "edge": 0.19999999999999996,
+    "edge_direction": "yes",
+    "alerted_at": "2026-08-28T14:02:43.408391",
+    "alert_count": 1
   }
 }

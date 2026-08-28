@@ -1,0 +1,77 @@
+{
+  "date": "2026-08-28",
+  "scans": [
+    {
+      "scanned_at": "2026-08-28T14:02:44.905594Z",
+      "opportunities_found": 3,
+      "opportunities": [
+        {
+          "market_info": {
+            "id": "3902516",
+            "title": "Counter-Strike: G2 vs Spirit - Map 2 Winner",
+            "slug": "cs2-g2-ts7-2026-08-28-game2",
+            "url": "https://polymarket.com/market/cs2-g2-ts7-2026-08-28-game2?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
+            "category": "",
+            "volume": 741039.888150999,
+            "days_until_close": 0.1578135925462963,
+            "probability": 0.5
+          },
+          "forecast": {
+            "probability": 0.7,
+            "confidence": 1.0,
+            "reasoning": "## Forecast Summary\n\n**Median Probability:** 70.0%\n**Run Range:** 70.0% - 70.0%\n**Individual Runs:** 70.0%, 70.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known is approximately 10 hours and 20 minutes, assuming the match starts on time at 7:30 AM ET and concludes by 5:50 PM UTC on August 28, 2026.\n\n(b) The status quo outcome if nothing changed is that Spirit is favored to win Map 2, based on their recent performance against G2.\n\n(c) A scenario that results in a No outcome (G2 wins Map 2) is if G2 has improved their strategies and performance since their last encounter with Spirit, particularly on the map that will be played as Map 2.\n\n(d) A scenario that results in a Yes outcome (Spirit wins Map 2) is if Spirit maintains their current form and continues their winning streak against G2, leveraging their recent success in similar matchups.\n\n(e) Based on the above, the outcome that Spirit wins Map 2 is more likely. The evidence favors a Yes outcome because Spirit has demonstrated a strong track record against G2 in recent matches, including a victory in Map 2 during their most recent encounter at IEM Cologne Major 2026. The case for Spirit is strong given their consistent performance and ability to win against G2 in multiple recent series. The baseline probability, considering Spirit's recent victories, suggests a higher likelihood of Spirit winning Map 2. While G2 could potentially adjust and improve, the status quo and recent evidence suggest that Spirit is the more likely winner.\n\nProbability: 70%"
+          },
+          "edge": 0.2,
+          "edge_direction": "YES",
+          "expected_value": 0.2,
+          "conviction": "HIGH",
+          "reasoning_summary": "AI predicts 70% YES (vs market 50%) \u2192 Bet YES\n\nBased on the above, the outcome that Spirit wins Map 2 is more likely. The evidence favors a Yes outcome because Spirit has demonstrated a strong track record against G2 in recent matches, including a victory in Map 2 during their most recent encounter at IEM Cologne Major 2026. The case for Spirit is strong given their consistent performance and ability to win against G2 in multiple recent series. The baseline probability, considering Spirit's recent victories, suggests a higher likelihood of Spirit winning Map 2. While G2 could potentially adjust and improve, the status quo and recent eviden"
+        },
+        {
+          "market_info": {
+            "id": "3902517",
+            "title": "Counter-Strike: G2 vs Spirit (BO3) - BLAST Open Porto Group A",
+            "slug": "cs2-g2-ts7-2026-08-28",
+            "url": "https://polymarket.com/market/cs2-g2-ts7-2026-08-28?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
+            "category": "",
+            "volume": 556157.7500979999,
+            "days_until_close": 0.15781359116898147,
+            "probability": 0.5
+          },
+          "forecast": {
+            "probability": 0.7,
+            "confidence": 1.0,
+            "reasoning": "## Forecast Summary\n\n**Median Probability:** 70.0%\n**Run Range:** 70.0% - 70.0%\n**Individual Runs:** 70.0%, 70.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known is uncertain but expected to be within the day, as the match is scheduled for August 28, 2026, at 7:30 AM ET. The match page indicates that the series has not started yet, but it should conclude today unless unforeseen delays occur.\n\n(b) The status quo outcome, if nothing changes, is that Spirit is favored to win based on recent form and head-to-head results. Spirit has won recent meetings against G2, including a victory at the IEM Cologne Major 2026.\n\n(c) A scenario that results in a No outcome (G2 win) could involve G2 outperforming expectations, possibly due to exceptional individual performances from players like huNter or NertZ, or strategic adjustments that counter Spirit's gameplay effectively.\n\n(d) A scenario that results in a Yes outcome (Spirit win) involves Spirit maintaining their current strong form and leveraging their recent head-to-head successes against G2. Spirit's players like sh1ro and magixx could continue their high-level performances, leading to a decisive victory.\n\n(e) Based on the above, the outcome that Spirit wins is more likely. The evidence strongly favors Spirit due to their recent form and head-to-head dominance over G2. Multiple preview sources describe Spirit as the favorite, and they have demonstrated consistent performance in recent matches. The baseline probability leans towards Spirit winning, given the historical data and expert analysis.\n\nProbability: 70%"
+          },
+          "edge": 0.2,
+          "edge_direction": "YES",
+          "expected_value": 0.2,
+          "conviction": "HIGH",
+          "reasoning_summary": "AI predicts 70% YES (vs market 50%) \u2192 Bet YES\n\nBased on the above, the outcome that Spirit wins is more likely. The evidence strongly favors Spirit due to their recent form and head-to-head dominance over G2. Multiple preview sources describe Spirit as the favorite, and they have demonstrated consistent performance in recent matches. The baseline probability leans towards Spirit winning, given the historical data and expert analysis."
+        },
+        {
+          "market_info": {
+            "id": "3595745",
+            "title": "Will Manchester City FC win on 2026-08-28?",
+            "slug": "epl-cry-mac-2026-08-28-mac",
+            "url": "https://polymarket.com/market/epl-cry-mac-2026-08-28-mac?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
+            "category": "",
+            "volume": 594200.3323680009,
+            "days_until_close": 0.20642470128472223,
+            "probability": 0.575
+          },
+          "forecast": {
+            "probability": 0.7,
+            "confidence": 1.0,
+            "reasoning": "## Forecast Summary\n\n**Median Probability:** 70.0%\n**Run Range:** 70.0% - 70.0%\n**Individual Runs:** 70.0%, 70.0%\n\n## Selected Rationale (closest to median):\n\n(a) The time left until the outcome is known is dependent on the completion of the match scheduled for today, August 28, 2026. The match is set to start at 19:00 UTC, and typically, a football match lasts around 90 minutes plus stoppage time. Therefore, the outcome should be known by approximately 21:00 UTC, assuming no delays.\n\n(b) The status quo outcome if nothing changed is that Manchester City FC is favored to win. They are the favorites according to the betting odds, which suggest a higher probability of victory compared to Crystal Palace. Historically, Manchester City has a strong record against Crystal Palace, with 18 wins out of 26 matches.\n\n(c) A brief description of a scenario that results in a No outcome: Manchester City could lose or draw the match against Crystal Palace. This could happen if Crystal Palace performs exceptionally well, capitalizing on home advantage, or if Manchester City underperforms due to injuries, tactical errors, or other unforeseen circumstances.\n\n(d) A brief description of a scenario that results in a Yes outcome: Manchester City wins the match against Crystal Palace. This could occur if Manchester City plays to their strengths, leveraging their superior squad depth, tactical acumen, and historical performance against Crystal Palace to secure a victory within the regular 90 minutes plus stoppage time.\n\n(e) Your conclusion: Based on the above, the outcome that Manchester City FC will win is more likely. The evidence favors a Yes outcome due to several factors: Manchester City is the betting favorite, indicating market confidence in their victory. Additionally, their historical performance against Crystal Palace is strong, with a significant number of wins in previous encounters. The baseline probability is influenced by these factors, suggesting a higher likelihood of Manchester City winning. However, football matches are inherently uncertain, and while the odds favor Manchester City, unexpected events can lead to different outcomes.\n\nProbability: 70%"
+          },
+          "edge": 0.125,
+          "edge_direction": "YES",
+          "expected_value": 0.125,
+          "conviction": "MEDIUM",
+          "reasoning_summary": "AI predicts 70% YES (vs market 57%) \u2192 Bet YES\n\nYour conclusion: Based on the above, the outcome that Manchester City FC will win is more likely. The evidence favors a Yes outcome due to several factors: Manchester City is the betting favorite, indicating market confidence in their victory. Additionally, their historical performance against Crystal Palace is strong, with a significant number of wins in previous encounters. The baseline probability is influenced by these factors, suggesting a higher likelihood of Manchester City winning. However, football matches are inherently uncertain, and while the odds favor Manchester City, unexpected "
+        }
+      ]
+    }
+  ]
+}
