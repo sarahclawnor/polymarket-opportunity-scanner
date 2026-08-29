@@ -442,12 +442,12 @@
   "2252245": {
     "market_id": "2252245",
     "market_title": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-    "market_probability": 0.345,
-    "forecast_probability": 0.67,
-    "edge": 0.32500000000000007,
-    "edge_direction": "yes",
-    "alerted_at": "2026-08-26T14:05:37.582406",
-    "alert_count": 1
+    "market_probability": 0.525,
+    "forecast_probability": 0.3,
+    "edge": 0.22500000000000003,
+    "edge_direction": "no",
+    "alerted_at": "2026-08-28T16:40:07.718192",
+    "alert_count": 2
   },
   "601826": {
     "market_id": "601826",
@@ -537,6 +537,56 @@
     "edge": 0.18000000000000005,
     "edge_direction": "yes",
     "alerted_at": "2026-08-28T16:03:29.298876",
+    "alert_count": 1
+  },
+  "3595720": {
+    "market_id": "3595720",
+    "market_title": "Will FC Bayern M\u00fcnchen win on 2026-08-28?",
+    "market_probability": 0.795,
+    "forecast_probability": 0.68,
+    "edge": 0.11499999999999999,
+    "edge_direction": "no",
+    "alerted_at": "2026-08-28T16:41:22.282318",
+    "alert_count": 1
+  },
+  "3257336": {
+    "market_id": "3257336",
+    "market_title": "Will Bitcoin reach $82,500 in August?",
+    "market_probability": 0.1035,
+    "forecast_probability": 0.42,
+    "edge": 0.3165,
+    "edge_direction": "yes",
+    "alerted_at": "2026-08-28T16:42:09.078716",
+    "alert_count": 1
+  },
+  "3779859": {
+    "market_id": "3779859",
+    "market_title": "Will the price of Bitcoin be above $78,000 on August 29?",
+    "market_probability": 0.075,
+    "forecast_probability": 0.18,
+    "edge": 0.105,
+    "edge_direction": "yes",
+    "alerted_at": "2026-08-29T14:11:51.876594",
+    "alert_count": 1
+  },
+  "3636520": {
+    "market_id": "3636520",
+    "market_title": "Will Galatasaray SK win on 2026-08-29?",
+    "market_probability": 0.755,
+    "forecast_probability": 0.64,
+    "edge": 0.11499999999999999,
+    "edge_direction": "no",
+    "alerted_at": "2026-08-29T14:14:09.438764",
+    "alert_count": 1
+  },
+  "2487205": {
+    "market_id": "2487205",
+    "market_title": "Next Mythos-Class Model released by August 31, 2026?",
+    "market_probability": 0.335,
+    "forecast_probability": 0.08,
+    "edge": 0.255,
+    "edge_direction": "no",
+    "alerted_at": "2026-08-29T14:15:21.839800",
     "alert_count": 1
   }
 }

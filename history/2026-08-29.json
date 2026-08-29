@@ -1,0 +1,77 @@
+{
+  "date": "2026-08-29",
+  "scans": [
+    {
+      "scanned_at": "2026-08-29T14:15:23.045721Z",
+      "opportunities_found": 3,
+      "opportunities": [
+        {
+          "market_info": {
+            "id": "2487205",
+            "title": "Next Mythos-Class Model released by August 31, 2026?",
+            "slug": "next-mythos-class-model-released-by-august-31-2026",
+            "url": "https://polymarket.com/market/next-mythos-class-model-released-by-august-31-2026?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
+            "category": "",
+            "volume": 225830.899931,
+            "days_until_close": 1.571955489224537,
+            "probability": 0.335
+          },
+          "forecast": {
+            "probability": 0.08,
+            "confidence": 1.0,
+            "reasoning": "## Forecast Summary\n\n**Median Probability:** 8.0%\n**Run Range:** 6.0% - 8.0%\n**Individual Runs:** 8.0%, 6.0%\n\n## Selected Rationale (closest to median):\n\n**(a) The time left until the outcome is known:**  \nApproximately 2 days (from the current date of August 29, 2026, to the resolution cutoff on August 31, 2026).\n\n**(b) The status quo outcome if nothing changed:**  \nThe status quo outcome is **No**. Currently, while Anthropic announced Mythos 5 on June 9, 2026, it remains restricted to closed partner access (Glasswing partners and select researchers). The resolution criteria explicitly state that \"a closed beta or any form of private access will not suffice\" and require the model to be launched and accessible to the general public (or via open beta / open rolling waitlist). \n\n**(c) A brief description of a scenario that results in a No outcome:**  \nAnthropic continues its restricted deployment, safety evaluations, and selective researcher rollout of Mythos 5 through the end of August, withholding broad general public access until September 2026 or later.\n\n**(d) A brief description of a scenario that results in a Yes outcome:**  \nAnthropic makes a surprise public announcement within the next 48 hours opening public beta access, public API tiers, or an open rolling waitlist for Claude Mythos 5 (or another qualifying Mythos-class model) before the August 31 cutoff.\n\n**(e) Your conclusion:**  \nThe evidence strongly favors a **No** outcome. With less than 48 hours remaining until the August 31 deadline, the status quo is firmly not met because existing Mythos-class access remains strictly private/gated. Opening a tier-1 flagship/frontier model to the general public typically requires advance preparation or coordination, and major frontier releases rarely drop over a 48-hour weekend/month-end window without prior scheduling. While prediction markets previously priced August 31 at ~38% (likely reflecting uncertainty over whether the restricted June 9 release would satisfy criteria or if an August opening was slated), the strict public accessibility rules mean that without an immediate release in the next two days, the market will resolve to No. Weighting heavily toward the status quo and the tiny remaining time window, the probability of Yes is very low.\n\nProbability: 8%"
+          },
+          "edge": 0.255,
+          "edge_direction": "NO",
+          "expected_value": 0.255,
+          "conviction": "HIGH",
+          "reasoning_summary": "AI predicts 8% YES (vs market 34%) \u2192 Bet NO\n\n** The evidence strongly favors a **No** outcome. With less than 48 hours remaining until the August 31 deadline, the status quo is firmly not met because existing Mythos-class access remains strictly private/gated. Opening a tier-1 flagship/frontier model to the general public typically requires advance preparation or coordination, and major frontier releases rarely drop over a 48-hour weekend/month-end window without prior scheduling. While prediction markets previously priced August 31 at ~38% (likely reflecting uncertainty over whether the restricted June 9 release would satisfy criteria o"
+        },
+        {
+          "market_info": {
+            "id": "3636520",
+            "title": "Will Galatasaray SK win on 2026-08-29?",
+            "slug": "tur-gal-goz-2026-08-29-gal",
+            "url": "https://polymarket.com/market/tur-gal-goz-2026-08-29-gal?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
+            "category": "",
+            "volume": 115252.31414599996,
+            "days_until_close": 0.17681659773148148,
+            "probability": 0.755
+          },
+          "forecast": {
+            "probability": 0.64,
+            "confidence": 1.0,
+            "reasoning": "## Forecast Summary\n\n**Median Probability:** 64.0%\n**Run Range:** 64.0% - 64.0%\n**Individual Runs:** 64.0%, 64.0%\n\n## Selected Rationale (closest to median):\n\n**(a) The time left until the outcome is known:**\nThe match is scheduled for today, August 29, 2026, with an end date/kickoff window concluding later this evening (resolution expected within several hours following full-time).\n\n**(b) The status quo outcome if nothing changed:**\nBefore kickoff or in the absence of a completed victory (e.g., currently 0-0 or prior to match completion), the default standing resolution is \"No\" until Galatasaray secures a victory at the final whistle.\n\n**(c) A brief description of a scenario that results in a No outcome:**\nG\u00f6ztepe successfully employs a defensive low block, holding Galatasaray to a draw, or catches Galatasaray on the counter-attack to score and either win or hold out for a tie. Any postponement or cancellation without a completed match on schedule would also result in a \"No\".\n\n**(d) A brief description of a scenario that results in a Yes outcome:**\nGalatasaray leverages their home-field advantage at Rams Park, dominates possession and chance creation, and outscores G\u00f6ztepe over 90 minutes plus stoppage time to take all three points.\n\n**(e) Your conclusion:**\nGalatasaray enters the match as substantial favorites playing at home at Rams Park against G\u00f6ztepe. Analytic models and betting market aggregates (such as Flashscore's implied probability of 67% and SportsMole's projection of ~59%) place the expected probability of a home victory solidly above 60%, with an average consensus around 63\u201365%. While football matches inherently carry variance\u2014specifically the risk of draws against defensive opponents\u2014the balance of evidence strongly points to Galatasaray winning within regular time.\n\nProbability: 64%"
+          },
+          "edge": 0.115,
+          "edge_direction": "NO",
+          "expected_value": 0.115,
+          "conviction": "MEDIUM",
+          "reasoning_summary": "AI predicts 64% YES (vs market 76%) \u2192 Bet NO\n\n** Galatasaray enters the match as substantial favorites playing at home at Rams Park against G\u00f6ztepe. Analytic models and betting market aggregates (such as Flashscore's implied probability of 67% and SportsMole's projection of ~59%) place the expected probability of a home victory solidly above 60%, with an average consensus around 63\u201365%. While football matches inherently carry variance\u2014specifically the risk of draws against defensive opponents\u2014the balance of evidence strongly points to Galatasaray winning within regular time."
+        },
+        {
+          "market_info": {
+            "id": "3779859",
+            "title": "Will the price of Bitcoin be above $78,000 on August 29?",
+            "slug": "bitcoin-above-78k-on-august-29-2026",
+            "url": "https://polymarket.com/market/bitcoin-above-78k-on-august-29-2026?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
+            "category": "",
+            "volume": 143457.33665299998,
+            "days_until_close": 0.07264992940972222,
+            "probability": 0.075
+          },
+          "forecast": {
+            "probability": 0.18,
+            "confidence": 1.0,
+            "reasoning": "## Forecast Summary\n\n**Median Probability:** 18.0%\n**Run Range:** 16.0% - 18.0%\n**Individual Runs:** 18.0%, 16.0%\n\n## Selected Rationale (closest to median):\n\n**(a) The time left until the outcome is known:**\nToday is August 29, 2026, and the market resolves based on the Binance BTC/USDT 1-minute candle at 12:00 PM ET (16:00 UTC). There are only a few hours (or less) remaining until the exact resolution timestamp.\n\n**(b) The status quo outcome if nothing changed:**\nThe status quo outcome is **No**, as current spot prices for BTC/USDT on Binance and broader exchanges are trading in the range of approximately $77,400 to $77,800, which is below the $78,000 threshold.\n\n**(c) A brief description of a scenario that results in a No outcome:**\nBitcoin continues to trade within its current intraday consolidation range of $76,000\u2013$77,800, or experiences minor downward drift/stagnation into the 12:00 PM ET candle, closing below $78,000.\n\n**(d) A brief description of a scenario that results in a Yes outcome:**\nA sudden short-term influx of buying momentum, liquidation cascade of short positions, or positive macro/crypto headline pushes Bitcoin upward by $200\u2013$600+ in the final hours/minutes leading into 12:00 PM ET, lifting the 1-minute close above $78,000.\n\n**(e) Your conclusion:**\nThe evidence strongly favors a **No** resolution. Bitcoin is currently trading below the $78,000 level ($77.4k\u2013$77.8k), and prediction market pricing reflects an ~84% probability of finishing in the $76,000\u2013$78,000 band, with only ~15% implied probability of breaking above $78,000. Given the minimal time remaining and the standard forecaster principle of anchoring heavily on the status quo when time horizons are very short, the case for \"No\" is strong, though there remains a non-negligible tail risk (~15\u201320%) of an intraday pop above $78k given crypto's short-term volatility.\n\nProbability: 18%"
+          },
+          "edge": 0.105,
+          "edge_direction": "YES",
+          "expected_value": 0.105,
+          "conviction": "MEDIUM",
+          "reasoning_summary": "AI predicts 18% YES (vs market 8%) \u2192 Bet YES\n\n** The evidence strongly favors a **No** resolution. Bitcoin is currently trading below the $78,000 level ($77.4k\u2013$77.8k), and prediction market pricing reflects an ~84% probability of finishing in the $76,000\u2013$78,000 band, with only ~15% implied probability of breaking above $78,000. Given the minimal time remaining and the standard forecaster principle of anchoring heavily on the status quo when time horizons are very short, the case for \"No\" is strong, though there remains a non-negligible tail risk (~15\u201320%) of an intraday pop above $78k given crypto's short-term volatility."
+        }
+      ]
+    }
+  ]
+}

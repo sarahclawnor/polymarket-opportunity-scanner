@@ -144,6 +144,78 @@
           "reasoning_summary": "AI predicts 68% YES (vs market 50%) \u2192 Bet YES\n\n**Your conclusion:** Natus Vincere is heavily favored against paiN in a Best-of-3 format due to roster caliber, consistent tier-1 international tournament performance, and deeper map pool. Pre-match statistical modeling and bookmaker consensus place Na'Vi's win probability around 67\u201370%."
         }
       ]
+    },
+    {
+      "scanned_at": "2026-08-28T16:42:10.387999Z",
+      "opportunities_found": 3,
+      "opportunities": [
+        {
+          "market_info": {
+            "id": "3257336",
+            "title": "Will Bitcoin reach $82,500 in August?",
+            "slug": "will-bitcoin-reach-82pt5k-in-august-2026",
+            "url": "https://polymarket.com/market/will-bitcoin-reach-82pt5k-in-august-2026?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
+            "category": "",
+            "volume": 1507565.7316429997,
+            "days_until_close": 3.4707131017013886,
+            "probability": 0.103
+          },
+          "forecast": {
+            "probability": 0.42,
+            "confidence": 0.92,
+            "reasoning": "## Forecast Summary\n\n**Median Probability:** 42.0%\n**Run Range:** 18.0% - 44.0%\n**Individual Runs:** 18.0%, 44.0%, 42.0%\n\n## Selected Rationale (closest to median):\n\n**(a) Time left until the outcome is known:**  \nApproximately 3 to 4 days remain, as the market resolves at 11:59 PM ET on August 31, 2026 (September 1, 2026, 04:00 UTC).\n\n**(b) The status quo outcome if nothing changed:**  \nThe status quo outcome is **No** (assuming the $82,500 threshold has not yet been triggered during August).\n\n**(c) A brief description of a scenario that results in a No outcome:**  \nBitcoin remains within its recent consolidation range (between $58,000 and $78,000) or experiences sideways to bearish price action over the final days of the month, failing to spike up to or past the $82,500 level on Binance's 1-minute BTC/USDT chart before August 31 ends.\n\n**(d) A brief description of a scenario that results in a Yes outcome:**  \nA late-month bullish breakout, driven by strong spot market demand, institutional inflows, or short liquidations, pushes a 1-minute candle high on the Binance BTC/USDT pair to $82,500 or higher before the month closes.\n\n**(e) Conclusion:**  \nPrediction market data and algorithmic price targets cluster right around this threshold, with prediction markets pricing a touch of $82,500 at approximately 45.8% and targets such as CoinCodex ($83,610) and Changelly's maximum ($82,860) showing upside potential near this level. However, with only a few days remaining in August and multiple technical models projecting lower average ranges ($58,000\u2013$74,000), the status quo slightly favors Bitcoin falling short of triggering the exact $82,500 mark before the month ends. Balancing the strong upside plausibility against the limited time remaining and baseline status quo inertia gives a sub-50% lean toward \"No\".\n\nProbability: 42%"
+          },
+          "edge": 0.317,
+          "edge_direction": "YES",
+          "expected_value": 0.317,
+          "conviction": "HIGH",
+          "reasoning_summary": "AI predicts 42% YES (vs market 10%) \u2192 Bet YES\n\n** Prediction market data and algorithmic price targets cluster right around this threshold, with prediction markets pricing a touch of $82,500 at approximately 45.8% and targets such as CoinCodex ($83,610) and Changelly's maximum ($82,860) showing upside potential near this level. However, with only a few days remaining in August and multiple technical models projecting lower average ranges ($58,000\u2013$74,000), the status quo slightly favors Bitcoin falling short of triggering the exact $82,500 mark before the month ends. Balancing the strong upside plausibility against the limited time remaini"
+        },
+        {
+          "market_info": {
+            "id": "2252245",
+            "title": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+            "slug": "will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649",
+            "url": "https://polymarket.com/market/will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
+            "category": "",
+            "volume": 12490069.615221001,
+            "days_until_close": 18.30404643261574,
+            "probability": 0.525
+          },
+          "forecast": {
+            "probability": 0.3,
+            "confidence": 1.0,
+            "reasoning": "## Forecast Summary\n\n**Median Probability:** 30.0%\n**Run Range:** 29.0% - 31.0%\n**Individual Runs:** 31.0%, 30.0%, 29.0%\n\n## Selected Rationale (closest to median):\n\n**(a) Time left until the outcome is known:**  \nApproximately 19 days (from August 28, 2026, until the FOMC policy announcement on September 16, 2026).\n\n**(b) The status quo outcome if nothing changed:**  \nThe status quo outcome is \"No change\" (holding the target federal funds rate range steady at 3.50%\u20133.75%), which would result in a \"No\" outcome for a 25 bps increase.\n\n**(c) A brief description of a scenario that results in a No outcome:**  \nIncoming inflation and employment data between now and mid-September continue to show softening or stabilization, validating the majority view on the FOMC. With only 3 members dissenting in favor of a hike at the July meeting (a 9\u20133 vote to hold), the committee majority chooses to remain on pause to evaluate lagged policy effects, resulting in rates being held unchanged (or cut).\n\n**(d) A brief description of a scenario that results in a Yes outcome:**  \nUpcoming economic prints (such as August employment or consumer price data released before the meeting) come in substantially hotter than expected, or Chair Powell signals that the remaining hawks and moderates have aligned around one final preemptive rate increase to firmly anchor inflation expectations, leading the FOMC to vote for a 25 bps hike to 3.75%\u20134.00%.\n\n**(e) Your conclusion:**  \nThe evidence favors a **No** outcome (no 25 bps hike). At the July meeting, the FOMC voted 9\u20133 to keep rates steady at 3.50%\u20133.75%, establishing a solid majority preference for holding rates. Subsequent economic reports in August indicated softening inflation and labor market cooling, which has further diminished the urgency for additional tightening. Current market-implied odds (around 30% on Kalshi and ~30\u201338% in interest rate futures) reflect that while a hike remains a live possibility given lingering hawkish commentary from some institutions, the baseline and inertia strongly favor the status quo of holding rates steady. With less than three weeks remaining and absent a dramatic inflationary shock, the most probable outcome is that the Fed keeps rates unchanged.\n\nProbability: 30%"
+          },
+          "edge": 0.225,
+          "edge_direction": "NO",
+          "expected_value": 0.225,
+          "conviction": "HIGH",
+          "reasoning_summary": "AI predicts 30% YES (vs market 52%) \u2192 Bet NO\n\n** The evidence favors a **No** outcome (no 25 bps hike). At the July meeting, the FOMC voted 9\u20133 to keep rates steady at 3.50%\u20133.75%, establishing a solid majority preference for holding rates. Subsequent economic reports in August indicated softening inflation and labor market cooling, which has further diminished the urgency for additional tightening. Current market-implied odds (around 30% on Kalshi and ~30\u201338% in interest rate futures) reflect that while a hike remains a live possibility given lingering hawkish commentary from some institutions, the baseline and inertia strongly favor the"
+        },
+        {
+          "market_info": {
+            "id": "3595720",
+            "title": "Will FC Bayern M\u00fcnchen win on 2026-08-28?",
+            "slug": "bun-bay-stu-2026-08-28-bay",
+            "url": "https://polymarket.com/market/bun-bay-stu-2026-08-28-bay?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
+            "category": "",
+            "volume": 524613.5236789999,
+            "days_until_close": 0.0748797640162037,
+            "probability": 0.795
+          },
+          "forecast": {
+            "probability": 0.68,
+            "confidence": 1.0,
+            "reasoning": "## Forecast Summary\n\n**Median Probability:** 68.0%\n**Run Range:** 68.0% - 68.0%\n**Individual Runs:** 68.0%, 68.0%, 68.0%\n\n## Selected Rationale (closest to median):\n\n**(a) The time left until the outcome is known:**\nThe match is scheduled for kickoff today, August 28, 2026, at 20:30 local time (18:30 UTC). Accounting for 90 minutes of regular play, halftime, and stoppage time, the final outcome will be known in approximately 4 to 5 hours.\n\n**(b) The status quo outcome if nothing changed:**\nThe match is currently scheduled and unresolved (\"-:-\"). If the match were not played or canceled without a makeup, the market rules stipulate a resolution of \"No\". Prior to kickoff, no team has won.\n\n**(c) A brief description of a scenario that results in a No outcome:**\nVfB Stuttgart secures a draw or an away victory by exploiting defensive transitions or maintaining a solid defensive block throughout the 90 minutes plus stoppage time. Alternatively, an unexpected postponement/cancellation with no makeup would also result in \"No\".\n\n**(d) A brief description of a scenario that results in a Yes outcome:**\nFC Bayern M\u00fcnchen utilizes their home advantage at the Allianz Arena, dominating possession and converting their attacking chances to lead at the final whistle of regular/stoppage time.\n\n**(e) Your conclusion:**\nHistorical baseline data indicates that FC Bayern M\u00fcnchen wins approximately 70\u201375% of their Bundesliga home fixtures at the Allianz Arena. While VfB Stuttgart has proven to be a competitive top-tier opponent capable of challenging Bayern, Bayern remains the distinct favorite on home turf. Factoring in opponent strength, standard betting market distributions for high-profile Bundesliga home fixtures, and the combined probability of a draw or away win (~30\u201333%), the case strongly favors a Bayern victory.\n\nProbability: 68%"
+          },
+          "edge": 0.115,
+          "edge_direction": "NO",
+          "expected_value": 0.115,
+          "conviction": "MEDIUM",
+          "reasoning_summary": "AI predicts 68% YES (vs market 80%) \u2192 Bet NO\n\n** Historical baseline data indicates that FC Bayern M\u00fcnchen wins approximately 70\u201375% of their Bundesliga home fixtures at the Allianz Arena. While VfB Stuttgart has proven to be a competitive top-tier opponent capable of challenging Bayern, Bayern remains the distinct favorite on home turf. Factoring in opponent strength, standard betting market distributions for high-profile Bundesliga home fixtures, and the combined probability of a draw or away win (~30\u201333%), the case strongly favors a Bayern victory."
+        }
+      ]
     }
   ]
 }
