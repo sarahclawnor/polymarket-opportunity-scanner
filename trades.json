@@ -334,5 +334,50 @@
     "bankr_job_id": null,
     "bankr_response": "",
     "error": "Submit failed: HTTP 202 {\"success\":true,\"jobId\":\"job_Z3LDVYW4DDRGDSBT\",\"threadId\":\"thr_DR56T346RBQYZ689\",\"status\":\"pending\",\"message\":\"Prompt submitted successfully. Use the jobId to check status.\"}"
+  },
+  {
+    "trade_id": "trade_1788099139_3649697",
+    "timestamp": "2026-08-30T14:12:19.978175+00:00",
+    "market_id": "3649697",
+    "market_slug": "sea-nap-com-2026-08-30-nap",
+    "market_title": "Will SSC Napoli win on 2026-08-30?",
+    "side": "YES",
+    "size_usd": 1.0,
+    "conviction": "HIGH",
+    "edge": 0.305,
+    "status": "FAILED",
+    "bankr_job_id": null,
+    "bankr_response": "",
+    "error": "Submit failed: HTTP 202 {\"success\":true,\"jobId\":\"job_SXFSN7997MYEXZ6Q\",\"threadId\":\"thr_KKAEPL53SWRJAVTK\",\"status\":\"pending\",\"message\":\"Prompt submitted successfully. Use the jobId to check status.\"}"
+  },
+  {
+    "trade_id": "trade_1788099140_3810130",
+    "timestamp": "2026-08-30T14:12:20.803467+00:00",
+    "market_id": "3810130",
+    "market_slug": "will-ethereum-dip-to-2400-in-august-2026-from-august-23",
+    "market_title": "Will Ethereum dip to $2,400 in August?",
+    "side": "YES",
+    "size_usd": 1.0,
+    "conviction": "HIGH",
+    "edge": 0.155,
+    "status": "FAILED",
+    "bankr_job_id": null,
+    "bankr_response": "",
+    "error": "Submit failed: HTTP 202 {\"success\":true,\"jobId\":\"job_KTHGR22XJY9679WY\",\"threadId\":\"thr_J5XWVRKU89XEJV42\",\"status\":\"pending\",\"message\":\"Prompt submitted successfully. Use the jobId to check status.\"}"
+  },
+  {
+    "trade_id": "trade_1788099142_3656636",
+    "timestamp": "2026-08-30T14:12:22.213301+00:00",
+    "market_id": "3656636",
+    "market_slug": "lal-rea-mala-2026-08-30-rea",
+    "market_title": "Will Real Madrid CF win on 2026-08-30?",
+    "side": "NO",
+    "size_usd": 1.0,
+    "conviction": "MEDIUM",
+    "edge": 0.105,
+    "status": "FAILED",
+    "bankr_job_id": null,
+    "bankr_response": "",
+    "error": "Submit failed: HTTP 202 {\"success\":true,\"jobId\":\"job_4P6ZXHDACGZH8U48\",\"threadId\":\"thr_QQZ74DF8YCS628ED\",\"status\":\"pending\",\"message\":\"Prompt submitted successfully. Use the jobId to check status.\"}"
   }
 ]

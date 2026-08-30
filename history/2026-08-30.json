@@ -1,0 +1,77 @@
+{
+  "date": "2026-08-30",
+  "scans": [
+    {
+      "scanned_at": "2026-08-30T14:12:18.617075Z",
+      "opportunities_found": 3,
+      "opportunities": [
+        {
+          "market_info": {
+            "id": "3649697",
+            "title": "Will SSC Napoli win on 2026-08-30?",
+            "slug": "sea-nap-com-2026-08-30-nap",
+            "url": "https://polymarket.com/market/sea-nap-com-2026-08-30-nap?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
+            "category": "",
+            "volume": 217052.125167,
+            "days_until_close": 0.09561785780092592,
+            "probability": 0.375
+          },
+          "forecast": {
+            "probability": 0.68,
+            "confidence": 1.0,
+            "reasoning": "## Forecast Summary\n\n**Median Probability:** 68.0%\n**Run Range:** 65.0% - 68.0%\n**Individual Runs:** 68.0%, 65.0%\n\n## Selected Rationale (closest to median):\n\n**(a) The time left until the outcome is known:**\nA few hours or less (the match is scheduled for today, 2026-08-30, with resolution expected upon completion of full-time plus official reporting by Lega Serie A, around 16:30\u201318:30 UTC).\n\n**(b) The status quo outcome if nothing changed:**\n\"No\" (if the match remains 0\u20130, ends in a draw, or is not won by Napoli within 90 minutes plus stoppage time, the market resolves to \"No\").\n\n**(c) A brief description of a scenario that results in a No outcome:**\nComo defends resolutely to hold Napoli to a draw (e.g., 0\u20130 or 1\u20131), Como scores an upset victory on the counterattack, or the match is abandoned/canceled without being completed.\n\n**(d) A brief description of a scenario that results in a Yes outcome:**\nNapoli leverages their home advantage at the Stadio Diego Armando Maradona and their superior squad depth/offensive quality to outscore Como by full-time (e.g., a 1\u20130, 2\u20130, or 2\u20131 win).\n\n**(e) Your conclusion:**\nNapoli entering as a heavy home favorite against Como gives them a strong baseline probability of securing three points. In Serie A fixtures between top-four caliber sides at home and newly promoted/lower-tier opposition, historical win rates for the home favorite typically range between 65% and 72%. However, because the status quo outcome of any un-won game is \"No\" (accounting for both draws and Como wins, which combined occur ~30\u201335% of the time), we must balance Napoli's clear quality edge against the inherent variance in single-match football outcomes. \n\nEvaluating the balance of probabilities, Napoli is significantly more likely to win than not.\n\nProbability: 68%"
+          },
+          "edge": 0.305,
+          "edge_direction": "YES",
+          "expected_value": 0.305,
+          "conviction": "HIGH",
+          "reasoning_summary": "AI predicts 68% YES (vs market 38%) \u2192 Bet YES\n\n** Napoli entering as a heavy home favorite against Como gives them a strong baseline probability of securing three points. In Serie A fixtures between top-four caliber sides at home and newly promoted/lower-tier opposition, historical win rates for the home favorite typically range between 65% and 72%. However, because the status quo outcome of any un-won game is \"No\" (accounting for both draws and Como wins, which combined occur ~30\u201335% of the time), we must balance Napoli's clear quality edge against the inherent variance in single-match football outcomes. Evaluating the balance of probabil"
+        },
+        {
+          "market_info": {
+            "id": "3810130",
+            "title": "Will Ethereum dip to $2,400 in August?",
+            "slug": "will-ethereum-dip-to-2400-in-august-2026-from-august-23",
+            "url": "https://polymarket.com/market/will-ethereum-dip-to-2400-in-august-2026-from-august-23?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
+            "category": "",
+            "volume": 307519.968382,
+            "days_until_close": 1.5747845220949075,
+            "probability": 0.145
+          },
+          "forecast": {
+            "probability": 0.3,
+            "confidence": 1.0,
+            "reasoning": "## Forecast Summary\n\n**Median Probability:** 30.0%\n**Run Range:** 29.0% - 30.0%\n**Individual Runs:** 30.0%, 29.0%\n\n## Selected Rationale (closest to median):\n\n**(a) The time left until the outcome is known:**\nThere are approximately 1 to 1.5 days remaining until the market resolves on August 31, 2026, at 11:59 PM ET (September 1, 2026, at 04:00 UTC).\n\n**(b) The status quo outcome if nothing changed:**\n\"No\". Ethereum has not yet touched $2,400 during the month, and current spot prices remain above this threshold (trading in the $2,420\u2013$2,460 range).\n\n**(c) A brief description of a scenario that results in a No outcome:**\nEthereum maintains its current trading range above $2,420 through the final ~36 hours of August, experiencing standard sideways or mild upward price action without any sudden liquidity flash crashes or sell-offs on Binance.\n\n**(d) A brief description of a scenario that results in a Yes outcome:**\nA sudden market dip, macro headline, or brief localized liquidity wick on Binance pushes the ETH/USDT 1-minute low down by ~$20\u2013$55 to touch $2,400.00 or lower before the end of August 31.\n\n**(e) Your conclusion:**\nThe baseline probability strongly favors **No** due to the status quo and the extremely short time horizon remaining (under 36 hours). While Ethereum is trading relatively close to the $2,400 mark (around $2,420\u2013$2,455), prediction markets on Polymarket and tracking platforms assign a 28% to 33% probability of dipping to $2,400 before the end of August. Because crypto volatility can easily cover a 1\u20132% move within a single day, the probability of a brief wick to $2,400 is non-trivial, but holding above $2,400 remains the significantly more probable outcome. Weighing prediction market pricing and the limited time left, the probability is approximately 30%.\n\nProbability: 30%"
+          },
+          "edge": 0.155,
+          "edge_direction": "YES",
+          "expected_value": 0.155,
+          "conviction": "HIGH",
+          "reasoning_summary": "AI predicts 30% YES (vs market 14%) \u2192 Bet YES\n\n** The baseline probability strongly favors **No** due to the status quo and the extremely short time horizon remaining (under 36 hours). While Ethereum is trading relatively close to the $2,400 mark (around $2,420\u2013$2,455), prediction markets on Polymarket and tracking platforms assign a 28% to 33% probability of dipping to $2,400 before the end of August. Because crypto volatility can easily cover a 1\u20132% move within a single day, the probability of a brief wick to $2,400 is non-trivial, but holding above $2,400 remains the significantly more probable outcome. Weighing prediction market pricin"
+        },
+        {
+          "market_info": {
+            "id": "3656636",
+            "title": "Will Real Madrid CF win on 2026-08-30?",
+            "slug": "lal-rea-mala-2026-08-30-rea",
+            "url": "https://polymarket.com/market/lal-rea-mala-2026-08-30-rea?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
+            "category": "",
+            "volume": 500152.00398799987,
+            "days_until_close": 0.03311785383101852,
+            "probability": 0.905
+          },
+          "forecast": {
+            "probability": 0.8,
+            "confidence": 1.0,
+            "reasoning": "## Forecast Summary\n\n**Median Probability:** 80.0%\n**Run Range:** 80.0% - 80.0%\n**Individual Runs:** 80.0%, 80.0%\n\n## Selected Rationale (closest to median):\n\n**(a) Time left until the outcome is known:** \nA few hours (the match is scheduled for today, August 30, 2026, and will conclude after 90 minutes plus stoppage time).\n\n**(b) Status quo outcome if nothing changed:** \n\"No\" (until the match is played and completed with a Real Madrid victory, the default unresolved state does not satisfy the win condition; moreover, the baseline combined probability of non-win outcomes\u2014draw or loss\u2014represents the alternative).\n\n**(c) Scenario resulting in a No outcome:** \nM\u00e1laga CF manages to hold Real Madrid to a draw (e.g., a low-scoring 0\u20130 or 1\u20131) via a deep defensive block, or pulls off an upset victory, or the match is postponed/suspended.\n\n**(d) Scenario resulting in a Yes outcome:** \nReal Madrid leverages home advantage at the Santiago Bernab\u00e9u and superior squad talent to defeat M\u00e1laga CF during the 90 minutes plus stoppage time.\n\n**(e) Conclusion:** \nReal Madrid playing at home against M\u00e1laga CF in La Liga makes them heavy favorites. Historically, Real Madrid's win percentage at the Santiago Bernab\u00e9u against bottom-half or newly promoted/lower-tier La Liga opponents is between 75% and 85%. While draws and occasional upsets happen in league football (roughly 15\u201322% of the time in such matchups), the overwhelming weight of evidence and historical base rates favor a home victory for Real Madrid. \n\nProbability: 80%"
+          },
+          "edge": 0.105,
+          "edge_direction": "NO",
+          "expected_value": 0.105,
+          "conviction": "MEDIUM",
+          "reasoning_summary": "AI predicts 80% YES (vs market 90%) \u2192 Bet NO\n\n** Real Madrid playing at home against M\u00e1laga CF in La Liga makes them heavy favorites. Historically, Real Madrid's win percentage at the Santiago Bernab\u00e9u against bottom-half or newly promoted/lower-tier La Liga opponents is between 75% and 85%. While draws and occasional upsets happen in league football (roughly 15\u201322% of the time in such matchups), the overwhelming weight of evidence and historical base rates favor a home victory for Real Madrid."
+        }
+      ]
+    }
+  ]
+}

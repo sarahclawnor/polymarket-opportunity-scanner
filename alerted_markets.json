@@ -588,5 +588,35 @@
     "edge_direction": "no",
     "alerted_at": "2026-08-29T14:15:21.839800",
     "alert_count": 1
+  },
+  "3656636": {
+    "market_id": "3656636",
+    "market_title": "Will Real Madrid CF win on 2026-08-30?",
+    "market_probability": 0.905,
+    "forecast_probability": 0.8,
+    "edge": 0.10499999999999998,
+    "edge_direction": "no",
+    "alerted_at": "2026-08-30T14:03:56.694387",
+    "alert_count": 1
+  },
+  "3649697": {
+    "market_id": "3649697",
+    "market_title": "Will SSC Napoli win on 2026-08-30?",
+    "market_probability": 0.375,
+    "forecast_probability": 0.68,
+    "edge": 0.30500000000000005,
+    "edge_direction": "yes",
+    "alerted_at": "2026-08-30T14:08:38.447795",
+    "alert_count": 1
+  },
+  "3810130": {
+    "market_id": "3810130",
+    "market_title": "Will Ethereum dip to $2,400 in August?",
+    "market_probability": 0.145,
+    "forecast_probability": 0.3,
+    "edge": 0.155,
+    "edge_direction": "yes",
+    "alerted_at": "2026-08-30T14:12:17.378772",
+    "alert_count": 1
   }
 }
