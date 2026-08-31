@@ -1,0 +1,33 @@
+{
+  "date": "2026-08-31",
+  "scans": [
+    {
+      "scanned_at": "2026-08-31T14:42:50.295572Z",
+      "opportunities_found": 1,
+      "opportunities": [
+        {
+          "market_info": {
+            "id": "3691866",
+            "title": "Spread: FC Barcelona (-2.5)",
+            "slug": "lal-bar-ray-2026-08-31-spread-home-2pt5",
+            "url": "https://polymarket.com/market/lal-bar-ray-2026-08-31-spread-home-2pt5?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
+            "category": "",
+            "volume": 121682.23253300002,
+            "days_until_close": 0.19941787516203704,
+            "probability": 0.565
+          },
+          "forecast": {
+            "probability": 0.38,
+            "confidence": 1.0,
+            "reasoning": "## Forecast Summary\n\n**Median Probability:** 38.0%\n**Run Range:** 35.0% - 38.0%\n**Individual Runs:** 35.0%, 38.0%\n\n## Selected Rationale (closest to median):\n\n(a) **Time left until the outcome is known:** The match is scheduled for today, August 31, at 3:30 PM ET, meaning the outcome will be decided within the next 4 to 6 hours once regular time and stoppage time conclude.\n\n(b) **Status quo outcome if nothing changed:** The status quo (pre-match 0-0 scoreline, or any standard competitive match margin under 3 goals) favors the **NO** outcome, as Barcelona has not yet established a 3+ goal lead.\n\n(c) **Scenario resulting in a NO outcome:** Barcelona wins by 1 or 2 goals (e.g., 1-0, 2-0, 2-1), draws, or loses to Rayo Vallecano. Rayo maintains a disciplined defensive block or scores a goal, making a 3-goal margin mathematically out of reach.\n\n(d) **Scenario resulting in a YES outcome:** Barcelona dominates early, scores multiple unanswered goals in the first half, and maintains offensive pressure to secure a blowout victory by 3 or more goals (e.g., 3-0, 4-0, 4-1).\n\n(e) **Market Mispricing Analysis:** \nIn European top-flight domestic football, covering a -2.5 spread against an established first-division opponent like Rayo Vallecano is statistically demanding. In standard betting markets, a -2.5 goal spread for a top side like Barcelona typically implies an implied probability between 28% and 42%, as football is inherently a low-scoring sport where winning margins of 1 or 2 goals are far more common than 3+ goal blowouts. The Polymarket price of 56.5% YES represents an overly optimistic projection on a blowout victory, significantly overvaluing Barcelona's likelihood of winning by 3 or more clear goals. Unless the match is already live with Barcelona up significantly, pre-game and baseline probabilities strongly indicate that NO is the more likely outcome and the YES market is overvalued.\n\nProbability: 38%"
+          },
+          "edge": 0.185,
+          "edge_direction": "NO",
+          "expected_value": 0.185,
+          "conviction": "HIGH",
+          "reasoning_summary": "AI predicts 38% YES (vs market 56%) \u2192 Bet NO\n\n**Market Mispricing Analysis:** In European top-flight domestic football, covering a -2.5 spread against an established first-division opponent like Rayo Vallecano is statistically demanding. In standard betting markets, a -2.5 goal spread for a top side like Barcelona typically implies an implied probability between 28% and 42%, as football is inherently a low-scoring sport where winning margins of 1 or 2 goals are far more common than 3+ goal blowouts. The Polymarket price of 56.5% YES represents an overly optimistic projection on a blowout victory, significantly overvaluing Barcelona's like"
+        }
+      ]
+    }
+  ]
+}

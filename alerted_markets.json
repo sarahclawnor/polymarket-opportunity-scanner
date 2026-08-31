@@ -618,5 +618,15 @@
     "edge_direction": "yes",
     "alerted_at": "2026-08-30T14:12:17.378772",
     "alert_count": 1
+  },
+  "3691866": {
+    "market_id": "3691866",
+    "market_title": "Spread: FC Barcelona (-2.5)",
+    "market_probability": 0.565,
+    "forecast_probability": 0.38,
+    "edge": 0.18499999999999994,
+    "edge_direction": "no",
+    "alerted_at": "2026-08-31T14:34:14.077843",
+    "alert_count": 1
   }
 }
