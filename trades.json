@@ -409,5 +409,50 @@
     "bankr_job_id": null,
     "bankr_response": "",
     "error": "Submit failed: HTTP 202 {\"success\":true,\"jobId\":\"job_WJB9JCG8B6KQ87U3\",\"threadId\":\"thr_N9TGU8PA3JZF3XG8\",\"status\":\"pending\",\"message\":\"Prompt submitted successfully. Use the jobId to check status.\"}"
+  },
+  {
+    "trade_id": "trade_1788265557_2554113",
+    "timestamp": "2026-09-01T12:25:57.212850+00:00",
+    "market_id": "2554113",
+    "market_slug": "will-enzo-fernandez-stay-at-chelsea-20260612231645951",
+    "market_title": "Will Enzo Fernandez stay at Chelsea?",
+    "side": "YES",
+    "size_usd": 1.1,
+    "conviction": "HIGH",
+    "edge": 0.857,
+    "status": "FAILED",
+    "bankr_job_id": null,
+    "bankr_response": "",
+    "error": "Submit failed: HTTP 202 {\"success\":true,\"jobId\":\"job_QV6H7NXE8RCX3P82\",\"threadId\":\"thr_33ATV65DF2R3ZPXR\",\"status\":\"pending\",\"message\":\"Prompt submitted successfully. Use the jobId to check status.\"}"
+  },
+  {
+    "trade_id": "trade_1788265558_3949510",
+    "timestamp": "2026-09-01T12:25:58.004712+00:00",
+    "market_id": "3949510",
+    "market_slug": "next-mythos-class-model-released-by-september-2-2026",
+    "market_title": "Next Mythos-Class Model released by September 2, 2026?",
+    "side": "NO",
+    "size_usd": 1.1,
+    "conviction": "HIGH",
+    "edge": 0.3,
+    "status": "FAILED",
+    "bankr_job_id": null,
+    "bankr_response": "",
+    "error": "Submit failed: HTTP 202 {\"success\":true,\"jobId\":\"job_JXQW9WBK7Z6CZRW7\",\"threadId\":\"thr_JZ5VYANFR6X4488V\",\"status\":\"pending\",\"message\":\"Prompt submitted successfully. Use the jobId to check status.\"}"
+  },
+  {
+    "trade_id": "trade_1788265558_608547",
+    "timestamp": "2026-09-01T12:25:58.755439+00:00",
+    "market_id": "608547",
+    "market_slug": "will-harry-kane-win-the-2026-ballon-dor",
+    "market_title": "Will Harry Kane win the 2026 Ballon d'Or?",
+    "side": "NO",
+    "size_usd": 1.1,
+    "conviction": "HIGH",
+    "edge": 0.18,
+    "status": "FAILED",
+    "bankr_job_id": null,
+    "bankr_response": "",
+    "error": "Submit failed: HTTP 202 {\"success\":true,\"jobId\":\"job_KJTKQGNE5CHZAVPB\",\"threadId\":\"thr_NVB3G7KUW89D3BWW\",\"status\":\"pending\",\"message\":\"Prompt submitted successfully. Use the jobId to check status.\"}"
   }
 ]

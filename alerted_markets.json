@@ -648,5 +648,35 @@
     "edge_direction": "no",
     "alerted_at": "2026-09-01T08:13:09.261020",
     "alert_count": 1
+  },
+  "2554113": {
+    "market_id": "2554113",
+    "market_title": "Will Enzo Fernandez stay at Chelsea?",
+    "market_probability": 0.093,
+    "forecast_probability": 0.95,
+    "edge": 0.857,
+    "edge_direction": "yes",
+    "alerted_at": "2026-09-01T12:07:50.261574",
+    "alert_count": 1
+  },
+  "608547": {
+    "market_id": "608547",
+    "market_title": "Will Harry Kane win the 2026 Ballon d'Or?",
+    "market_probability": 0.6405,
+    "forecast_probability": 0.46,
+    "edge": 0.18049999999999994,
+    "edge_direction": "no",
+    "alerted_at": "2026-09-01T12:10:59.456491",
+    "alert_count": 1
+  },
+  "3949510": {
+    "market_id": "3949510",
+    "market_title": "Next Mythos-Class Model released by September 2, 2026?",
+    "market_probability": 0.48,
+    "forecast_probability": 0.18,
+    "edge": 0.3,
+    "edge_direction": "no",
+    "alerted_at": "2026-09-01T12:25:54.072407",
+    "alert_count": 1
   }
 }
