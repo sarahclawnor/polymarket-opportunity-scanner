@@ -379,5 +379,35 @@
     "bankr_job_id": null,
     "bankr_response": "",
     "error": "Submit failed: HTTP 202 {\"success\":true,\"jobId\":\"job_4P6ZXHDACGZH8U48\",\"threadId\":\"thr_QQZ74DF8YCS628ED\",\"status\":\"pending\",\"message\":\"Prompt submitted successfully. Use the jobId to check status.\"}"
+  },
+  {
+    "trade_id": "trade_1788250985_2554103",
+    "timestamp": "2026-09-01T08:23:05.658867+00:00",
+    "market_id": "2554103",
+    "market_slug": "will-enzo-fernandez-join-manchester-city",
+    "market_title": "Will Enzo Fernandez join Manchester City?",
+    "side": "NO",
+    "size_usd": 1.1,
+    "conviction": "HIGH",
+    "edge": 0.715,
+    "status": "FAILED",
+    "bankr_job_id": null,
+    "bankr_response": "",
+    "error": "Submit failed: HTTP 202 {\"success\":true,\"jobId\":\"job_84JU3ZAMYHQHRYQN\",\"threadId\":\"thr_Q44UKAEHT3UFCAMJ\",\"status\":\"pending\",\"message\":\"Prompt submitted successfully. Use the jobId to check status.\"}"
+  },
+  {
+    "trade_id": "trade_1788250986_3949885",
+    "timestamp": "2026-09-01T08:23:06.347428+00:00",
+    "market_id": "3949885",
+    "market_slug": "next-mythos-class-model-released-by-september-1-2026",
+    "market_title": "Next Mythos-Class Model released by September 1, 2026?",
+    "side": "NO",
+    "size_usd": 1.1,
+    "conviction": "HIGH",
+    "edge": 0.335,
+    "status": "FAILED",
+    "bankr_job_id": null,
+    "bankr_response": "",
+    "error": "Submit failed: HTTP 202 {\"success\":true,\"jobId\":\"job_WJB9JCG8B6KQ87U3\",\"threadId\":\"thr_N9TGU8PA3JZF3XG8\",\"status\":\"pending\",\"message\":\"Prompt submitted successfully. Use the jobId to check status.\"}"
   }
 ]

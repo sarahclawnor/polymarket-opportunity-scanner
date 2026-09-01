@@ -628,5 +628,25 @@
     "edge_direction": "no",
     "alerted_at": "2026-08-31T14:34:14.077843",
     "alert_count": 1
+  },
+  "2554103": {
+    "market_id": "2554103",
+    "market_title": "Will Enzo Fernandez join Manchester City?",
+    "market_probability": 0.835,
+    "forecast_probability": 0.12,
+    "edge": 0.715,
+    "edge_direction": "no",
+    "alerted_at": "2026-09-01T08:09:57.454312",
+    "alert_count": 1
+  },
+  "3949885": {
+    "market_id": "3949885",
+    "market_title": "Next Mythos-Class Model released by September 1, 2026?",
+    "market_probability": 0.375,
+    "forecast_probability": 0.04,
+    "edge": 0.335,
+    "edge_direction": "no",
+    "alerted_at": "2026-09-01T08:13:09.261020",
+    "alert_count": 1
   }
 }
