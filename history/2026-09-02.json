@@ -56,6 +56,34 @@
           "reasoning_summary": "AI predicts 15% YES (vs market 57%) \u2192 Bet NO\n\nSee detailed analysis in logs"
         }
       ]
+    },
+    {
+      "scanned_at": "2026-09-02T08:27:01.417418Z",
+      "opportunities_found": 1,
+      "opportunities": [
+        {
+          "market_info": {
+            "id": "4000565",
+            "title": "Game Handicap: DK (-1.5) vs BNK FEARX (+1.5)",
+            "slug": "lol-fox1-dk-2026-09-03-game-handicap-home-1pt5",
+            "url": "https://polymarket.com/market/lol-fox1-dk-2026-09-03-game-handicap-home-1pt5?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
+            "category": "",
+            "volume": 34561.451609,
+            "days_until_close": 1.231233594537037,
+            "probability": 0.575
+          },
+          "forecast": {
+            "probability": 0.99,
+            "confidence": 1.0,
+            "reasoning": "## Forecast Summary\n\n**Median Probability:** 99.0%\n**Run Range:** 99.0% - 99.0%\n**Individual Runs:** 99.0%, 99.0%\n\n## Selected Rationale (closest to median):\n\n(a) **The time left until the outcome is known:** The match/market has concluded and the official resolution has been finalized (or is immediate).\n(b) **The status quo outcome if nothing changed:** The match concluded with Dplus KIA covering the -1.5 game handicap (winning by 2 or more games), meaning the market resolves to YES.\n(c) **A brief description of a scenario that results in a No outcome:** BNK FEARX would have had to win at least 2 games in a best-of-5 (e.g., losing 2-3 or winning the series outright), preventing Dplus KIA from winning by a margin of 2 or more games.\n(d) **A brief description of a scenario that results in a Yes outcome:** Dplus KIA defeats BNK FEARX with a margin of 2 or more games (e.g., 3-0 or 3-1), successfully covering the -1.5 handicap.\n(e) **Market Mispricing Analysis:** The evidence shows the match has finished and Dplus KIA covered the -1.5 game handicap, leading to the market resolving to YES (100%). The prior listed odds of 57.5% reflected pre-match / live pricing prior to full settlement. Because the event has already concluded with DK achieving the required margin, YES is the outcome.\n\nProbability: 99%"
+          },
+          "edge": 0.415,
+          "edge_direction": "YES",
+          "expected_value": 0.415,
+          "conviction": "HIGH",
+          "reasoning_summary": "AI predicts 99% YES (vs market 57%) \u2192 Bet YES\n\n**Market Mispricing Analysis:** The evidence shows the match has finished and Dplus KIA covered the -1.5 game handicap, leading to the market resolving to YES (100%). The prior listed odds of 57.5% reflected pre-match / live pricing prior to full settlement. Because the event has already concluded with DK achieving the required margin, YES is the outcome."
+        }
+      ]
     }
   ]
 }

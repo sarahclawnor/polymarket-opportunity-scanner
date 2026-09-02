@@ -698,5 +698,15 @@
     "edge_direction": "no",
     "alerted_at": "2026-09-02T04:25:29.829980",
     "alert_count": 1
+  },
+  "4000565": {
+    "market_id": "4000565",
+    "market_title": "Game Handicap: DK (-1.5) vs BNK FEARX (+1.5)",
+    "market_probability": 0.575,
+    "forecast_probability": 0.99,
+    "edge": 0.41500000000000004,
+    "edge_direction": "yes",
+    "alerted_at": "2026-09-02T08:24:55.631884",
+    "alert_count": 1
   }
 }

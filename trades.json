@@ -484,5 +484,20 @@
     "bankr_job_id": null,
     "bankr_response": "",
     "error": "Submit failed: HTTP 202 {\"success\":true,\"jobId\":\"job_9A5EQX4N3QTJK7FF\",\"threadId\":\"thr_AVBDRZDFYKS6HBR7\",\"status\":\"pending\",\"message\":\"Prompt submitted successfully. Use the jobId to check status.\"}"
+  },
+  {
+    "trade_id": "trade_1788337645_4000565",
+    "timestamp": "2026-09-02T08:27:25.005176+00:00",
+    "market_id": "4000565",
+    "market_slug": "lol-fox1-dk-2026-09-03-game-handicap-home-1pt5",
+    "market_title": "Game Handicap: DK (-1.5) vs BNK FEARX (+1.5)",
+    "side": "YES",
+    "size_usd": 1.1,
+    "conviction": "HIGH",
+    "edge": 0.415,
+    "status": "COMPLETED",
+    "bankr_job_id": "job_GSAEBPYNY98MVHZZ",
+    "bankr_response": "order matched on polymarket.\n\n\u2022 market: Game Handicap: DK (-1.5) vs BNK FEARX (+1.5)\n\u2022 outcome: Dplus KIA (DK -1.5)\n\u2022 spent: $1.07 USDC\n\u2022 shares received: 1.844826\n\u2022 status: matched\n\u2022 url: https://polymarket.com/market/lol-fox1-dk-2026-09-03-game-handicap-home-1pt5",
+    "error": null
   }
 ]
