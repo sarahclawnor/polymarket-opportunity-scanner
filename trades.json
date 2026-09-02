@@ -469,5 +469,20 @@
     "bankr_job_id": null,
     "bankr_response": "",
     "error": "Submit failed: HTTP 202 {\"success\":true,\"jobId\":\"job_VEMLQS2SUN8JHTZS\",\"threadId\":\"thr_Y3BYFNADA4CG5AR7\",\"status\":\"pending\",\"message\":\"Prompt submitted successfully. Use the jobId to check status.\"}"
+  },
+  {
+    "trade_id": "trade_1788323132_1333258",
+    "timestamp": "2026-09-02T04:25:32.258510+00:00",
+    "market_id": "1333258",
+    "market_slug": "will-gpt-6-be-released-by-september-30-2026-543-325-933-952-413",
+    "market_title": "Will GPT-6 be released by September 30, 2026?",
+    "side": "NO",
+    "size_usd": 1.1,
+    "conviction": "HIGH",
+    "edge": 0.425,
+    "status": "FAILED",
+    "bankr_job_id": null,
+    "bankr_response": "",
+    "error": "Submit failed: HTTP 202 {\"success\":true,\"jobId\":\"job_9A5EQX4N3QTJK7FF\",\"threadId\":\"thr_AVBDRZDFYKS6HBR7\",\"status\":\"pending\",\"message\":\"Prompt submitted successfully. Use the jobId to check status.\"}"
   }
 ]

@@ -688,5 +688,15 @@
     "edge_direction": "yes",
     "alerted_at": "2026-09-02T00:25:02.761953",
     "alert_count": 1
+  },
+  "1333258": {
+    "market_id": "1333258",
+    "market_title": "Will GPT-6 be released by September 30, 2026?",
+    "market_probability": 0.575,
+    "forecast_probability": 0.15,
+    "edge": 0.42499999999999993,
+    "edge_direction": "no",
+    "alerted_at": "2026-09-02T04:25:29.829980",
+    "alert_count": 1
   }
 }

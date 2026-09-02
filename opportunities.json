@@ -3,25 +3,25 @@
   "opportunities": [
     {
       "market_info": {
-        "id": "3976924",
-        "title": "LoL: Anyone's Legend vs LGD Gaming (BO5) - LPL Playoffs",
-        "slug": "lol-al-lgd-2026-09-04",
-        "url": "https://polymarket.com/market/lol-al-lgd-2026-09-04?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
+        "id": "1333258",
+        "title": "Will GPT-6 be released by September 30, 2026?",
+        "slug": "will-gpt-6-be-released-by-september-30-2026-543-325-933-952-413",
+        "url": "https://polymarket.com/market/will-gpt-6-be-released-by-september-30-2026-543-325-933-952-413?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
         "category": "",
-        "volume": 55229.953788,
-        "days_until_close": 2.6072353132175925,
-        "probability": 0.685
+        "volume": 361075.49530999974,
+        "days_until_close": 28.981599158703702,
+        "probability": 0.575
       },
       "forecast": {
-        "probability": 0.99,
-        "confidence": 1.0,
-        "reasoning": "## Forecast Summary\n\n**Median Probability:** 99.0%\n**Run Range:** 98.0% - 99.0%\n**Individual Runs:** 99.0%, 98.0%\n\n## Selected Rationale (closest to median):\n\n(a) **The time left until the outcome is known:** The match is scheduled around September 4, 2026 (or recently concluded and awaiting official resolution settlement within 0 to 2 days).\n(b) **The status quo outcome if nothing changed:** Anyone's Legend wins the match (YES).\n(c) **A brief description of a scenario that results in a No outcome:** LGD Gaming stages an upset victory in the best-of-five series, or the match is canceled/unplayed leading to a non-YES resolution.\n(d) **A brief description of a scenario that results in a Yes outcome:** Anyone's Legend completes the victory over LGD Gaming (as recorded across match tracking databases like Sheep Esports, reporting a 3\u20130 series win for Anyone's Legend).\n(e) **Market Mispricing Analysis:** Current market odds are priced at 68.5% for YES. However, match tracking data and esports coverage record that Anyone's Legend has already swept the series 3\u20130 against LGD Gaming in this playoff bracket. The 68.5% market price represents pre-match pricing or delayed market settlement liquidity rather than the true updated probability of the outcome. As official sources confirm the Anyone's Legend victory, the true probability is near certainty.\n\nProbability: 99%"
+        "probability": 0.15,
+        "confidence": 0.99,
+        "reasoning": "## Forecast Summary\n\n**Median Probability:** 15.0%\n**Run Range:** 8.0% - 15.0%\n**Individual Runs:** 15.0%, 8.0%\n\n## Selected Rationale (closest to median):\n\n**(a) Time left until the outcome is known:**  \nApproximately 28 days remain until the deadline of September 30, 2026, 11:59 PM ET.\n\n**(b) The status quo outcome if nothing changed:**  \nIf nothing changes, the outcome is **NO**, as GPT-6 has not been released or made publicly accessible to date.\n\n**(c) Scenario resulting in a NO outcome:**  \nOpenAI does not release a model explicitly titled GPT-6 (or equivalent successor) to the general public before October 1, 2026. Instead, OpenAI focuses on other model lines (such as intermediate updates, the o-series reasoning models, project \"Astra\", or potential GPT-5.x iterations), or delays any full public deployment into late 2026 or 2027 due to testing, safety evaluations, or compute constraints.\n\n**(d) Scenario resulting in a YES outcome:**  \nOpenAI holds a surprise product launch event or unannounced drop during September 2026, officially unveiling and rolling out general public access (or open beta/waitlist) to GPT-6 / ChatGPT-6o before midnight on September 30, 2026.\n\n**(e) Market Mispricing Analysis:**  \nThe market is currently pricing YES at 57.5%, which appears significantly overpriced given the timeline and current factual status:\n1. **Extremely Short Time Horizon:** There are only 28 days remaining before the market resolution.\n2. **Lack of Foundation or Confirmation:** As of September 2, 2026, OpenAI has not published a model card, API endpoint, or official release date for GPT-6. \n3. **Naming & Product Scope Uncertainty:** Rumors cite codenames like \"Astra\" whose relation to a GPT-6 designation is unconfirmed, and the market rules explicitly exclude intermediate versions like GPT-5.5.\n4. **Status Quo Bias:** Releasing a major generational model to the general public within a narrow 4-week window without existing public scheduling is historically an outlier event. While surprise releases can happen, the baseline probability of a zero-notice public launch within 28 days is much closer to 10\u201320% than a >50% majority expectation.\n\nProbability: 15%"
       },
-      "edge": 0.305,
-      "edge_direction": "YES",
-      "expected_value": 0.305,
+      "edge": 0.425,
+      "edge_direction": "NO",
+      "expected_value": 0.425,
       "conviction": "HIGH",
-      "reasoning_summary": "AI predicts 99% YES (vs market 68%) \u2192 Bet YES\n\n**Market Mispricing Analysis:** Current market odds are priced at 68.5% for YES. However, match tracking data and esports coverage record that Anyone's Legend has already swept the series 3\u20130 against LGD Gaming in this playoff bracket. The 68.5% market price represents pre-match pricing or delayed market settlement liquidity rather than the true updated probability of the outcome. As official sources confirm the Anyone's Legend victory, the true probability is near certainty."
+      "reasoning_summary": "AI predicts 15% YES (vs market 57%) \u2192 Bet NO\n\nSee detailed analysis in logs"
     }
   ]
 }
