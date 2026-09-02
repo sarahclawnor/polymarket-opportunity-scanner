@@ -454,5 +454,20 @@
     "bankr_job_id": null,
     "bankr_response": "",
     "error": "Submit failed: HTTP 202 {\"success\":true,\"jobId\":\"job_KJTKQGNE5CHZAVPB\",\"threadId\":\"thr_NVB3G7KUW89D3BWW\",\"status\":\"pending\",\"message\":\"Prompt submitted successfully. Use the jobId to check status.\"}"
+  },
+  {
+    "trade_id": "trade_1788308737_3976924",
+    "timestamp": "2026-09-02T00:25:37.336875+00:00",
+    "market_id": "3976924",
+    "market_slug": "lol-al-lgd-2026-09-04",
+    "market_title": "LoL: Anyone's Legend vs LGD Gaming (BO5) - LPL Playoffs",
+    "side": "YES",
+    "size_usd": 1.1,
+    "conviction": "HIGH",
+    "edge": 0.305,
+    "status": "FAILED",
+    "bankr_job_id": null,
+    "bankr_response": "",
+    "error": "Submit failed: HTTP 202 {\"success\":true,\"jobId\":\"job_VEMLQS2SUN8JHTZS\",\"threadId\":\"thr_Y3BYFNADA4CG5AR7\",\"status\":\"pending\",\"message\":\"Prompt submitted successfully. Use the jobId to check status.\"}"
   }
 ]

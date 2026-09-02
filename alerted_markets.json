@@ -642,12 +642,12 @@
   "3949885": {
     "market_id": "3949885",
     "market_title": "Next Mythos-Class Model released by September 1, 2026?",
-    "market_probability": 0.375,
-    "forecast_probability": 0.04,
-    "edge": 0.335,
+    "market_probability": 0.2,
+    "forecast_probability": 0.06,
+    "edge": 0.14,
     "edge_direction": "no",
-    "alerted_at": "2026-09-01T08:13:09.261020",
-    "alert_count": 1
+    "alerted_at": "2026-09-01T16:09:17.116367",
+    "alert_count": 2
   },
   "2554113": {
     "market_id": "2554113",
@@ -677,6 +677,16 @@
     "edge": 0.3,
     "edge_direction": "no",
     "alerted_at": "2026-09-01T12:25:54.072407",
+    "alert_count": 1
+  },
+  "3976924": {
+    "market_id": "3976924",
+    "market_title": "LoL: Anyone's Legend vs LGD Gaming (BO5) - LPL Playoffs",
+    "market_probability": 0.685,
+    "forecast_probability": 0.99,
+    "edge": 0.30499999999999994,
+    "edge_direction": "yes",
+    "alerted_at": "2026-09-02T00:25:02.761953",
     "alert_count": 1
   }
 }

@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-02",
+  "scans": [
+    {
+      "scanned_at": "2026-09-02T00:25:35.701166Z",
+      "opportunities_found": 1,
+      "opportunities": [
+        {
+          "market_info": {
+            "id": "3976924",
+            "title": "LoL: Anyone's Legend vs LGD Gaming (BO5) - LPL Playoffs",
+            "slug": "lol-al-lgd-2026-09-04",
+            "url": "https://polymarket.com/market/lol-al-lgd-2026-09-04?r=0x3f0e7f9f739411885e22d49af129ed8d2b06e700",
+            "category": "",
+            "volume": 55229.953788,
+            "days_until_close": 2.607225680787037,
+            "probability": 0.685
+          },
+          "forecast": {
+            "probability": 0.99,
+            "confidence": 1.0,
+            "reasoning": "## Forecast Summary\n\n**Median Probability:** 99.0%\n**Run Range:** 98.0% - 99.0%\n**Individual Runs:** 99.0%, 98.0%\n\n## Selected Rationale (closest to median):\n\n(a) **The time left until the outcome is known:** The match is scheduled around September 4, 2026 (or recently concluded and awaiting official resolution settlement within 0 to 2 days).\n(b) **The status quo outcome if nothing changed:** Anyone's Legend wins the match (YES).\n(c) **A brief description of a scenario that results in a No outcome:** LGD Gaming stages an upset victory in the best-of-five series, or the match is canceled/unplayed leading to a non-YES resolution.\n(d) **A brief description of a scenario that results in a Yes outcome:** Anyone's Legend completes the victory over LGD Gaming (as recorded across match tracking databases like Sheep Esports, reporting a 3\u20130 series win for Anyone's Legend).\n(e) **Market Mispricing Analysis:** Current market odds are priced at 68.5% for YES. However, match tracking data and esports coverage record that Anyone's Legend has already swept the series 3\u20130 against LGD Gaming in this playoff bracket. The 68.5% market price represents pre-match pricing or delayed market settlement liquidity rather than the true updated probability of the outcome. As official sources confirm the Anyone's Legend victory, the true probability is near certainty.\n\nProbability: 99%"
+          },
+          "edge": 0.305,
+          "edge_direction": "YES",
+          "expected_value": 0.305,
+          "conviction": "HIGH",
+          "reasoning_summary": "AI predicts 99% YES (vs market 68%) \u2192 Bet YES\n\n**Market Mispricing Analysis:** Current market odds are priced at 68.5% for YES. However, match tracking data and esports coverage record that Anyone's Legend has already swept the series 3\u20130 against LGD Gaming in this playoff bracket. The 68.5% market price represents pre-match pricing or delayed market settlement liquidity rather than the true updated probability of the outcome. As official sources confirm the Anyone's Legend victory, the true probability is near certainty."
+        }
+      ]
+    }
+  ]
+}
